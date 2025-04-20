@@ -1,0 +1,28 @@
+{
+  "local-fileposition": {
+    "20200812220555-lj3enxa": {
+      "endId": "20240508001403-j8ceveg",
+      "rootId": "20200812220555-lj3enxa",
+      "scrollTop": 292,
+      "startId": "20241125224159-8zf3bos"
+    },
+    "20250417220135-36fcc1s": {
+      "endId": "20250418133710-r0mhgq7",
+      "rootId": "20250417220135-36fcc1s",
+      "scrollTop": 0,
+      "startId": "20250418133710-e1rigb2"
+    }
+  },
+  "local-filespaths": [
+    {
+      "notebookId": "20250417220134-6bgz2mu",
+      "openPaths": [
+        "/20250418133436-ui2xn81.sy"
+      ]
+    }
+  ],
+  "local-plugin-docks": {
+    "GIT SYNC PLUGIN": {},
+    "GIT-SYNC-PLUGIN": {}
+  }
+}
