@@ -1,0 +1,231 @@
+{
+	"ID": "20230626193647-0is75xw",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230626193647-0is75xw",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230626193647-0is75xw\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230626193657-3m9gyvr\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230720212739-g31vxdz\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230626193657-3m9gyvr\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0\u0026#125;",
+		"title": "工作",
+		"updated": "20240203200721"
+	},
+	"Children": [
+		{
+			"ID": "20230626193657-3m9gyvr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230626193657-3m9gyvr",
+				"updated": "20230720153654"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "找公司标准"
+				}
+			]
+		},
+		{
+			"ID": "20230720153657-vfdrlgg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230720153657-vfdrlgg",
+				"updated": "20230720153917"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color9);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "融资情况"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color9);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "：天使轮，A，B，C，D等（B级以后的公司）"
+				}
+			]
+		},
+		{
+			"ID": "20230720153736-5xft20v",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230720153736-5xft20v",
+				"updated": "20230720153800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "股权情况：股权分配，是否是某个大公司子公司等"
+				}
+			]
+		},
+		{
+			"ID": "20230720153801-1fz1uf8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230720153801-1fz1uf8",
+				"updated": "20230720153903"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "社交了解：公司招聘群，企查查等；了解公司风评"
+				}
+			]
+		},
+		{
+			"ID": "20230720153933-dvx82lx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230720153933-dvx82lx",
+				"updated": "20230720153936"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "公司业务情况"
+				}
+			]
+		},
+		{
+			"ID": "20230720153939-yzqwu2o",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230720153939-yzqwu2o",
+				"updated": "20230720153945"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "公司法律风险"
+				}
+			]
+		},
+		{
+			"ID": "20230720153904-aw6zfyk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230720153904-aw6zfyk"
+			}
+		},
+		{
+			"ID": "20230626193647-pablll8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230626193647-pablll8",
+				"updated": "20230720212729"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "小而美的公司"
+				}
+			]
+		},
+		{
+			"ID": "20230720212739-g31vxdz",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20230720212739-g31vxdz",
+				"updated": "20230720212952"
+			},
+			"Children": [
+				{
+					"ID": "20230720212743-yixdp0t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230720212743-yixdp0t",
+						"updated": "20230720212743"
+					},
+					"Children": [
+						{
+							"ID": "20230720212743-ojphz9r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230720212743-ojphz9r",
+								"updated": "20230720212816"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "公司需求多：大于供给，有增长空间，有发展潜力"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230720212816-16j5216",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230720212816-16j5216"
+					},
+					"Children": [
+						{
+							"ID": "20230720212816-3u1dbn6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230720212816-3u1dbn6",
+								"updated": "20230720212853"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "公司规模不大，已经实现盈利：重点关注B轮，C轮"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230720212854-80gzei5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230720212854-80gzei5",
+						"updated": "20230720212952"
+					},
+					"Children": [
+						{
+							"ID": "20230720212854-li6wan2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230720212854-li6wan2",
+								"updated": "20230720212952"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "公司成立几年，规模不大，发展平稳，水平中不溜丘，内部不卷，各种福利补贴"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

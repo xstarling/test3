@@ -1,0 +1,635 @@
+{
+	"ID": "20240912214117-i95ytbs",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240912214117-i95ytbs",
+		"title": "图形绘制",
+		"type": "doc",
+		"updated": "20240912214158"
+	},
+	"Children": [
+		{
+			"ID": "20240912214201-mx062u5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912214201-mx062u5",
+				"updated": "20240912214158"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "基础画图工具"
+				}
+			]
+		},
+		{
+			"ID": "20240912214117-wj4xyli",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20240912214117-wj4xyli",
+				"updated": "20240912214158"
+			},
+			"Children": [
+				{
+					"ID": "20240912214158-qf78nmj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240912214158-qf78nmj",
+						"updated": "20240912214158"
+					},
+					"Children": [
+						{
+							"ID": "20240912214158-xwh10qx",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20240912214158-xwh10qx",
+								"updated": "20240912214158"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "visio/Mindmaster"
+								}
+							]
+						},
+						{
+							"ID": "20240912214231-oo43jv7",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20240912214231-oo43jv7",
+								"updated": "20240912214231"
+							},
+							"Children": [
+								{
+									"ID": "20240912214230-mgboiu5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240912214230-mgboiu5",
+										"updated": "20240912214230"
+									},
+									"Children": [
+										{
+											"ID": "20240912214230-81l9y4w",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240912214230-81l9y4w",
+												"updated": "20240912214239"
+											},
+											"Children": [
+												{
+													"ID": "20240912214851-la2c1or",
+													"Type": "NodeHTMLBlock",
+													"Data": "\u003cdiv contenteditable=\"false\" spellcheck=\"true\"\u003e绘制流程图，思路图等\u003c/div\u003e",
+													"Properties": {
+														"id": "20240912214851-la2c1or"
+													}
+												}
+											]
+										},
+										{
+											"ID": "20240912214501-helfqbe",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240912214501-helfqbe",
+												"updated": "20240912214501"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "image"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/image-20240912214501-1hofrbm.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240912214239-dju5u1i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240912214239-dju5u1i",
+						"updated": "20240912214239"
+					},
+					"Children": [
+						{
+							"ID": "20240912214239-1g489mt",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20240912214239-1g489mt",
+								"updated": "20240912214302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Excel"
+								}
+							]
+						},
+						{
+							"ID": "20240912214303-ffbtvrx",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20240912214303-ffbtvrx",
+								"updated": "20240912214303"
+							},
+							"Children": [
+								{
+									"ID": "20240912214302-l32xo2t",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240912214302-l32xo2t",
+										"updated": "20240912214302"
+									},
+									"Children": [
+										{
+											"ID": "20240912214302-6n50lu9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240912214302-6n50lu9",
+												"updated": "20240912214318"
+											},
+											"Children": [
+												{
+													"ID": "20240912214851-n5na5cs",
+													"Type": "NodeHTMLBlock",
+													"Data": "\u003cdiv contenteditable=\"false\" spellcheck=\"true\"\u003e可以绘制各类统计类图以及数字热力图等\u003c/div\u003e",
+													"Properties": {
+														"id": "20240912214851-n5na5cs"
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240912214439-9ozdbr2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240912214439-9ozdbr2",
+										"updated": "20240912214439"
+									},
+									"Children": [
+										{
+											"ID": "20240912214525-ce6jgrs",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240912214525-ce6jgrs",
+												"updated": "20240912214525"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "image"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/image-20240912214525-etmxjuf.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240912214318-9a4bv0j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240912214318-9a4bv0j",
+						"updated": "20240912214318"
+					},
+					"Children": [
+						{
+							"ID": "20240912214318-uvajxej",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20240912214318-uvajxej",
+								"updated": "20240912214348"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "AxGlyph"
+								}
+							]
+						},
+						{
+							"ID": "20240912214351-obyfhik",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20240912214351-obyfhik",
+								"updated": "20240912214351"
+							},
+							"Children": [
+								{
+									"ID": "20240912214350-qq5gu69",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240912214350-qq5gu69",
+										"updated": "20240912214350"
+									},
+									"Children": [
+										{
+											"ID": "20240912214350-f9pxopp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240912214350-f9pxopp",
+												"updated": "20240912214400"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "绘制各种示意图，流程图等"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240912214426-3a9lntj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240912214426-3a9lntj",
+										"updated": "20240912214426"
+									},
+									"Children": [
+										{
+											"ID": "20240912214426-7b43vye",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240912214426-7b43vye",
+												"updated": "20240912214430"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "image"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/image-20240912214423-prcolej.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240912214435-iul67eq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240912214435-iul67eq",
+						"updated": "20240912214435"
+					},
+					"Children": [
+						{
+							"ID": "20240912214435-76us6vx",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20240912214435-76us6vx",
+								"updated": "20240912214546"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "亿图"
+								}
+							]
+						},
+						{
+							"ID": "20240912214554-els588l",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20240912214554-els588l",
+								"updated": "20240912214554"
+							},
+							"Children": [
+								{
+									"ID": "20240912214553-oopv0xv",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240912214553-oopv0xv",
+										"updated": "20240912214553"
+									},
+									"Children": [
+										{
+											"ID": "20240912214553-yu04xoo",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240912214553-yu04xoo",
+												"updated": "20240912214602"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "基本涵盖各种类型绘图"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240912214602-tbxr67z",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240912214602-tbxr67z",
+										"updated": "20240912214602"
+									},
+									"Children": [
+										{
+											"ID": "20240912214612-2o3kk6a",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240912214612-2o3kk6a",
+												"updated": "20240912214612"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "image"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/image-20240912214612-zn2m524.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240912214613-jcflchl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240912214613-jcflchl",
+						"updated": "20240912214613"
+					},
+					"Children": [
+						{
+							"ID": "20240912214613-u9jy0pl",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20240912214613-u9jy0pl",
+								"updated": "20240912214627"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Echarts在线绘图网站"
+								}
+							]
+						},
+						{
+							"ID": "20240912214630-5oh303s",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20240912214630-5oh303s",
+								"updated": "20240912214630"
+							},
+							"Children": [
+								{
+									"ID": "20240912214629-ok75wj6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240912214629-ok75wj6",
+										"updated": "20240912214629"
+									},
+									"Children": [
+										{
+											"ID": "20240912214629-ldc0ro8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240912214629-ldc0ro8",
+												"updated": "20240912214738"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://echarts.apache.org/zh/index.html",
+													"TextMarkTextContent": "Apache ECharts"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240912214849-20woi7r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912214849-20woi7r",
+				"updated": "20240912214850"
+			}
+		},
+		{
+			"ID": "20240912214155-48i9qqd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912214155-48i9qqd",
+				"updated": "20240912214155"
+			}
+		}
+	]
+}

@@ -1,0 +1,120 @@
+{
+	"ID": "20240912164408-r5e5i37",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240912164408-r5e5i37",
+		"title": "分类模型",
+		"type": "doc",
+		"updated": "20240912165141"
+	},
+	"Children": [
+		{
+			"ID": "20240912165059-kj7v9gh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912165059-kj7v9gh",
+				"updated": "20240912165119"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.逻辑回归"
+				}
+			]
+		},
+		{
+			"ID": "20240912165105-wbjrtal",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912165105-wbjrtal",
+				"updated": "20240912165105"
+			}
+		},
+		{
+			"ID": "20240912165105-me6ye7a",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912165105-me6ye7a",
+				"updated": "20240912165124"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.决策树"
+				}
+			]
+		},
+		{
+			"ID": "20240912165120-hu6u8du",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912165120-hu6u8du",
+				"updated": "20240912165120"
+			}
+		},
+		{
+			"ID": "20240912165120-11o4zij",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912165120-11o4zij",
+				"updated": "20240912165136"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.随机森林"
+				}
+			]
+		},
+		{
+			"ID": "20240912165125-jf3ovng",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912165125-jf3ovng",
+				"updated": "20240912165125"
+			}
+		},
+		{
+			"ID": "20240912165125-gy5wvl3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912165125-gy5wvl3",
+				"updated": "20240912165141"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.朴素贝叶斯"
+				}
+			]
+		},
+		{
+			"ID": "20240912165137-9vfwann",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912165137-9vfwann",
+				"updated": "20240912165137"
+			}
+		},
+		{
+			"ID": "20240912165138-d2grzsy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912165138-d2grzsy",
+				"updated": "20240912165141"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5.KNN"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"ID": "20240421233110-h55jluq",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240421233110-h55jluq",
+		"title": "7.项目立项管理",
+		"type": "doc",
+		"updated": "20240425160706"
+	},
+	"Children": [
+		{
+			"ID": "20240421233110-z40xnbq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240421233110-z40xnbq",
+				"updated": "20240421233110"
+			}
+		}
+	]
+}

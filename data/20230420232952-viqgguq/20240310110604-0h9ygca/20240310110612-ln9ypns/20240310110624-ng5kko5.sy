@@ -1,0 +1,570 @@
+{
+	"ID": "20240310110624-ng5kko5",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240310110624-ng5kko5",
+		"title": "python人脸识别",
+		"updated": "20240310182245"
+	},
+	"Children": [
+		{
+			"ID": "20240310110711-dfs16bb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240310110711-dfs16bb",
+				"updated": "20240310110730"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "项目学习"
+				}
+			]
+		},
+		{
+			"ID": "20240310110734-3zmahjs",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20240310110734-3zmahjs",
+				"updated": "20240310110747"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习大纲"
+				}
+			]
+		},
+		{
+			"ID": "20240310110633-9ie9fck",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240310110633-9ie9fck",
+				"updated": "20240310110633"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20240310110633-mvsjqtv.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20240310110759-oirh8lo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240310110759-oirh8lo"
+			}
+		},
+		{
+			"ID": "20240310110624-nobalm9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20240310110624-nobalm9",
+				"updated": "20240310110755"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "环境配置"
+				}
+			]
+		},
+		{
+			"ID": "20240310111040-4mdqb9f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240310111040-4mdqb9f",
+				"updated": "20240310111100"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "python：3.6.4"
+				}
+			]
+		},
+		{
+			"ID": "20240310111100-g5h3iw1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240310111100-g5h3iw1",
+				"updated": "20240310111108"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "opencv-python：opencv-python    3.4.3.18"
+				}
+			]
+		},
+		{
+			"ID": "20240310155930-rlmwk8q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240310155930-rlmwk8q"
+			}
+		},
+		{
+			"ID": "20240310155931-ks4pkd6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20240310155931-ks4pkd6",
+				"updated": "20240310155944"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "项目总结"
+				}
+			]
+		},
+		{
+			"ID": "20240310155946-6ovzmdr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240310155946-6ovzmdr",
+				"updated": "20240310155956"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "图像为啥要转换为灰度图像？"
+				}
+			]
+		},
+		{
+			"ID": "20240310161047-tmvug4t",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20240310161047-tmvug4t",
+				"updated": "20240310161117"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20240310161048-1g37s28",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20240310161048-1g37s28",
+						"updated": "20240310161103"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "①简化图像信息："
+						},
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "a",
+							"TextMarkAHref": "https://www.zhihu.com/search?q=%E7%81%B0%E5%BA%A6%E5%9B%BE%E5%83%8F\u0026amp;search_source=Entity\u0026amp;hybrid_search_source=Entity\u0026amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A3350880253%7D",
+							"TextMarkTextContent": "灰度图像"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "只包含亮度信息，相比彩色图像的红、绿、蓝三个通道的颜色信息，"
+						},
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "strong",
+							"TextMarkTextContent": "灰度图像更加简化，减少了需要处理的数据量"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "。"
+						}
+					]
+				},
+				{
+					"ID": "20240310161048-8wxodzw",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20240310161048-8wxodzw",
+						"updated": "20240310161112"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "②去除冗余信息：在某些图片识别任务中，颜色信息并不是关键，例如人脸识别、"
+						},
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "a",
+							"TextMarkAHref": "https://www.zhihu.com/search?q=%E6%96%87%E5%AD%97%E8%AF%86%E5%88%AB\u0026amp;search_source=Entity\u0026amp;hybrid_search_source=Entity\u0026amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A3350880253%7D",
+							"TextMarkTextContent": "文字识别"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "等任务更关注图像中的轮廓和结构信息，"
+						},
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "strong",
+							"TextMarkTextContent": "灰度化可以去除颜色信息的干扰，突出图像的轮廓和细节"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "。"
+						}
+					]
+				},
+				{
+					"ID": "20240310161048-gxp6kto",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20240310161048-gxp6kto",
+						"updated": "20240310161117"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "③提升计算效率：相比彩色图像，"
+						},
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "strong",
+							"TextMarkTextContent": "灰度图像的计算量更小"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "，处理速度更快，对于大规模的图片识别任务，灰度化可以提高算法的效率。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240310155958-scxabzq",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20240310155958-scxabzq",
+				"updated": "20240310160859"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20240310160748-xi1eazd",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20240310160748-xi1eazd",
+						"updated": "20240310160755"
+					},
+					"Children": [
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "strong",
+							"TextMarkTextContent": "灰度化就是使彩色图像的R、G、B分量相等的过程"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "，即令"
+						},
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "strong",
+							"TextMarkTextContent": "R=G=B"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "，此时的彩色表示的就是灰度颜色。"
+						}
+					]
+				},
+				{
+					"ID": "20240310160859-bklmsfh",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20240310160859-bklmsfh",
+						"updated": "20240310160859"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "彩色图片的信息含量过大，而进行图片识别时，其实只需要使用灰度图像里的信息就足够了，所以图像灰度化的目的就是为了提高运算速度。"
+						}
+					]
+				},
+				{
+					"ID": "20240310160859-aduxo97",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20240310160859-aduxo97",
+						"updated": "20240310160859"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "当然，有时图片进行了灰度处理后还是很大，也有可能会采用"
+						},
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "strong",
+							"TextMarkTextContent": "二值化图像"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "（即像素值只能为0或1）。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240310165650-ii3q6f4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240310165650-ii3q6f4"
+			}
+		},
+		{
+			"ID": "20240310155959-25ipc33",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240310155959-25ipc33",
+				"updated": "20240310160027"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "opencv自带图像分类器，不用训练"
+				}
+			]
+		},
+		{
+			"ID": "20240310160036-saxlj9m",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20240310160036-saxlj9m",
+				"updated": "20240310165644"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20240310165641-pzqn6ye",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20240310165641-pzqn6ye",
+						"updated": "20240310165644"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "haarcascade_frontalface_default.xml"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240310165626-hcxy28n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240310165626-hcxy28n"
+			}
+		},
+		{
+			"ID": "20240310165646-9369f7k",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240310165646-9369f7k",
+				"updated": "20240310165709"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "进行视频识别时很卡，怎么解决？"
+				}
+			]
+		},
+		{
+			"ID": "20240310181624-z9b9cop",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240310181624-z9b9cop",
+				"updated": "20240310182245"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "降低视频的帧数，提高显卡或CPU效率，降低视频的质量，如果从1080p到480p"
+				}
+			]
+		},
+		{
+			"ID": "20240310181625-j75a7aa",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240310181625-j75a7aa",
+				"updated": "20240310181640"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "人脸识别分类怎么分类的？"
+				}
+			]
+		},
+		{
+			"ID": "20240310181640-1qshari",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240310181640-1qshari",
+				"updated": "20240310181641"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "recognizer = cv.face.LBPHFaceRecognizer_create();"
+				}
+			]
+		},
+		{
+			"ID": "20240310165626-bkk9cyr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240310165626-bkk9cyr"
+			}
+		},
+		{
+			"ID": "20240310181648-wduso1o",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240310181648-wduso1o",
+				"updated": "20240310181654"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "人脸识别是怎么做？"
+				}
+			]
+		},
+		{
+			"ID": "20240310181743-5k0c7pj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240310181743-5k0c7pj",
+				"updated": "20240310181744"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "recognizer = cv.face.LBPHFaceRecognizer_create();"
+				}
+			]
+		},
+		{
+			"ID": "20240310181745-corsj27",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240310181745-corsj27",
+				"updated": "20240310181756"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "recognizer.predict()函数做的"
+				}
+			]
+		},
+		{
+			"ID": "20240310181739-j27ba29",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240310181739-j27ba29",
+				"updated": "20240310181739"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20240310181739-ejkjdxq.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		}
+	]
+}

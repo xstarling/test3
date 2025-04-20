@@ -1,0 +1,225 @@
+{
+	"ID": "20241106114132-s585no9",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241106114132-s585no9",
+		"title": "信息加密技术",
+		"type": "doc",
+		"updated": "20241106115328"
+	},
+	"Children": [
+		{
+			"ID": "20241106114938-2hmh1s4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241106114938-2hmh1s4",
+				"updated": "20241106114938"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241106114938-2sk1cwk.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241106114939-8y2zr7h",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20241106114939-8y2zr7h",
+				"updated": "20241106115328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "案例"
+				}
+			]
+		},
+		{
+			"ID": "20241106115053-oovnhsm",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20241106115053-oovnhsm",
+				"updated": "20241106115056"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20241106115054-45en34p",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20241106115054-45en34p",
+						"updated": "20241106115056"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "DC"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20241106115057-9285odh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241106115057-9285odh",
+				"updated": "20241106115057"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241106115057-966ynqc.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241106115323-q75ge4q",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20241106115323-q75ge4q",
+				"updated": "20241106115327"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20241106115325-1ooasfi",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20241106115325-1ooasfi",
+						"updated": "20241106115327"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "A"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20241106115328-sh0savm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241106115328-sh0savm",
+				"updated": "20241106115328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241106115328-mzhb5jy.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		}
+	]
+}

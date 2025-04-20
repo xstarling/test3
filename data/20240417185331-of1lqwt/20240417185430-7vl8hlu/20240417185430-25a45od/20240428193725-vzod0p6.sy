@@ -1,0 +1,60 @@
+{
+	"ID": "20240428193725-vzod0p6",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240428193725-vzod0p6",
+		"title": "17.项目干系人管理",
+		"type": "doc",
+		"updated": "20240428235331"
+	},
+	"Children": [
+		{
+			"ID": "20240428235331-vvxdjz4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240428235331-vvxdjz4",
+				"updated": "20240428235331"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20240428235331-660ftul.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		}
+	]
+}

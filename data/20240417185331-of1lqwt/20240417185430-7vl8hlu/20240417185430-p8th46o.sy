@@ -1,0 +1,22 @@
+{
+	"ID": "20240417185430-p8th46o",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240417185430-p8th46o",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20240417165437-rnx3cm2\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20240417165438-cxrg5db\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20240417165438-cxrg5db\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20240417165438-cxrg5db\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0\u0026#125;",
+		"title": "选择题",
+		"type": "doc",
+		"updated": "20240417165926"
+	},
+	"Children": [
+		{
+			"ID": "20240417185430-8k55h1c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417185430-8k55h1c",
+				"updated": "20240417165438"
+			}
+		}
+	]
+}

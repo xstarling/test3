@@ -1,0 +1,21 @@
+{
+	"ID": "20241022095735-w9rxum9",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241022095735-w9rxum9",
+		"title": "案例分析",
+		"type": "doc",
+		"updated": "20241022095747"
+	},
+	"Children": [
+		{
+			"ID": "20241022095735-shlyf8n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022095735-shlyf8n",
+				"updated": "20241022095735"
+			}
+		}
+	]
+}

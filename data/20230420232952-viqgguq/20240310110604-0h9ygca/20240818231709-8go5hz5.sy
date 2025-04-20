@@ -1,0 +1,21 @@
+{
+	"ID": "20240818231709-8go5hz5",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240818231709-8go5hz5",
+		"title": "TIPS",
+		"type": "doc",
+		"updated": "20240818231718"
+	},
+	"Children": [
+		{
+			"ID": "20240818231709-qotzv0v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240818231709-qotzv0v",
+				"updated": "20240818231709"
+			}
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"ID": "20240424104536-xc728j5",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240424104536-xc728j5",
+		"title": "随堂练习题",
+		"type": "doc",
+		"updated": "20240424104544"
+	},
+	"Children": [
+		{
+			"ID": "20240424104544-jvl6vy9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240424104544-jvl6vy9"
+			}
+		},
+		{
+			"ID": "20240424104536-ahx7s85",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240424104536-ahx7s85",
+				"updated": "20240424104536"
+			}
+		}
+	]
+}

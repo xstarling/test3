@@ -1,0 +1,82 @@
+{
+	"ID": "20240418151455-0hqoqir",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240418151455-0hqoqir",
+		"title": "随堂练习题",
+		"type": "doc",
+		"updated": "20240418162522"
+	},
+	"Children": [
+		{
+			"ID": "20240418151455-ehyw2ev",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20240418151455-ehyw2ev",
+				"updated": "20240418162513"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5.1软件工程"
+				}
+			]
+		},
+		{
+			"ID": "20240418162517-t9wff0n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240418162517-t9wff0n",
+				"updated": "20240418162517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20240418162517-je7dytd.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20240418162522-hg1yptm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240418162522-hg1yptm"
+			}
+		}
+	]
+}

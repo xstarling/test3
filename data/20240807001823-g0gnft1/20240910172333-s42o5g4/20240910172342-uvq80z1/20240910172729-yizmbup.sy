@@ -1,0 +1,21 @@
+{
+	"ID": "20240910172729-yizmbup",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240910172729-yizmbup",
+		"title": "2023年真题分析",
+		"type": "doc",
+		"updated": "20240910172738"
+	},
+	"Children": [
+		{
+			"ID": "20240910172730-dwpyntt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240910172730-dwpyntt",
+				"updated": "20240910172730"
+			}
+		}
+	]
+}

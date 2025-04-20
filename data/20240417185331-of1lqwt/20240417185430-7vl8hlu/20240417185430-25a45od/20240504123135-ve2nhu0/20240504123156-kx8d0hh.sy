@@ -1,0 +1,21 @@
+{
+	"ID": "20240504123156-kx8d0hh",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240504123156-kx8d0hh",
+		"title": "随堂练习题",
+		"type": "doc",
+		"updated": "20240504123203"
+	},
+	"Children": [
+		{
+			"ID": "20240504123156-03lkqv8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240504123156-03lkqv8",
+				"updated": "20240504123156"
+			}
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"ID": "20240429233829-6xpicbx",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240429233829-6xpicbx",
+		"title": "19,20高级项目管理（***）",
+		"type": "doc",
+		"updated": "20240502170348"
+	},
+	"Children": [
+		{
+			"ID": "20240502152309-vv3tid8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240502152309-vv3tid8",
+				"updated": "20240502170348"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​​"
+				}
+			]
+		}
+	]
+}

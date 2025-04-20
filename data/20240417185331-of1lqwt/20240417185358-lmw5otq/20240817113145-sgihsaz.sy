@@ -1,0 +1,21 @@
+{
+	"ID": "20240817113145-sgihsaz",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240817113145-sgihsaz",
+		"title": "阅读",
+		"type": "doc",
+		"updated": "20240817113148"
+	},
+	"Children": [
+		{
+			"ID": "20240817113145-h81sw16",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240817113145-h81sw16",
+				"updated": "20240817113145"
+			}
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"ID": "20241022095757-zl5i6up",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241022095757-zl5i6up",
+		"title": "论文",
+		"type": "doc",
+		"updated": "20241022095801"
+	},
+	"Children": [
+		{
+			"ID": "20241022095757-6rv3xz1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022095757-6rv3xz1",
+				"updated": "20241022095757"
+			}
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"ID": "20240406222613-axsog2z",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240406222613-axsog2z",
+		"title": "西北大学",
+		"updated": "20240406222723"
+	},
+	"Children": [
+		{
+			"ID": "20240406222723-3vzaek5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240406222723-3vzaek5"
+			}
+		},
+		{
+			"ID": "20240406222613-yh5q5l5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240406222613-yh5q5l5",
+				"updated": "20240406222613"
+			}
+		}
+	]
+}

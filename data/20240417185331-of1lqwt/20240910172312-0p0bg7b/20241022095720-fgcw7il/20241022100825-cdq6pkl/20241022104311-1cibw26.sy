@@ -1,0 +1,917 @@
+{
+	"ID": "20241022104311-1cibw26",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241022104311-1cibw26",
+		"title": "信息系统基础",
+		"type": "doc",
+		"updated": "20241022113454"
+	},
+	"Children": [
+		{
+			"ID": "20241022104311-7nb7gg8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20241022104311-7nb7gg8",
+				"updated": "20241022111750"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "信息系统生命周期"
+				}
+			]
+		},
+		{
+			"ID": "20241022111724-18usx1p",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241022111724-18usx1p",
+				"updated": "20241022111750"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "产生阶段"
+				}
+			]
+		},
+		{
+			"ID": "20241022111747-p190tjp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022111747-p190tjp",
+				"updated": "20241022111747"
+			}
+		},
+		{
+			"ID": "20241022111747-3fivlnj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20241022111747-3fivlnj",
+				"updated": "20241022111832"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "开发阶段"
+				}
+			]
+		},
+		{
+			"ID": "20241022111752-exkvpii",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20241022111752-exkvpii",
+				"updated": "20241022111832"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "总体规划"
+				}
+			]
+		},
+		{
+			"ID": "20241022111830-9whqm2w",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20241022111830-9whqm2w",
+				"updated": "20241022111841"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "系统分析"
+				}
+			]
+		},
+		{
+			"ID": "20241022111836-yw28rt3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20241022111836-yw28rt3",
+				"updated": "20241022111847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "系统设计"
+				}
+			]
+		},
+		{
+			"ID": "20241022111843-r46ew2m",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20241022111843-r46ew2m",
+				"updated": "20241022111857"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "系统实施"
+				}
+			]
+		},
+		{
+			"ID": "20241022111852-zqpi0e1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20241022111852-zqpi0e1",
+				"updated": "20241022111859"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "系统验收"
+				}
+			]
+		},
+		{
+			"ID": "20241022111859-qkwokyw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20241022111859-qkwokyw",
+				"updated": "20241022111859"
+			}
+		},
+		{
+			"ID": "20241022111752-0zhf8ec",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241022111752-0zhf8ec",
+				"updated": "20241022111803"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "运行阶段"
+				}
+			]
+		},
+		{
+			"ID": "20241022111758-6d48ouf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022111758-6d48ouf",
+				"updated": "20241022111758"
+			}
+		},
+		{
+			"ID": "20241022111758-xnspo52",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241022111758-xnspo52",
+				"updated": "20241022111911"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "消亡阶段"
+				}
+			]
+		},
+		{
+			"ID": "20241022111743-nt0pe7u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022111743-nt0pe7u",
+				"updated": "20241022111743"
+			}
+		},
+		{
+			"ID": "20241022111905-ws95etr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20241022111905-ws95etr",
+				"updated": "20241022111955"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "信息系统建设原则"
+				}
+			]
+		},
+		{
+			"ID": "20241022111914-0izvpxr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241022111914-0izvpxr",
+				"updated": "20241022111955"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "高层管理人员介入原则"
+				}
+			]
+		},
+		{
+			"ID": "20241022111955-cxmeues",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241022111955-cxmeues",
+				"updated": "20241022112002"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "用户参与开发原则"
+				}
+			]
+		},
+		{
+			"ID": "20241022112002-fbcs9te",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241022112002-fbcs9te",
+				"updated": "20241022112013"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "自顶向下规划原则"
+				}
+			]
+		},
+		{
+			"ID": "20241022112013-uzm9v8l",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241022112013-uzm9v8l",
+				"updated": "20241022112017"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "工程化原则"
+				}
+			]
+		},
+		{
+			"ID": "20241022111914-3eqaj6g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022111914-3eqaj6g",
+				"updated": "20241022111914"
+			}
+		},
+		{
+			"ID": "20241022111916-fpyznjk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20241022111916-fpyznjk",
+				"updated": "20241022112321"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "信息系统开发方法"
+				}
+			]
+		},
+		{
+			"ID": "20241022111923-4yoc297",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241022111923-4yoc297",
+				"updated": "20241022112321"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "结构化方法"
+				}
+			]
+		},
+		{
+			"ID": "20241022112140-2iedf2n",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20241022112140-2iedf2n",
+				"updated": "20241022112201"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20241022112145-h67bvwq",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20241022112145-h67bvwq",
+						"updated": "20241022112200"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "自顶向下，逐步分解求精"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20241022112201-3ozzusv",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20241022112201-3ozzusv",
+				"updated": "20241022112318"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20241022112318-xo0xu23",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20241022112318-xo0xu23",
+						"updated": "20241022112318"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "开发目标清晰化、工作阶段程式化、开发文档规范化、设计方法结构话"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20241022112257-8ebxpsp",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20241022112257-8ebxpsp",
+				"updated": "20241022112321"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20241022112321-vj0po7q",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20241022112321-vj0po7q",
+						"updated": "20241022112321"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "应变能力差"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20241022112115-igdjril",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241022112115-igdjril",
+				"updated": "20241022112358"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "面向对象方法"
+				}
+			]
+		},
+		{
+			"ID": "20241022112324-z7qm48c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022112324-z7qm48c",
+				"updated": "20241022112330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "自低向上"
+				}
+			]
+		},
+		{
+			"ID": "20241022112332-xezqi03",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022112332-xezqi03",
+				"updated": "20241022112342"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "阶段界限不明"
+				}
+			]
+		},
+		{
+			"ID": "20241022112343-37wflsv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022112343-37wflsv",
+				"updated": "20241022112351"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "更好的应变、更好复用"
+				}
+			]
+		},
+		{
+			"ID": "20241022112351-omfwsx6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022112351-omfwsx6",
+				"updated": "20241022112358"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "符合人们的思维习惯"
+				}
+			]
+		},
+		{
+			"ID": "20241022112123-gmrfpy4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241022112123-gmrfpy4",
+				"updated": "20241022112444"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "面向服务的方法"
+				}
+			]
+		},
+		{
+			"ID": "20241022112403-yk8eunz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022112403-yk8eunz",
+				"updated": "20241022112413"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "粗粒度、松耦合"
+				}
+			]
+		},
+		{
+			"ID": "20241022112413-k0w7e52",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022112413-k0w7e52",
+				"updated": "20241022112422"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "标准化和构件化"
+				}
+			]
+		},
+		{
+			"ID": "20241022112423-tzdzz0w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022112423-tzdzz0w",
+				"updated": "20241022112444"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "抽象级别：操作-\u003e服务-\u003e业务流程"
+				}
+			]
+		},
+		{
+			"ID": "20241022112128-yz1qewv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241022112128-yz1qewv",
+				"updated": "20241022112641"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其他方法"
+				}
+			]
+		},
+		{
+			"ID": "20241022112641-z3ilsgz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022112641-z3ilsgz",
+				"updated": "20241022112641"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241022112641-bky2ml3.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241022111924-2pxz3gn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20241022111924-2pxz3gn",
+				"updated": "20241022113021"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "信息系统的分类"
+				}
+			]
+		},
+		{
+			"ID": "20241022111931-10d2i0y",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241022111931-10d2i0y",
+				"updated": "20241022113021"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "业务处理系统【TPS】"
+				}
+			]
+		},
+		{
+			"ID": "20241022113021-72q5j3w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022113021-72q5j3w",
+				"updated": "20241022113021"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241022112641-bky2ml3.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241022112901-de726zy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241022112901-de726zy",
+				"updated": "20241022112915"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "管理信息系统【MIS】"
+				}
+			]
+		},
+		{
+			"ID": "20241022112915-u9da731",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241022112915-u9da731",
+				"updated": "20241022112924"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "决策支持系统【DSS】"
+				}
+			]
+		},
+		{
+			"ID": "20241022112924-gxcj9xf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241022112924-gxcj9xf",
+				"updated": "20241022113210"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "专家系统【ES】"
+				}
+			]
+		},
+		{
+			"ID": "20241022113059-suneafj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022113059-suneafj",
+				"updated": "20241022113059"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241022113059-gael0hh.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241022113210-smn1ohw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022113210-smn1ohw",
+				"updated": "20241022113210"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241022113210-9d50z0m.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241022112931-mt1efap",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241022112931-mt1efap",
+				"updated": "20241022112939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "办公自动化系统【OA】"
+				}
+			]
+		},
+		{
+			"ID": "20241022112939-liszoka",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241022112939-liszoka",
+				"updated": "20241022112948"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "企业资源计划【ERP】"
+				}
+			]
+		},
+		{
+			"ID": "20241022111931-qy2qjjv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20241022111931-qy2qjjv",
+				"updated": "20241022113454"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "案例题"
+				}
+			]
+		},
+		{
+			"ID": "20241022113449-bavah40",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022113449-bavah40",
+				"updated": "20241022113453"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "DAB"
+				}
+			]
+		},
+		{
+			"ID": "20241022113454-ps4kasj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022113454-ps4kasj",
+				"updated": "20241022113454"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241022113454-wrkmylc.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		}
+	]
+}

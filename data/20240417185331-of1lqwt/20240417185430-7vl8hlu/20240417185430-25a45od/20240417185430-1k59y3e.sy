@@ -1,0 +1,22 @@
+{
+	"ID": "20240417185430-1k59y3e",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240417185430-1k59y3e",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20240417165439-k1bmmnl\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20240417165439-z5ke70a\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20240417165439-z5ke70a\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20240417165439-z5ke70a\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0\u0026#125;",
+		"title": "3.信息系统治理",
+		"type": "doc",
+		"updated": "20240425160807"
+	},
+	"Children": [
+		{
+			"ID": "20240417185430-a8vacq3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417185430-a8vacq3",
+				"updated": "20240417165439"
+			}
+		}
+	]
+}

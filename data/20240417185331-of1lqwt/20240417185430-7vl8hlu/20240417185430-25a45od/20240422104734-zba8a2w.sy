@@ -1,0 +1,214 @@
+{
+	"ID": "20240422104734-zba8a2w",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240422104734-zba8a2w",
+		"title": "8.项目整合管理",
+		"type": "doc",
+		"updated": "20240425160702"
+	},
+	"Children": [
+		{
+			"ID": "20240422105026-tf80hga",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240422105026-tf80hga",
+				"updated": "20240422105720"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20240422105720-ecju0xs.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20240422105026-ns26vdl.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20240424102650-sgd33ly",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240424102650-sgd33ly"
+			}
+		},
+		{
+			"ID": "20240424102651-gko3i9d",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20240424102651-gko3i9d",
+				"updated": "20240424103114"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20240424102652-r0vyozm",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20240424102652-r0vyozm",
+						"updated": "20240424103047"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "所有的控制过程组的"
+						},
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "strong",
+							"TextMarkTextContent": "输入"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "都有工作绩效数据（整合管理是工作绩效信息），项目管理计划"
+						}
+					]
+				},
+				{
+					"ID": "20240424102736-16ghitb",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20240424102736-16ghitb",
+						"updated": "20240424103114"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "所有的控制过程组的"
+						},
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "strong",
+							"TextMarkTextContent": "输出"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "都有工作绩效信息（整合管理是工作绩效报告），变更，更新（项目管理计划，项目文件，组织过程资产）"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240423145424-nspnyvw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240423145424-nspnyvw",
+				"updated": "20240423145424"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20240423145424-2bewo3c.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20240423145425-0qduhvw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240423145425-0qduhvw"
+			}
+		}
+	]
+}

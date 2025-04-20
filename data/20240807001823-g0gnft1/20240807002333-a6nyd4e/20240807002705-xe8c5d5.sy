@@ -1,0 +1,114 @@
+{
+	"ID": "20240807002705-xe8c5d5",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240807002705-xe8c5d5",
+		"title": "LaTeX使用",
+		"type": "doc",
+		"updated": "20240807110333"
+	},
+	"Children": [
+		{
+			"ID": "20240807110338-92bnwg8",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20240807110338-92bnwg8",
+				"updated": "20240807110541"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20240807110340-xzs67gb",
+					"Type": "NodeList",
+					"ListData": {},
+					"Properties": {
+						"id": "20240807110340-xzs67gb",
+						"updated": "20240807110541"
+					},
+					"Children": [
+						{
+							"ID": "20240807110342-kva5f93",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20240807110342-kva5f93",
+								"updated": "20240807110541"
+							},
+							"Children": [
+								{
+									"ID": "20240807110342-j0hwl7b",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240807110342-j0hwl7b",
+										"updated": "20240807110541"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "LaTeX在线编辑网站（直接搜索LaTeX模版在线编辑）："
+										},
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "a",
+											"TextMarkAHref": "http://www.overleaf.com",
+											"TextMarkTextContent": "http://www.overleaf.com"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20240807110404-ji6dyj2",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20240807110404-ji6dyj2",
+								"updated": "20240807110526"
+							},
+							"Children": [
+								{
+									"ID": "20240807110404-cz3z7d2",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240807110404-cz3z7d2",
+										"updated": "20240807110526"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "在线公式编辑网站(打开网站直接选择公式，可以输出LaTeX语法）："
+										},
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "a",
+											"TextMarkAHref": "https://www.latexlive.com",
+											"TextMarkTextContent": "https://www.latexlive.com"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240807110333-d6qg7q6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240807110333-d6qg7q6",
+				"updated": "20240807110333"
+			}
+		}
+	]
+}

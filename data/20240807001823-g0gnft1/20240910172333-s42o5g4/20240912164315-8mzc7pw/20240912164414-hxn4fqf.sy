@@ -1,0 +1,212 @@
+{
+	"ID": "20240912164414-hxn4fqf",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240912164414-hxn4fqf",
+		"title": "统计分析模型",
+		"type": "doc",
+		"updated": "20240912165308"
+	},
+	"Children": [
+		{
+			"ID": "20240912165149-t5bjwtl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912165149-t5bjwtl",
+				"updated": "20240912165211"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.t检验"
+				}
+			]
+		},
+		{
+			"ID": "20240912165158-bqgji0x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912165158-bqgji0x",
+				"updated": "20240912165158"
+			}
+		},
+		{
+			"ID": "20240912165159-0vxm4mx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912165159-0vxm4mx",
+				"updated": "20240912165220"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.方差分析"
+				}
+			]
+		},
+		{
+			"ID": "20240912165212-su2tcb3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912165212-su2tcb3",
+				"updated": "20240912165212"
+			}
+		},
+		{
+			"ID": "20240912165212-hswprz3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912165212-hswprz3",
+				"updated": "20240912165228"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.卡方检验"
+				}
+			]
+		},
+		{
+			"ID": "20240912165222-ranb4qh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912165222-ranb4qh",
+				"updated": "20240912165222"
+			}
+		},
+		{
+			"ID": "20240912165222-ufwcwbc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912165222-ufwcwbc",
+				"updated": "20240912165235"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.相关分析"
+				}
+			]
+		},
+		{
+			"ID": "20240912165229-ekomnxm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912165229-ekomnxm",
+				"updated": "20240912165229"
+			}
+		},
+		{
+			"ID": "20240912165229-qrom4q9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912165229-qrom4q9",
+				"updated": "20240912165245"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5.回归分析"
+				}
+			]
+		},
+		{
+			"ID": "20240912165237-bom26zy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912165237-bom26zy",
+				"updated": "20240912165237"
+			}
+		},
+		{
+			"ID": "20240912165237-q1tew7a",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912165237-q1tew7a",
+				"updated": "20240912165252"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.logistics回归"
+				}
+			]
+		},
+		{
+			"ID": "20240912165246-m52taog",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912165246-m52taog",
+				"updated": "20240912165246"
+			}
+		},
+		{
+			"ID": "20240912165246-clw95qs",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912165246-clw95qs",
+				"updated": "20240912165301"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "7.聚类分析"
+				}
+			]
+		},
+		{
+			"ID": "20240912165254-3kwzjdf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912165254-3kwzjdf",
+				"updated": "20240912165254"
+			}
+		},
+		{
+			"ID": "20240912165254-uvr591j",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912165254-uvr591j",
+				"updated": "20240912165308"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "8.主成分分析"
+				}
+			]
+		},
+		{
+			"ID": "20240912165303-31yuupx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912165303-31yuupx",
+				"updated": "20240912165303"
+			}
+		},
+		{
+			"ID": "20240912165303-wwogifx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912165303-wwogifx",
+				"updated": "20240912165308"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "9.因子分析"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"ID": "20240502175821-401ab8l",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240502175821-401ab8l",
+		"title": "随堂练习题",
+		"type": "doc",
+		"updated": "20240502175833"
+	},
+	"Children": [
+		{
+			"ID": "20240502175821-943klef",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240502175821-943klef",
+				"updated": "20240502175821"
+			}
+		}
+	]
+}

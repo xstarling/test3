@@ -1,0 +1,37 @@
+{
+	"ID": "20240428142000-yx6tuo6",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240428142000-yx6tuo6",
+		"title": "随堂练习题",
+		"type": "doc",
+		"updated": "20240428142009"
+	},
+	"Children": [
+		{
+			"ID": "20240428142009-wheco95",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240428142009-wheco95",
+				"updated": "20240428142009"
+			}
+		},
+		{
+			"ID": "20240428142009-2wcc1l3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240428142009-2wcc1l3",
+				"updated": "20240428142009"
+			}
+		},
+		{
+			"ID": "20240428142000-r30f84l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240428142000-r30f84l",
+				"updated": "20240428142000"
+			}
+		}
+	]
+}

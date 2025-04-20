@@ -1,0 +1,21 @@
+{
+	"ID": "20240807172550-q9tdpgd",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240807172550-q9tdpgd",
+		"title": "未命名",
+		"type": "doc",
+		"updated": "20240807172550"
+	},
+	"Children": [
+		{
+			"ID": "20240807172550-vpy2ad7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240807172550-vpy2ad7",
+				"updated": "20240807172550"
+			}
+		}
+	]
+}

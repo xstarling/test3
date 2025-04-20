@@ -1,0 +1,618 @@
+{
+	"ID": "20230713143313-yn1q2c9",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230713143313-yn1q2c9",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230713143313-yn1q2c9\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230713143337-yohtu1m\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230713145329-73xdvrh\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230713143337-yohtu1m\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0\u0026#125;",
+		"title": "浙江宇视科技",
+		"updated": "20230713162306"
+	},
+	"Children": [
+		{
+			"ID": "20230713143337-yohtu1m",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230713143337-yohtu1m",
+				"updated": "20230713143337"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Linux驱动开发（显控类）"
+				}
+			]
+		},
+		{
+			"ID": "20230713143337-7crrxhq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230713143337-7crrxhq",
+				"updated": "20230713143337"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "自我介绍"
+				}
+			]
+		},
+		{
+			"ID": "20230713143337-33m5dw6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230713143337-33m5dw6",
+				"updated": "20230713154048"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "面试官你好，我叫肖灵星，很荣幸能参加您公司的linux驱动（显控）开发岗位的面试，我毕业于浙江师范大学，本科期间有获得过一个专利和一个软件著作权，目前在浙江某科技公司担任java后端开发工程师，工作一年，目前被公司选拔参与挂职学习："
+				}
+			]
+		},
+		{
+			"ID": "20230713143337-ylfxfns",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230713143337-ylfxfns",
+				"updated": "20230713143337"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我有以下三点满足贵公司的linux驱动开发："
+				}
+			]
+		},
+		{
+			"ID": "20230713143337-xxkpg2s",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230713143337-xxkpg2s",
+				"updated": "20230713143337"
+			},
+			"Children": [
+				{
+					"ID": "20230713143337-13p81kj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713143337-13p81kj",
+						"updated": "20230713143337"
+					},
+					"Children": [
+						{
+							"ID": "20230713143337-7avbdnw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713143337-7avbdnw",
+								"updated": "20230713143337"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "我个人编程基础知识比较扎实，我在当前公司中负责了系统迁移过程中的大部分的SQL语句优化工作，目前系统已经顺利迁移完成，并参与了公司的技术攻关项目，已经完成了自己的任务，目前在测试运行中。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713143337-b19ej2d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713143337-b19ej2d",
+						"updated": "20230713143337"
+					},
+					"Children": [
+						{
+							"ID": "20230713143337-un7pw1q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713143337-un7pw1q",
+								"updated": "20230713143337"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "我的执行能力很强：我在今年4月份准入换岗嵌入式方向，我便每天晚上下班或中午有空的时候，完成学习了linux驱动相关知识，FreeRtos操作系统，简单的模拟电路知识等，并为了总结积累嵌入式相关知识，我自己在树莓派上搭建了一个个人博客和笔记，用来记录嵌入式中相关知识点；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713143337-vl5cya8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230713143337-vl5cya8",
+						"updated": "20230713143337"
+					},
+					"Children": [
+						{
+							"ID": "20230713143337-qrx6aiz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713143337-qrx6aiz",
+								"updated": "20230713143337"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "我对于新行业的学习能力很强：我学习了arm芯片的简单汇编语言，并尝试阅读了u-boot的Start.S源码；在工作期间，我下班回家后，花了一周时间，写了一个基于百度人脸识别api的桌面锁屏预警小程序。"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "s",
+									"TextMarkTextContent": "而且花费了一个周末的时间，学习搭建开发了一个简单的基于dsp芯片的电机驱动程序的demo程序"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713143337-el5c6ga",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230713143337-el5c6ga",
+				"updated": "20230713143337"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "以上就是我的自我介绍"
+				}
+			]
+		},
+		{
+			"ID": "20230713143420-wlgk5i7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230713143420-wlgk5i7",
+				"updated": "20230713143426"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "项目中的难点"
+				}
+			]
+		},
+		{
+			"ID": "20230713143430-91rbcdi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230713143430-91rbcdi",
+				"updated": "20230713143430"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "刚入职的时候，公司采用的全是自研的项目框架，我和一起来的新同事，拉取项目后，导入编译器，项目报错，我根据我以往的开发经验，找到编译的problem视图框，先定位到项目的jdk版本与安装的不一致（开发工具和自己安装的jdk可能不是同一个版本），然后定位发现，有些项目的jar包没有导入，然后手动下载导入，并配置项目的build path：更改引用的jar包库文件，最后在命令行里重新清除项目并编译后，导入后项目成功运行。"
+				}
+			]
+		},
+		{
+			"ID": "20230713143430-xescnhv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230713143430-xescnhv",
+				"updated": "20230713143430"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "最后，帮助小组其他四位新员工，搭建好了项目开发环境，我平时新学习到的内容，也会和他们分享，帮助他们一起成长。也减轻了导师们的培养压力。"
+				}
+			]
+		},
+		{
+			"ID": "20230713143346-90m5cb5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230713143346-90m5cb5",
+				"updated": "20230713143346"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果录用你，怎么开展新工作"
+				}
+			]
+		},
+		{
+			"ID": "20230713143411-j5yji8k",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230713143411-j5yji8k",
+				"updated": "20230713143621"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "问问题？"
+				}
+			]
+		},
+		{
+			"ID": "20230713143625-c5au2qg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230713143625-c5au2qg",
+				"updated": "20230713143714"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可以先方便说一下，您公司在试用期的目标吗？"
+				}
+			]
+		},
+		{
+			"ID": "20230713143716-jvun2p8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230713143716-jvun2p8",
+				"updated": "20230713143727"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "问题分两个阶段"
+				}
+			]
+		},
+		{
+			"ID": "20230713143733-uo26dyi",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20230713143733-uo26dyi",
+				"updated": "20230713143753"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "适应阶段"
+				}
+			]
+		},
+		{
+			"ID": "20230713143756-e8nm8tr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230713143756-e8nm8tr",
+				"updated": "20230713143939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我大概会花2周左右的时间，快速熟悉我们的工作流程，工作环境以及业务，将会从下面几个方面做起，分别是："
+				}
+			]
+		},
+		{
+			"ID": "20230713143931-bmm5740",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230713143931-bmm5740",
+				"updated": "20230713144402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.首先，我会拉取项目的代码和学习资料，搭建好开发环境，运行一个简单的demo示例"
+				}
+			]
+		},
+		{
+			"ID": "20230713144214-3ewup2f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230713144214-3ewup2f",
+				"updated": "20230713155306"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.向我的直接上级或我的导师，跟着他花费2-3天的时间熟悉工作流程以及跨部门之间的协调沟通等，并且有空了和同事去打打篮球等"
+				}
+			]
+		},
+		{
+			"ID": "20230713144408-4gx2ixa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230713144408-4gx2ixa",
+				"updated": "20230713144416"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.开始熟悉各个部门和项目组的沟通交流的人员，并确定不同部门的几个关键的人员，方便后续工作配合沟通交流"
+				}
+			]
+		},
+		{
+			"ID": "20230713144445-p6pfmwg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20230713144445-p6pfmwg",
+				"updated": "20230713144447"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "产出阶段"
+				}
+			]
+		},
+		{
+			"ID": "20230713155906-qd3i6ro",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230713155906-qd3i6ro",
+				"updated": "20230713161815"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "以做一块视频解码器（输出的模拟信号）的驱动为例为例："
+				}
+			]
+		},
+		{
+			"ID": "20230713161824-j641z31",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230713161824-j641z31",
+				"updated": "20230713161851"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.我会先去查看这款解码器的说明手册"
+				}
+			]
+		},
+		{
+			"ID": "20230713161856-rv4ug4j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230713161856-rv4ug4j",
+				"updated": "20230713162132"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.根据需求中提出的要求，先设计一个方案（这个方案考虑到代码的复用性，执行效率等）"
+				}
+			]
+		},
+		{
+			"ID": "20230713162133-gcnwkh5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230713162133-gcnwkh5",
+				"updated": "20230713162228"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.再找公司中资历比较高师傅，做个需求方案评审"
+				}
+			]
+		},
+		{
+			"ID": "20230713162230-yb5vel8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230713162230-yb5vel8",
+				"updated": "20230713162254"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.如果评审通过了，再开始编写程序代码"
+				}
+			]
+		},
+		{
+			"ID": "20230713162258-6335mh4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230713162258-6335mh4",
+				"updated": "20230713162306"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5.提交测试验收"
+				}
+			]
+		},
+		{
+			"ID": "20230713144825-m6dv6mg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230713144825-m6dv6mg",
+				"updated": "20230713144825"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "你还有什么要问的吗？"
+				}
+			]
+		},
+		{
+			"ID": "20230713144900-z0coakv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230713144900-z0coakv",
+				"updated": "20230713145320"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "1.业务模式是什么？"
+				}
+			]
+		},
+		{
+			"ID": "20230713144900-kg5vwm1",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20230713144900-kg5vwm1",
+				"updated": "20230713144900"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20230713144900-vu5rr95",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20230713144900-vu5rr95",
+						"updated": "20230713144900"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "公司面临客群，销售方式以及收入和成本"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713144900-9veao6o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230713144900-9veao6o",
+				"updated": "20230713145323"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "2.业务目标是什么？"
+				}
+			]
+		},
+		{
+			"ID": "20230713144900-tgxka9w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230713144900-tgxka9w",
+				"updated": "20230713145325"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "3.业务痛点是什么？"
+				}
+			]
+		},
+		{
+			"ID": "20230713144900-q621zw8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230713144900-q621zw8",
+				"updated": "20230713144900"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.协调部门的情况是什么？"
+				}
+			]
+		},
+		{
+			"ID": "20230713144900-7bklkfv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230713144900-7bklkfv",
+				"updated": "20230713145317"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "5.组织架构包含哪些？"
+				}
+			]
+		},
+		{
+			"ID": "20230713144900-2qh3aai",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230713144900-2qh3aai",
+				"updated": "20230713145328"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "6.岗位汇报对象是谁？"
+				}
+			]
+		},
+		{
+			"ID": "20230713144907-pwrvc9m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230713144907-pwrvc9m",
+				"updated": "20230713144912"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "7.各位领导，对未来这个岗位的人选的期待可以聊聊吗？（可选）"
+				}
+			]
+		},
+		{
+			"ID": "20230713145329-73xdvrh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230713145329-73xdvrh"
+			}
+		}
+	]
+}

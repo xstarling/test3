@@ -1,0 +1,145 @@
+{
+	"ID": "20241106214922-u407533",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241106214922-u407533",
+		"title": "技巧篇",
+		"type": "doc",
+		"updated": "20241106215342"
+	},
+	"Children": [
+		{
+			"ID": "20241106215041-hodzd7h",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20241106215041-hodzd7h",
+				"updated": "20241106215059"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "考纲分析"
+				}
+			]
+		},
+		{
+			"ID": "20241106215036-3x48k0x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241106215036-3x48k0x",
+				"updated": "20241106215036"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241106215036-dmigwy3.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241106215055-ozqqpb2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20241106215055-ozqqpb2",
+				"updated": "20241106215342"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "历年考试情况"
+				}
+			]
+		},
+		{
+			"ID": "20241106215203-hp1tz7w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241106215203-hp1tz7w",
+				"updated": "20241106215203"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241106215203-6q84nnd.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241106215342-rsg8kd3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241106215342-rsg8kd3",
+				"updated": "20241106215342"
+			}
+		}
+	]
+}

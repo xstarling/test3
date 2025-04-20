@@ -1,0 +1,1212 @@
+{
+	"ID": "20241022113708-5sd3dbs",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241022113708-5sd3dbs",
+		"title": "企业信息化",
+		"type": "doc",
+		"updated": "20241022120556"
+	},
+	"Children": [
+		{
+			"ID": "20241022113708-aivp4ry",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20241022113708-aivp4ry",
+				"updated": "20241022113756"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20241022113740-b9dqjv9",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20241022113740-b9dqjv9",
+						"updated": "20241022113756"
+					},
+					"Children": [
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "strong",
+							"TextMarkTextContent": "目的：提高企业的竞争力"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20241022114132-znkso9x",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20241022114132-znkso9x",
+				"updated": "20241022114208"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "信息化需求"
+				}
+			]
+		},
+		{
+			"ID": "20241022114156-j396m0z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022114156-j396m0z",
+				"updated": "20241022114156"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241022114156-54wspfa.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241022114159-4h1xisg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20241022114159-4h1xisg",
+				"updated": "20241022114350"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "企业信息化方法"
+				}
+			]
+		},
+		{
+			"ID": "20241022114210-i9wdz99",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241022114210-i9wdz99",
+				"updated": "20241022114350"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "业务流程重构方法"
+				}
+			]
+		},
+		{
+			"ID": "20241022114218-cvc0xmo",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20241022114218-cvc0xmo",
+				"updated": "20241022114350"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20241022114338-2dnrk3q",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20241022114338-2dnrk3q",
+						"updated": "20241022114350"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "彻底的、根本性的重新设计流程"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20241022114219-l664cvg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241022114219-l664cvg",
+				"updated": "20241022114400"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "核心业务应用方法"
+				}
+			]
+		},
+		{
+			"ID": "20241022114226-lau29ja",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20241022114226-lau29ja",
+				"updated": "20241022114400"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20241022114352-e5m0882",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20241022114352-e5m0882",
+						"updated": "20241022114400"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "围绕核心业务推动信息化"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20241022114226-0c5ebio",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241022114226-0c5ebio",
+				"updated": "20241022114414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "信息系统建设方法"
+				}
+			]
+		},
+		{
+			"ID": "20241022114233-apoj0bm",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20241022114233-apoj0bm",
+				"updated": "20241022114414"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20241022114401-lgpkwia",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20241022114401-lgpkwia",
+						"updated": "20241022114414"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "建设信息系统作为企业信息化的重点和关键"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20241022114234-wacr9wd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241022114234-wacr9wd",
+				"updated": "20241022114443"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "主题数据库方法"
+				}
+			]
+		},
+		{
+			"ID": "20241022114420-yzc6vbi",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20241022114420-yzc6vbi",
+				"updated": "20241022114443"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20241022114421-6rddu7o",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20241022114421-6rddu7o",
+						"updated": "20241022114443"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "建立面向企业核心业务的数据库，消除信息孤岛"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20241022114241-orxyygh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241022114241-orxyygh",
+				"updated": "20241022114513"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "资源管理方法"
+				}
+			]
+		},
+		{
+			"ID": "20241022114450-d7d6053",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20241022114450-d7d6053",
+				"updated": "20241022114513"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20241022114452-vwbvotv",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20241022114452-vwbvotv",
+						"updated": "20241022114513"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "切入点是为了企业资源管理提供强大工具"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20241022114248-mpca74j",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241022114248-mpca74j",
+				"updated": "20241022114551"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "人力资本投资方法"
+				}
+			]
+		},
+		{
+			"ID": "20241022114300-xmzug8x",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20241022114300-xmzug8x",
+				"updated": "20241022114530"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20241022114516-6qsu2vr",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20241022114516-6qsu2vr",
+						"updated": "20241022114530"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "把一部分企业的优秀员工看作一种资本"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20241022114300-01cr1wv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20241022114300-01cr1wv",
+				"updated": "20241022114752"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "企业信息化体系全览图"
+				}
+			]
+		},
+		{
+			"ID": "20241022114752-gt1rbos",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022114752-gt1rbos",
+				"updated": "20241022114752"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241022114752-sji9n63.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241022114554-ds67rh5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20241022114554-ds67rh5",
+				"updated": "20241022114849"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "企业资源计划ERP"
+				}
+			]
+		},
+		{
+			"ID": "20241022114822-lrpg53i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022114822-lrpg53i",
+				"updated": "20241022114822"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241022114822-2n8tul5.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241022114849-22zdkoj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022114849-22zdkoj",
+				"updated": "20241022114849"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241022114849-vn682ks.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241022114603-z8p1dvd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20241022114603-z8p1dvd",
+				"updated": "20241022114919"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "客户关系管理CRM"
+				}
+			]
+		},
+		{
+			"ID": "20241022114919-s84em2q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022114919-s84em2q",
+				"updated": "20241022114919"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241022114919-s6gdv6c.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241022114611-6ofwsp9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20241022114611-6ofwsp9",
+				"updated": "20241022114953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "供应链管理SCM"
+				}
+			]
+		},
+		{
+			"ID": "20241022114953-i1uscrt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022114953-i1uscrt",
+				"updated": "20241022114953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241022114953-97c5irv.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241022114626-ntk4doc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20241022114626-ntk4doc",
+				"updated": "20241022115517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "商业智能BI"
+				}
+			]
+		},
+		{
+			"ID": "20241022115103-hskt8m8",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20241022115103-hskt8m8",
+				"updated": "20241022115241"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20241022115200-1p3uhmj",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20241022115200-1p3uhmj",
+						"updated": "20241022115241"
+					},
+					"Children": [
+						{
+							"Type": "NodeTextMark",
+							"Properties": {
+								"style": "font-size: 16px;"
+							},
+							"TextMarkType": "text strong",
+							"TextMarkTextContent": "BI：数据集成，数据分析，支撑决策，提供价值。"
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: style=\"font-size: 16px;\"}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20241022115319-so00k06",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022115319-so00k06",
+				"updated": "20241022115319"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241022115319-v8xoojk.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241022115402-hdzgdxc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241022115402-hdzgdxc",
+				"updated": "20241022115517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数据仓库"
+				}
+			]
+		},
+		{
+			"ID": "20241022115434-echc2ee",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022115434-echc2ee",
+				"updated": "20241022115434"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241022115402-miyp0xf.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241022115511-1oiaorl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022115511-1oiaorl",
+				"updated": "20241022115511"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241022115511-9gc7ynf.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241022115513-hibfjse",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241022115513-hibfjse",
+				"updated": "20241022115626"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数据挖掘"
+				}
+			]
+		},
+		{
+			"ID": "20241022115553-9ld24vb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022115553-9ld24vb",
+				"updated": "20241022115620"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241022115620-wrtks30.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241022115554-uc51vkf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241022115554-uc51vkf",
+				"updated": "20241022120405"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "案例"
+				}
+			]
+		},
+		{
+			"ID": "20241022115951-nzj67zm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022115951-nzj67zm",
+				"updated": "20241022115953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CDB"
+				}
+			]
+		},
+		{
+			"ID": "20241022115948-ky1lhmg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022115948-ky1lhmg",
+				"updated": "20241022115948"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241022115948-se0dajv.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241022120114-q1a6fl3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20241022120114-q1a6fl3",
+				"updated": "20241022120526"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数据湖"
+				}
+			]
+		},
+		{
+			"ID": "20241022120408-5i6w6xn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022120408-5i6w6xn",
+				"updated": "20241022120408"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241022120408-olr014n.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241022120437-zbydiaj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022120437-zbydiaj",
+				"updated": "20241022120437"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241022120437-whgabny.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241022120520-4z4dqfz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20241022120520-4z4dqfz",
+				"updated": "20241022120556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "BPR和BPM"
+				}
+			]
+		},
+		{
+			"ID": "20241022120555-67e730k",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20241022120555-67e730k",
+				"updated": "20241022120556"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20241022120556-j2xkzy7",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20241022120556-j2xkzy7",
+						"updated": "20241022120556"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "PDCA循环的含义是将质量管理分为四个阶段，即Plan（计划）、Do（执行）、Check（检查）和 Act（处理）"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20241022120528-tjot38r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022120528-tjot38r",
+				"updated": "20241022120528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241022120528-e3heecv.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		}
+	]
+}

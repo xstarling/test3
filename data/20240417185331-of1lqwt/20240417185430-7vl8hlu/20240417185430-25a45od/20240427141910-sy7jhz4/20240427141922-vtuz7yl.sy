@@ -1,0 +1,21 @@
+{
+	"ID": "20240427141922-vtuz7yl",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240427141922-vtuz7yl",
+		"title": "随堂练习题",
+		"type": "doc",
+		"updated": "20240427141927"
+	},
+	"Children": [
+		{
+			"ID": "20240427141922-8cz0z58",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240427141922-8cz0z58",
+				"updated": "20240427141922"
+			}
+		}
+	]
+}

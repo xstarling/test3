@@ -1,0 +1,21 @@
+{
+	"ID": "20241022101158-fjge61k",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241022101158-fjge61k",
+		"title": "数据库分布式锁",
+		"type": "doc",
+		"updated": "20241022101232"
+	},
+	"Children": [
+		{
+			"ID": "20241022101158-gt7oz6m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022101158-gt7oz6m",
+				"updated": "20241022101158"
+			}
+		}
+	]
+}

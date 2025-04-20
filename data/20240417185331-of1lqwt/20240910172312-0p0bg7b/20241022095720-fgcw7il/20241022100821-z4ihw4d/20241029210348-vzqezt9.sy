@@ -1,0 +1,347 @@
+{
+	"ID": "20241029210348-vzqezt9",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241029210348-vzqezt9",
+		"title": "进度管理",
+		"type": "doc",
+		"updated": "20241029211909"
+	},
+	"Children": [
+		{
+			"ID": "20241029210403-szcggic",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241029210403-szcggic",
+				"updated": "20241029210403"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241029210403-mtre6rx.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241029210526-gxelxt6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241029210526-gxelxt6",
+				"updated": "20241029210526"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241029210526-p50qiqo.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241029210951-8eaiipe",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241029210951-8eaiipe",
+				"updated": "20241029211909"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "案例"
+				}
+			]
+		},
+		{
+			"ID": "20241029210955-djauhza",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20241029210955-djauhza",
+				"updated": "20241029211000"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20241029210956-n7zqzwo",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20241029210956-n7zqzwo",
+						"updated": "20241029211000"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "B"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20241029210925-9fw0p6x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241029210925-9fw0p6x",
+				"updated": "20241029210925"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241029210925-cbq7byf.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241029211300-jvimcn2",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20241029211300-jvimcn2",
+				"updated": "20241029211304"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20241029211302-efwd8dd",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20241029211302-efwd8dd",
+						"updated": "20241029211304"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "C"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20241029211305-r215uzk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241029211305-r215uzk",
+				"updated": "20241029211305"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241029211305-n8etj97.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241029211308-g6w4fn3",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20241029211308-g6w4fn3",
+				"updated": "20241029211909"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20241029211905-t2qxuth",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20241029211905-t2qxuth",
+						"updated": "20241029211908"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "AA"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20241029211909-soeilxi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241029211909-soeilxi",
+				"updated": "20241029211909"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241029211909-hd3u7fp.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		}
+	]
+}

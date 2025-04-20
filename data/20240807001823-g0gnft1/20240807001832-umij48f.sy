@@ -1,0 +1,46 @@
+{
+	"ID": "20240807001832-umij48f",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-sy-readonly": "false",
+		"id": "20240807001832-umij48f",
+		"title": "文献资源",
+		"type": "doc",
+		"updated": "20240819001048"
+	},
+	"Children": [
+		{
+			"ID": "20240819001048-g21b3ds",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240819001048-g21b3ds",
+				"updated": "20240819001048"
+			}
+		},
+		{
+			"ID": "20240807001832-j3rlh1r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240807001832-j3rlh1r",
+				"updated": "20240807002035"
+			}
+		},
+		{
+			"ID": "20240818234902-kzpo5o2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240818234902-kzpo5o2",
+				"updated": "20240818234902"
+			}
+		},
+		{
+			"ID": "20240818234909-hj7p60m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240818234909-hj7p60m",
+				"updated": "20240818234921"
+			}
+		}
+	]
+}

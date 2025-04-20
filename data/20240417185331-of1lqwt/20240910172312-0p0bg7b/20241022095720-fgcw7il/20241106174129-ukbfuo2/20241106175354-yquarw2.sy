@@ -1,0 +1,21 @@
+{
+	"ID": "20241106175354-yquarw2",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241106175354-yquarw2",
+		"title": "TCP-IP协议族",
+		"type": "doc",
+		"updated": "20241106175457"
+	},
+	"Children": [
+		{
+			"ID": "20241106175354-6uz5pkd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241106175354-6uz5pkd",
+				"updated": "20241106175354"
+			}
+		}
+	]
+}

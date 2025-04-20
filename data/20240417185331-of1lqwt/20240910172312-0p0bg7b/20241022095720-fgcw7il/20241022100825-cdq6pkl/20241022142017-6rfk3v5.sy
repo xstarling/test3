@@ -1,0 +1,146 @@
+{
+	"ID": "20241022142017-6rfk3v5",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4c4",
+		"id": "20241022142017-6rfk3v5",
+		"title": "新技术",
+		"type": "doc",
+		"updated": "20241022142130"
+	},
+	"Children": [
+		{
+			"ID": "20241022142017-stz6ejv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20241022142017-stz6ejv",
+				"updated": "20241022142111"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数字化"
+				}
+			]
+		},
+		{
+			"ID": "20241022142111-bxlgdze",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022142111-bxlgdze",
+				"updated": "20241022142111"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241022142111-jnluzad.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241022142041-nkrj5ec",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022142041-nkrj5ec",
+				"updated": "20241022142041"
+			}
+		},
+		{
+			"ID": "20241022142041-yq9wp3a",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20241022142041-yq9wp3a",
+				"updated": "20241022142130"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "智能制造"
+				}
+			]
+		},
+		{
+			"ID": "20241022142130-zly9ia0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022142130-zly9ia0",
+				"updated": "20241022142130"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241022142130-js99r9f.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		}
+	]
+}

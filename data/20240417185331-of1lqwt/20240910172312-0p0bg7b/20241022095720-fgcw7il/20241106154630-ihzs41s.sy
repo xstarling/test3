@@ -1,0 +1,21 @@
+{
+	"ID": "20241106154630-ihzs41s",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241106154630-ihzs41s",
+		"title": "嵌入式系统",
+		"type": "doc",
+		"updated": "20241106154654"
+	},
+	"Children": [
+		{
+			"ID": "20241106154630-xfaw1qd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241106154630-xfaw1qd",
+				"updated": "20241106154630"
+			}
+		}
+	]
+}

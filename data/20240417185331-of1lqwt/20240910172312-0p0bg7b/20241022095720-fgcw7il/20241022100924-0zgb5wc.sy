@@ -1,0 +1,37 @@
+{
+	"ID": "20241022100924-0zgb5wc",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241022100924-0zgb5wc",
+		"title": "知识产权与标准化",
+		"type": "doc",
+		"updated": "20241106213227"
+	},
+	"Children": [
+		{
+			"ID": "20241022100924-7bui97s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022100924-7bui97s",
+				"updated": "20241106213227"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://blog.csdn.net/lonelymanontheway/article/details/132548427",
+					"TextMarkTextContent": "软考高级之系统架构师系列之知识产权与标准化_系统架构 知识产权与标准化-CSDN博客"
+				}
+			]
+		},
+		{
+			"ID": "20241106213227-qkokimd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241106213227-qkokimd",
+				"updated": "20241106213227"
+			}
+		}
+	]
+}

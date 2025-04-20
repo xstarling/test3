@@ -1,0 +1,21 @@
+{
+	"ID": "20240819002047-gdxgh5x",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240819002047-gdxgh5x",
+		"title": "08",
+		"type": "doc",
+		"updated": "20240819002047"
+	},
+	"Children": [
+		{
+			"ID": "20240819002047-j0bmmxp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240819002047-j0bmmxp",
+				"updated": "20240819002047"
+			}
+		}
+	]
+}

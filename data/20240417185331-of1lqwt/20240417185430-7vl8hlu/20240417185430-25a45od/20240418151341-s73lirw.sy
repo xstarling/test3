@@ -1,0 +1,21 @@
+{
+	"ID": "20240418151341-s73lirw",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240418151341-s73lirw",
+		"title": "5.信息系统工程",
+		"type": "doc",
+		"updated": "20240425160723"
+	},
+	"Children": [
+		{
+			"ID": "20240418151341-5ea68cy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240418151341-5ea68cy",
+				"updated": "20240418151341"
+			}
+		}
+	]
+}

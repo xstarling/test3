@@ -1,0 +1,60 @@
+{
+	"ID": "20240807001848-beu8s9x",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240807001848-beu8s9x",
+		"title": "图书馆",
+		"type": "doc",
+		"updated": "20240807001856"
+	},
+	"Children": [
+		{
+			"ID": "20240807001853-zu0ilcu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240807001853-zu0ilcu",
+				"updated": "20240807001856"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20240807001853-ar79ltm.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		}
+	]
+}

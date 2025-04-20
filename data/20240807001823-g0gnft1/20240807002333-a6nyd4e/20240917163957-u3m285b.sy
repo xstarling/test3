@@ -1,0 +1,5195 @@
+{
+	"ID": "20240917163957-u3m285b",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240917163957-u3m285b",
+		"title": "研究方向",
+		"type": "doc",
+		"updated": "20241214101842"
+	},
+	"Children": [
+		{
+			"ID": "20240920214454-4950x37",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240920214454-4950x37",
+				"updated": "20240920214458"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第一次课题方向分析"
+				}
+			]
+		},
+		{
+			"ID": "20240917164009-zwvoi9i",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240917164009-zwvoi9i",
+				"updated": "20240917164643"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color9);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "1. "
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color9);\"}"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color9);"
+					},
+					"TextMarkType": "strong text",
+					"TextMarkTextContent": "光纤通信系统仿真"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color9);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20240917164009-h428297",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240917164009-h428297",
+				"updated": "20240917164009"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "你可以选择研究光纤通信系统，并编写仿真工具用于分析光纤中信号的传播。结合软件工程的背景，设计工具可以快速模拟通信性能。研究方向包括："
+				}
+			]
+		},
+		{
+			"ID": "20240917164009-b2egd0z",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20240917164009-b2egd0z",
+				"updated": "20240917164009"
+			},
+			"Children": [
+				{
+					"ID": "20240917164009-vnyrfww",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240917164009-vnyrfww",
+						"updated": "20240917164009"
+					},
+					"Children": [
+						{
+							"ID": "20240917164009-z12twv7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240917164009-z12twv7",
+								"updated": "20240917164009"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "光纤中的非线性效应仿真"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：编写软件模拟光纤中的非线性效应（如自相位调制、四波混频等），分析这些效应对通信质量的影响。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240917164009-wgz6vh9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240917164009-wgz6vh9",
+						"updated": "20240917164009"
+					},
+					"Children": [
+						{
+							"ID": "20240917164009-kjah3jg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240917164009-kjah3jg",
+								"updated": "20240917164009"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "光纤传输信号处理工具"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：开发光纤通信信号的处理与分析软件，用于研究不同信号编码方案的效果。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240917164039-8eizudz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240917164039-8eizudz",
+				"updated": "20240920213857"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color9);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "2. "
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color9);\"}"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color9);"
+					},
+					"TextMarkType": "strong text",
+					"TextMarkTextContent": "光学设计软件开发与优化"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color9);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20240917164039-zxjg6es",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240917164039-zxjg6es",
+				"updated": "20240917164039"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "光学设计中的一些优化问题，例如镜头设计、激光器的调谐等，通常依赖计算机辅助。你可以开发或优化光学设计软件，重点解决某一光学设计问题："
+				}
+			]
+		},
+		{
+			"ID": "20240917164039-ged2bqt",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20240917164039-ged2bqt",
+				"updated": "20240917164039"
+			},
+			"Children": [
+				{
+					"ID": "20240917164039-2kdu537",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240917164039-2kdu537",
+						"updated": "20240917164039"
+					},
+					"Children": [
+						{
+							"ID": "20240917164039-bswavqc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240917164039-bswavqc",
+								"updated": "20240917164039"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "基于遗传算法的光学设计优化"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：设计一个使用遗传算法或其他优化算法的软件工具，自动寻找光学系统中最佳的参数配置。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240917164039-9la8w1u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240917164039-9la8w1u",
+						"updated": "20240917164039"
+					},
+					"Children": [
+						{
+							"ID": "20240917164039-67fyl8d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240917164039-67fyl8d",
+								"updated": "20240917164039"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "自由曲面光学元件设计工具"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：针对复杂的光学元件（如自由曲面镜或透镜），开发设计和模拟工具，帮助研究人员更快地进行光学系统设计。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240917164057-0keaykb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240917164057-0keaykb",
+				"updated": "20240920213902"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color9);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "3. "
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color9);\"}"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color9);"
+					},
+					"TextMarkType": "strong text",
+					"TextMarkTextContent": "光学数据的图像处理与计算机视觉"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color9);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20240917164057-6oyu204",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240917164057-6oyu204",
+				"updated": "20240917164057"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "光学领域涉及大量图像数据处理任务，你可以将软件工程中的"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "图像处理"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "和"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "计算机视觉技术"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "应用于光学数据的分析。具体方向包括："
+				}
+			]
+		},
+		{
+			"ID": "20240917164057-iublh6k",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20240917164057-iublh6k",
+				"updated": "20240917164057"
+			},
+			"Children": [
+				{
+					"ID": "20240917164057-b6rqo04",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240917164057-b6rqo04",
+						"updated": "20240917164057"
+					},
+					"Children": [
+						{
+							"ID": "20240917164057-yghscyi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240917164057-yghscyi",
+								"updated": "20240917164057"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "光学显微图像处理"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：开发算法来分析和处理显微镜下的光学图像，如图像去噪、增强、分割等任务。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240917164057-ok0elhw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240917164057-ok0elhw",
+						"updated": "20240917164057"
+					},
+					"Children": [
+						{
+							"ID": "20240917164057-ycxtlya",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240917164057-ycxtlya",
+								"updated": "20240917164057"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "计算机视觉在光学实验中的应用"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：将计算机视觉技术应用于光学实验中，例如用于检测光的衍射图样、激光束形状等。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240917164057-cy6741z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240917164057-cy6741z",
+						"updated": "20240917164057"
+					},
+					"Children": [
+						{
+							"ID": "20240917164057-15fhdy8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240917164057-15fhdy8",
+								"updated": "20240917164057"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "自动化光学图像分类"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：利用深度学习技术，对光学实验生成的图像数据进行自动分类与分析。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240917164132-qt9onsd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240917164132-qt9onsd",
+				"updated": "20240917164447"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4. "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "光学系统中的计算机控制与自动化"
+				}
+			]
+		},
+		{
+			"ID": "20240917164132-c5waso8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240917164132-c5waso8",
+				"updated": "20240917164132"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "光学实验通常涉及复杂的实验仪器操作，你可以研究如何利用计算机进行光学系统的自动控制，提升实验效率。可以选择的方向包括："
+				}
+			]
+		},
+		{
+			"ID": "20240917164132-n8ygy6u",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20240917164132-n8ygy6u",
+				"updated": "20240917164132"
+			},
+			"Children": [
+				{
+					"ID": "20240917164132-o3b976b",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240917164132-o3b976b",
+						"updated": "20240917164132"
+					},
+					"Children": [
+						{
+							"ID": "20240917164132-nteprp7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240917164132-nteprp7",
+								"updated": "20240917164132"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "自动化光学测量系统"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：设计并开发一套基于软件控制的光学实验测量系统，自动收集和分析数据。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240917164132-1lhddoh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240917164132-1lhddoh",
+						"updated": "20240917164132"
+					},
+					"Children": [
+						{
+							"ID": "20240917164132-7z9p1gu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240917164132-7z9p1gu",
+								"updated": "20240917164132"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "光学仪器软件接口"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：为实验室常用的光学仪器（如激光器、光谱仪等）编写控制软件，简化光学实验中的数据采集和仪器调节。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240917164132-mqtrw3t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240917164132-mqtrw3t",
+						"updated": "20240917164132"
+					},
+					"Children": [
+						{
+							"ID": "20240917164132-ic0054e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240917164132-ic0054e",
+								"updated": "20240917164132"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "实验数据的自动处理与分析"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：利用机器学习或数据分析技术，设计自动化数据分析工具，实时处理光学实验产生的数据。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240917164138-xjkeobj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240917164138-xjkeobj",
+				"updated": "20240920214613"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5."
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color5);"
+					},
+					"TextMarkType": "text strong",
+					"TextMarkTextContent": "光学神经网络仿真-偏二维材料"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color5);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20240917164519-yjzgv71",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240917164519-yjzgv71",
+				"updated": "20240917164519"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在论文中，你可以聚焦以下几个问题："
+				}
+			]
+		},
+		{
+			"ID": "20240917164519-q0yiad3",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20240917164519-q0yiad3",
+				"updated": "20240917164526"
+			},
+			"Children": [
+				{
+					"ID": "20240917164519-gxsz95m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240917164519-gxsz95m",
+						"updated": "20240917164526"
+					},
+					"Children": [
+						{
+							"ID": "20240917164519-x1oryeb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240917164519-x1oryeb",
+								"updated": "20240917164526"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如何通过仿真平台实现高效的"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "tag",
+									"TextMarkTextContent": "光学矩阵乘法"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240917164519-g2a6c79",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240917164519-g2a6c79",
+						"updated": "20240917164519"
+					},
+					"Children": [
+						{
+							"ID": "20240917164519-invqnfj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240917164519-invqnfj",
+								"updated": "20240917164519"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不同的光学元件对神经网络性能的影响，例如波导、相控阵列等。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240917164519-unvh5qs",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240917164519-unvh5qs",
+						"updated": "20240917164519"
+					},
+					"Children": [
+						{
+							"ID": "20240917164519-d14vu3c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240917164519-d14vu3c",
+								"updated": "20240917164519"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在不同输入光场条件下（如光强、相位）的计算精度和噪声容忍度分析。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240917164519-4rfskfy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240917164519-4rfskfy",
+						"updated": "20240917164519"
+					},
+					"Children": [
+						{
+							"ID": "20240917164519-aggqoau",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240917164519-aggqoau",
+								"updated": "20240917164519"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "光学神经网络与传统电子神经网络在计算速度、能耗和精度上的比较。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240917164527-nwwz9br",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240917164527-nwwz9br",
+				"updated": "20240917164527"
+			}
+		},
+		{
+			"ID": "20240920214435-am028y8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240920214435-am028y8",
+				"updated": "20240920214435"
+			}
+		},
+		{
+			"ID": "20240920214435-ts60195",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240920214435-ts60195",
+				"updated": "20240920214727"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第二次课题方向分析"
+				}
+			]
+		},
+		{
+			"ID": "20240920214517-9x8tkla",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240920214517-9x8tkla",
+				"updated": "20240920214727"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "计算机辅助光学成像与图像处理"
+				}
+			]
+		},
+		{
+			"ID": "20240920214517-rebc1di",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20240920214517-rebc1di",
+				"updated": "20240920214517"
+			},
+			"Children": [
+				{
+					"ID": "20240920214517-2bk0cwi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240920214517-2bk0cwi",
+						"updated": "20240920214517"
+					},
+					"Children": [
+						{
+							"ID": "20240920214517-jo8yyyy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240920214517-jo8yyyy",
+								"updated": "20240920214517"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "研究方向"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：计算机技术用于光学成像的数据处理和优化，结合计算机视觉、图像处理技术提升成像系统性能。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240920214517-dpmn0l6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240920214517-dpmn0l6",
+						"updated": "20240920214517"
+					},
+					"Children": [
+						{
+							"ID": "20240920214517-eau9er8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240920214517-eau9er8",
+								"updated": "20240920214517"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "具体课题"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "："
+								}
+							]
+						},
+						{
+							"ID": "20240920214517-0lkxlf0",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20240920214517-0lkxlf0",
+								"updated": "20240920214517"
+							},
+							"Children": [
+								{
+									"ID": "20240920214517-0fy8fib",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920214517-0fy8fib",
+										"updated": "20240920214517"
+									},
+									"Children": [
+										{
+											"ID": "20240920214517-jzk535t",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920214517-jzk535t",
+												"updated": "20240920214517"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "基于深度学习的超分辨率成像，利用机器学习算法提升光学显微镜的分辨率和图像质量。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240920214517-yth8okf",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920214517-yth8okf",
+										"updated": "20240920214517"
+									},
+									"Children": [
+										{
+											"ID": "20240920214517-8ufxeuy",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920214517-8ufxeuy",
+												"updated": "20240920214517"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "开发基于光学相干层析成像（OCT）或荧光显微成像的自动图像处理算法，提升图像的去噪、分割和增强效果。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240920214517-528l0v2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920214517-528l0v2",
+										"updated": "20240920214517"
+									},
+									"Children": [
+										{
+											"ID": "20240920214517-mlpsqbv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920214517-mlpsqbv",
+												"updated": "20240920214517"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "设计计算机辅助光学成像系统，开发智能成像设备，实现自动化数据采集和处理。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240920214727-vsit433",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240920214727-vsit433",
+				"updated": "20240920214759"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "光纤通信中的机器学习应用"
+				}
+			]
+		},
+		{
+			"ID": "20240920214727-1mwttbb",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20240920214727-1mwttbb",
+				"updated": "20240920214727"
+			},
+			"Children": [
+				{
+					"ID": "20240920214727-zxxuy95",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240920214727-zxxuy95",
+						"updated": "20240920214727"
+					},
+					"Children": [
+						{
+							"ID": "20240920214727-9hq8eu3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240920214727-9hq8eu3",
+								"updated": "20240920214727"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "研究方向"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：在高速光纤通信系统中利用机器学习算法来优化信号传输、错误检测和数据分析。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240920214727-n335rhm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240920214727-n335rhm",
+						"updated": "20240920214727"
+					},
+					"Children": [
+						{
+							"ID": "20240920214727-hrhwcar",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240920214727-hrhwcar",
+								"updated": "20240920214727"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "具体课题"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "："
+								}
+							]
+						},
+						{
+							"ID": "20240920214727-jyeklim",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20240920214727-jyeklim",
+								"updated": "20240920214727"
+							},
+							"Children": [
+								{
+									"ID": "20240920214727-egleshw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920214727-egleshw",
+										"updated": "20240920214727"
+									},
+									"Children": [
+										{
+											"ID": "20240920214727-lvayrmd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920214727-lvayrmd",
+												"updated": "20240920214727"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "利用深度学习进行光纤网络信道的动态自适应控制，提高光纤通信系统的传输效率和稳定性。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240920214727-uxmhx64",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920214727-uxmhx64",
+										"updated": "20240920214727"
+									},
+									"Children": [
+										{
+											"ID": "20240920214727-iu4tb7j",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920214727-iu4tb7j",
+												"updated": "20240920214727"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "开发基于机器学习的信号处理算法，用于检测光纤中的非线性效应和噪声，提升信号质量。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240920214727-idh0oxa",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920214727-idh0oxa",
+										"updated": "20240920214727"
+									},
+									"Children": [
+										{
+											"ID": "20240920214727-bighklj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920214727-bighklj",
+												"updated": "20240920214727"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "研究如何通过神经网络模型优化光纤传输中的调制解调技术，以减少数据传输中的误码率。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240920214759-hmqc2yp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240920214759-hmqc2yp",
+				"updated": "20240920214851"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3. "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "计算全息与数字光处理"
+				}
+			]
+		},
+		{
+			"ID": "20240920214759-d5qsxmf",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20240920214759-d5qsxmf",
+				"updated": "20240920214759"
+			},
+			"Children": [
+				{
+					"ID": "20240920214759-drxrxpm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240920214759-drxrxpm",
+						"updated": "20240920214759"
+					},
+					"Children": [
+						{
+							"ID": "20240920214759-2ormxjt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240920214759-2ormxjt",
+								"updated": "20240920214759"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "研究方向"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：利用计算机技术模拟和处理全息图，实现数字全息的快速计算与显示。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240920214759-s1lf3tj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240920214759-s1lf3tj",
+						"updated": "20240920214759"
+					},
+					"Children": [
+						{
+							"ID": "20240920214759-7vwmfrm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240920214759-7vwmfrm",
+								"updated": "20240920214759"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "具体课题"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "："
+								}
+							]
+						},
+						{
+							"ID": "20240920214759-anr1o38",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20240920214759-anr1o38",
+								"updated": "20240920214759"
+							},
+							"Children": [
+								{
+									"ID": "20240920214759-vnjer6c",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920214759-vnjer6c",
+										"updated": "20240920214759"
+									},
+									"Children": [
+										{
+											"ID": "20240920214759-fdqqhil",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920214759-fdqqhil",
+												"updated": "20240920214759"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "开发基于GPU的快速全息图生成算法，用于实时全息显示和虚拟现实应用。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240920214759-suh1rgg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920214759-suh1rgg",
+										"updated": "20240920214759"
+									},
+									"Children": [
+										{
+											"ID": "20240920214759-xbztpup",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920214759-xbztpup",
+												"updated": "20240920214759"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "研究数字全息中的深度学习算法，提升全息图的质量和生成速度，实现高分辨率的3D全息图像显示。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240920214759-64cg1ua",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920214759-64cg1ua",
+										"updated": "20240920214759"
+									},
+									"Children": [
+										{
+											"ID": "20240920214759-ge37jtv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920214759-ge37jtv",
+												"updated": "20240920214759"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "结合计算机视觉和光学成像，开发用于光学全息存储的高效编码和解码算法。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240920214851-dfrhorp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240920214851-dfrhorp",
+				"updated": "20240920215324"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4. "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "光学传感与数据处理"
+				}
+			]
+		},
+		{
+			"ID": "20240920214851-if3co3q",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20240920214851-if3co3q",
+				"updated": "20240920214940"
+			},
+			"Children": [
+				{
+					"ID": "20240920214851-763v595",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240920214851-763v595",
+						"updated": "20240920214851"
+					},
+					"Children": [
+						{
+							"ID": "20240920214851-gp3b4pg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240920214851-gp3b4pg",
+								"updated": "20240920214851"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "研究方向"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：利用计算机技术开发光学传感器的数据处理和分析算法，提升光学传感器的精度和响应速度。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240920214851-afzikt8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240920214851-afzikt8",
+						"updated": "20240920214940"
+					},
+					"Children": [
+						{
+							"ID": "20240920214851-pkn4ph1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240920214851-pkn4ph1",
+								"updated": "20240920214851"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "具体课题"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "："
+								}
+							]
+						},
+						{
+							"ID": "20240920214851-g6wzfts",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20240920214851-g6wzfts",
+								"updated": "20240920214940"
+							},
+							"Children": [
+								{
+									"ID": "20240920214851-3xbcxua",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920214851-3xbcxua",
+										"updated": "20240920214851"
+									},
+									"Children": [
+										{
+											"ID": "20240920214851-cf0m3pr",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920214851-cf0m3pr",
+												"updated": "20240920214851"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "开发智能光学传感器，通过机器学习算法实时处理和分析传感器数据，用于环境监测、健康监测等领域。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240920214851-recwluf",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920214851-recwluf",
+										"updated": "20240920214940"
+									},
+									"Children": [
+										{
+											"ID": "20240920214851-ltvmrsd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920214851-ltvmrsd",
+												"updated": "20240920214940"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"Properties": {
+														"style": "color: var(--b3-font-color11);"
+													},
+													"TextMarkType": "text strong",
+													"TextMarkTextContent": "利用计算机技术优化光谱数据分析算法，应用于拉曼光谱、傅里叶变换红外光谱等技术中，提升数据处理速度和准确性。"
+												},
+												{
+													"Type": "NodeKramdownSpanIAL",
+													"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240920214851-gez0nam",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920214851-gez0nam",
+										"updated": "20240920214921"
+									},
+									"Children": [
+										{
+											"ID": "20240920214851-hao410l",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920214851-hao410l",
+												"updated": "20240920214921"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"Properties": {
+														"style": "color: var(--b3-font-color11);"
+													},
+													"TextMarkType": "text strong",
+													"TextMarkTextContent": "设计用于多模光纤传感器的神经网络算法，实现实时信号解调和多维数据融合。"
+												},
+												{
+													"Type": "NodeKramdownSpanIAL",
+													"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240920215324-41togq1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240920215324-41togq1",
+				"updated": "20240920215434"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5. "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "基于计算机的自由曲面光学设计"
+				}
+			]
+		},
+		{
+			"ID": "20240920215324-z4d4k5a",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20240920215324-z4d4k5a",
+				"updated": "20240920215324"
+			},
+			"Children": [
+				{
+					"ID": "20240920215324-3hhelap",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240920215324-3hhelap",
+						"updated": "20240920215324"
+					},
+					"Children": [
+						{
+							"ID": "20240920215324-7uqnmou",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240920215324-7uqnmou",
+								"updated": "20240920215324"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "研究方向"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：结合计算机算法优化自由曲面光学元件的设计与仿真，提升光学系统的性能和灵活性。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240920215324-s8w0xtd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240920215324-s8w0xtd",
+						"updated": "20240920215324"
+					},
+					"Children": [
+						{
+							"ID": "20240920215324-una2bkb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240920215324-una2bkb",
+								"updated": "20240920215324"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "具体课题"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "："
+								}
+							]
+						},
+						{
+							"ID": "20240920215324-g7ji6pi",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20240920215324-g7ji6pi",
+								"updated": "20240920215324"
+							},
+							"Children": [
+								{
+									"ID": "20240920215324-ku6ahd9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920215324-ku6ahd9",
+										"updated": "20240920215324"
+									},
+									"Children": [
+										{
+											"ID": "20240920215324-cimyf2b",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920215324-cimyf2b",
+												"updated": "20240920215324"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "开发基于遗传算法、粒子群算法等优化算法的自由曲面光学设计软件，用于透镜、反射镜等光学元件的自动设计和优化。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240920215324-57kuayl",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920215324-57kuayl",
+										"updated": "20240920215324"
+									},
+									"Children": [
+										{
+											"ID": "20240920215324-izhi0tz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920215324-izhi0tz",
+												"updated": "20240920215324"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "研究自由曲面光学系统的光线追踪算法，提升光学设计仿真的精度和速度。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240920215324-j6oh003",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920215324-j6oh003",
+										"updated": "20240920215324"
+									},
+									"Children": [
+										{
+											"ID": "20240920215324-yd54qhq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920215324-yd54qhq",
+												"updated": "20240920215324"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "结合机器学习算法，自动优化自由曲面光学元件的结构，以实现更高效的光学系统。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240920215434-zgf0uq5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240920215434-zgf0uq5",
+				"updated": "20240920221400"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6. "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "计算光学成像与深度学习优化"
+				}
+			]
+		},
+		{
+			"ID": "20240920215434-5xg08s0",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20240920215434-5xg08s0",
+				"updated": "20240920215434"
+			},
+			"Children": [
+				{
+					"ID": "20240920215434-6tn5vbw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240920215434-6tn5vbw",
+						"updated": "20240920215434"
+					},
+					"Children": [
+						{
+							"ID": "20240920215434-otmm0z5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240920215434-otmm0z5",
+								"updated": "20240920215434"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "研究方向"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：利用计算成像技术和深度学习算法来解决传统光学成像系统的局限性，提升成像质量和速度。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240920215434-1k8k5y9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240920215434-1k8k5y9",
+						"updated": "20240920215434"
+					},
+					"Children": [
+						{
+							"ID": "20240920215434-t9kjtdm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240920215434-t9kjtdm",
+								"updated": "20240920215434"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "具体课题"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "："
+								}
+							]
+						},
+						{
+							"ID": "20240920215434-t1illzy",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20240920215434-t1illzy",
+								"updated": "20240920215434"
+							},
+							"Children": [
+								{
+									"ID": "20240920215434-cqrvp2n",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920215434-cqrvp2n",
+										"updated": "20240920215434"
+									},
+									"Children": [
+										{
+											"ID": "20240920215434-yr2ybx1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920215434-yr2ybx1",
+												"updated": "20240920215434"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "研究基于深度学习的稀疏成像技术，开发用于光学成像系统的图像重建算法。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240920215434-4b6eebs",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920215434-4b6eebs",
+										"updated": "20240920215434"
+									},
+									"Children": [
+										{
+											"ID": "20240920215434-msrijf6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920215434-msrijf6",
+												"updated": "20240920215434"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "结合深度学习与计算全息，优化全息显微镜的成像性能，实现高分辨率3D成像。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240920215434-aphcjed",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920215434-aphcjed",
+										"updated": "20240920215434"
+									},
+									"Children": [
+										{
+											"ID": "20240920215434-8fovp4f",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920215434-8fovp4f",
+												"updated": "20240920215434"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "开发深度学习驱动的光场成像算法，用于提升相机的景深和立体感。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240920220436-282dj8e",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20240920220436-282dj8e",
+				"updated": "20240920220659"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20240920220438-5y52ay8",
+					"Type": "NodeHeading",
+					"HeadingLevel": 6,
+					"Properties": {
+						"id": "20240920220438-5y52ay8",
+						"updated": "20240920220438"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "ChatGPT 说："
+						}
+					]
+				},
+				{
+					"ID": "20240920220438-q5fxopf",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20240920220438-q5fxopf",
+						"updated": "20240920220438"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "记忆已更新"
+						}
+					]
+				},
+				{
+					"ID": "20240920220438-k4v1hh3",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20240920220438-k4v1hh3",
+						"updated": "20240920220438"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "根据你的本科背景是软件工程，研究生方向是物理学，且课题组的研究方向是光场调控，我将结合你的技术背景、物理知识和课题组方向，对 2 到 7 的研究课题进展难度进行综合排序。"
+						}
+					]
+				},
+				{
+					"ID": "20240920220438-4nlj61l",
+					"Type": "NodeHeading",
+					"HeadingLevel": 3,
+					"Properties": {
+						"id": "20240920220438-4nlj61l",
+						"updated": "20240920220638"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "1. "
+						},
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "strong",
+							"TextMarkTextContent": "光学传感与数据处理（4）"
+						}
+					]
+				},
+				{
+					"ID": "20240920220438-e5e48e3",
+					"Type": "NodeList",
+					"ListData": {},
+					"Properties": {
+						"id": "20240920220438-e5e48e3",
+						"updated": "20240920220438"
+					},
+					"Children": [
+						{
+							"ID": "20240920220438-gfv15e7",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20240920220438-gfv15e7",
+								"updated": "20240920220438"
+							},
+							"Children": [
+								{
+									"ID": "20240920220438-4zetkbo",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920220438-4zetkbo",
+										"updated": "20240920220438"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "综合难度：较低"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20240920220438-jx31ig5",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20240920220438-jx31ig5",
+								"updated": "20240920220438"
+							},
+							"Children": [
+								{
+									"ID": "20240920220438-9u4lr7c",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920220438-9u4lr7c",
+										"updated": "20240920220438"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "原因"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "：你在软件工程方面的编程和算法开发能力可以直接用于光学传感器的数据处理和分析。机器学习在光学传感中的应用成熟，已有很多工具和库可供参考，任务侧重于信号处理和优化，这与软件工程背景高度匹配，光场调控也可能涉及传感器的精确控制。"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240920220438-lugisbw",
+					"Type": "NodeHeading",
+					"HeadingLevel": 3,
+					"Properties": {
+						"id": "20240920220438-lugisbw",
+						"updated": "20240920220630"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "2. "
+						},
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "strong",
+							"TextMarkTextContent": "计算机辅助光学成像与图像处理（1）"
+						}
+					]
+				},
+				{
+					"ID": "20240920220438-3z78pa4",
+					"Type": "NodeList",
+					"ListData": {},
+					"Properties": {
+						"id": "20240920220438-3z78pa4",
+						"updated": "20240920220438"
+					},
+					"Children": [
+						{
+							"ID": "20240920220438-vbyd2pr",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20240920220438-vbyd2pr",
+								"updated": "20240920220438"
+							},
+							"Children": [
+								{
+									"ID": "20240920220438-th2np78",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920220438-th2np78",
+										"updated": "20240920220438"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "综合难度：中等"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20240920220438-bf4ogqm",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20240920220438-bf4ogqm",
+								"updated": "20240920220438"
+							},
+							"Children": [
+								{
+									"ID": "20240920220438-7gfxs1j",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920220438-7gfxs1j",
+										"updated": "20240920220438"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "原因"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "：成像和图像处理涉及光学成像系统与计算机图像处理算法的结合。你在编程和图像处理方面的技能可以直接应用。光场调控可能涉及图像质量的优化，这个方向可以结合深度学习提升光场成像的精度。尽管光学知识要求不高，但需要理解一些成像原理。"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240920220438-zl13xdi",
+					"Type": "NodeHeading",
+					"HeadingLevel": 3,
+					"Properties": {
+						"id": "20240920220438-zl13xdi",
+						"updated": "20240920220640"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "3. "
+						},
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "strong",
+							"TextMarkTextContent": "基于计算机的自由曲面光学设计（5）"
+						}
+					]
+				},
+				{
+					"ID": "20240920220438-i5365bt",
+					"Type": "NodeList",
+					"ListData": {},
+					"Properties": {
+						"id": "20240920220438-i5365bt",
+						"updated": "20240920220438"
+					},
+					"Children": [
+						{
+							"ID": "20240920220438-jawmt1c",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20240920220438-jawmt1c",
+								"updated": "20240920220438"
+							},
+							"Children": [
+								{
+									"ID": "20240920220438-n3gklib",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920220438-n3gklib",
+										"updated": "20240920220438"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "综合难度：中等"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20240920220438-a8dqsi2",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20240920220438-a8dqsi2",
+								"updated": "20240920220438"
+							},
+							"Children": [
+								{
+									"ID": "20240920220438-shf3joa",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920220438-shf3joa",
+										"updated": "20240920220438"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "原因"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "：自由曲面光学设计涉及较复杂的物理光学原理和计算优化算法。你可以借助遗传算法、粒子群优化等自动化工具完成设计，这部分与软件工程契合较好，但自由曲面的物理建模和光学设计部分对光学理解要求较高，尤其在光场调控应用中，设计复杂光学系统是关键。"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240920220438-mml9i83",
+					"Type": "NodeHeading",
+					"HeadingLevel": 3,
+					"Properties": {
+						"id": "20240920220438-mml9i83",
+						"updated": "20240920220631"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "4. "
+						},
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "strong",
+							"TextMarkTextContent": "光纤通信中的机器学习应用（2）"
+						}
+					]
+				},
+				{
+					"ID": "20240920220438-3yqa9b8",
+					"Type": "NodeList",
+					"ListData": {},
+					"Properties": {
+						"id": "20240920220438-3yqa9b8",
+						"updated": "20240920220438"
+					},
+					"Children": [
+						{
+							"ID": "20240920220438-ok2w0zq",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20240920220438-ok2w0zq",
+								"updated": "20240920220438"
+							},
+							"Children": [
+								{
+									"ID": "20240920220438-1cpdojf",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920220438-1cpdojf",
+										"updated": "20240920220438"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "综合难度：中等偏高"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20240920220438-wbbu61a",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20240920220438-wbbu61a",
+								"updated": "20240920220438"
+							},
+							"Children": [
+								{
+									"ID": "20240920220438-b2ngjw9",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920220438-b2ngjw9",
+										"updated": "20240920220438"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "原因"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "：尽管机器学习部分与你的软件背景匹配，但光纤通信系统本身涉及更多物理原理（如光信号传输、非线性效应等），这些超出你的主要研究领域。而光场调控与光纤通信的关联较小，因此在理解和应用通信系统的理论时，可能会有较大挑战。"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240920220438-vxhtmh4",
+					"Type": "NodeHeading",
+					"HeadingLevel": 3,
+					"Properties": {
+						"id": "20240920220438-vxhtmh4",
+						"updated": "20240920220634"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "5. "
+						},
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "strong",
+							"TextMarkTextContent": "计算全息与数字光处理（3）"
+						}
+					]
+				},
+				{
+					"ID": "20240920220438-8hqk6wt",
+					"Type": "NodeList",
+					"ListData": {},
+					"Properties": {
+						"id": "20240920220438-8hqk6wt",
+						"updated": "20240920220438"
+					},
+					"Children": [
+						{
+							"ID": "20240920220438-ome4yw4",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20240920220438-ome4yw4",
+								"updated": "20240920220438"
+							},
+							"Children": [
+								{
+									"ID": "20240920220438-rrdk26p",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920220438-rrdk26p",
+										"updated": "20240920220438"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "综合难度：较高"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20240920220438-ju2luit",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20240920220438-ju2luit",
+								"updated": "20240920220438"
+							},
+							"Children": [
+								{
+									"ID": "20240920220438-sokno9t",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920220438-sokno9t",
+										"updated": "20240920220438"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "原因"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "：全息图生成和处理涉及复杂的光学计算，尽管有现成的工具可以加速仿真，但光场调控应用在全息中可能需要深入理解相位调制、傅里叶变换等光学原理。全息成像对光场的操控精度要求高，需要强大的光学背景知识，这部分可能对物理学知识提出更多要求。"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240920220438-36fwg06",
+					"Type": "NodeHeading",
+					"HeadingLevel": 3,
+					"Properties": {
+						"id": "20240920220438-36fwg06",
+						"updated": "20240920220644"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "6. "
+						},
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "strong",
+							"TextMarkTextContent": "计算光学成像与深度学习优化（6）"
+						}
+					]
+				},
+				{
+					"ID": "20240920220438-bikh2r5",
+					"Type": "NodeList",
+					"ListData": {},
+					"Properties": {
+						"id": "20240920220438-bikh2r5",
+						"updated": "20240920220438"
+					},
+					"Children": [
+						{
+							"ID": "20240920220438-m235fz4",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20240920220438-m235fz4",
+								"updated": "20240920220438"
+							},
+							"Children": [
+								{
+									"ID": "20240920220438-9z4eaa8",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920220438-9z4eaa8",
+										"updated": "20240920220438"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "综合难度：较高"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20240920220438-egy0ibb",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20240920220438-egy0ibb",
+								"updated": "20240920220438"
+							},
+							"Children": [
+								{
+									"ID": "20240920220438-5o7wyyj",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920220438-5o7wyyj",
+										"updated": "20240920220438"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "原因"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "：结合光学成像和深度学习的优化在前沿研究中非常复杂，既需要强大的光学成像理论基础，又要求对深度学习模型的优化能力有深入理解。光场调控可能需要定制复杂的物理模型并结合深度学习算法，涉及跨领域的挑战较多，难度大。"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240920220438-qn49pib",
+					"Type": "NodeHeading",
+					"HeadingLevel": 3,
+					"Properties": {
+						"id": "20240920220438-qn49pib",
+						"updated": "20240920220659"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "综合排序总结："
+						}
+					]
+				},
+				{
+					"ID": "20240920220438-112at6x",
+					"Type": "NodeList",
+					"ListData": {
+						"Typ": 1
+					},
+					"Properties": {
+						"id": "20240920220438-112at6x",
+						"updated": "20240920220659"
+					},
+					"Children": [
+						{
+							"ID": "20240920220438-2n4tag0",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "MS4=",
+								"Num": 1
+							},
+							"Properties": {
+								"id": "20240920220438-2n4tag0",
+								"updated": "20240920220655"
+							},
+							"Children": [
+								{
+									"ID": "20240920220438-4kbzop6",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920220438-4kbzop6",
+										"updated": "20240920220655"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "光学传感与数据处理（4）— 与编程、数据处理匹配度高，光学要求低。"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20240920220438-b8ofzsk",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "Mi4=",
+								"Num": 2
+							},
+							"Properties": {
+								"id": "20240920220438-b8ofzsk",
+								"updated": "20240920220647"
+							},
+							"Children": [
+								{
+									"ID": "20240920220438-f5b7bhy",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920220438-f5b7bhy",
+										"updated": "20240920220647"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "计算机辅助光学成像与图像处理（1）— 图像处理与软件开发结合良好，光学需求适中。"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20240920220438-yolkn0j",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "My4=",
+								"Num": 3
+							},
+							"Properties": {
+								"id": "20240920220438-yolkn0j",
+								"updated": "20240920220657"
+							},
+							"Children": [
+								{
+									"ID": "20240920220438-pur3xxk",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920220438-pur3xxk",
+										"updated": "20240920220657"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "基于计算机的自由曲面光学设计（5）— 需要较多光学建模知识，但算法部分与编程背景匹配。"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20240920220438-lnaqi6j",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "NC4=",
+								"Num": 4
+							},
+							"Properties": {
+								"id": "20240920220438-lnaqi6j",
+								"updated": "20240920220650"
+							},
+							"Children": [
+								{
+									"ID": "20240920220438-wc5s2q3",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920220438-wc5s2q3",
+										"updated": "20240920220650"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "光纤通信中的机器学习应用（2）— 机器学习部分简单，但光通信物理原理复杂。"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20240920220438-dgsfdsa",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "NS4=",
+								"Num": 5
+							},
+							"Properties": {
+								"id": "20240920220438-dgsfdsa",
+								"updated": "20240920220653"
+							},
+							"Children": [
+								{
+									"ID": "20240920220438-7jamc4o",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920220438-7jamc4o",
+										"updated": "20240920220653"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "计算全息与数字光处理（3）— 光学计算复杂，光场调控精度要求高。"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20240920220438-oakyluq",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "Ni4=",
+								"Num": 6
+							},
+							"Properties": {
+								"id": "20240920220438-oakyluq",
+								"updated": "20240920220659"
+							},
+							"Children": [
+								{
+									"ID": "20240920220438-80bw9b3",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920220438-80bw9b3",
+										"updated": "20240920220659"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "计算光学成像与深度学习优化（6）— 综合光学和机器学习的深度优化，跨领域难度最大。"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240920220438-x4bd9po",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20240920220438-x4bd9po",
+						"updated": "20240920220438"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "这个排序基于你当前的知识结构和课题组方向，推荐你从相对匹配的软件工程和物理学基础出发，逐步深入光场调控相关的复杂课题。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240920220700-h1l1eib",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240920220700-h1l1eib",
+				"updated": "20240920220700"
+			}
+		},
+		{
+			"ID": "20240920221353-3aex8xe",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240920221353-3aex8xe",
+				"updated": "20240920222102"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第三次课题方向分析"
+				}
+			]
+		},
+		{
+			"ID": "20240920222102-0x1w9jq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240920222102-0x1w9jq",
+				"updated": "20240920222102"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "根据你的本科软件工程背景和研究生课题组的光场调控研究方向，我建议几个结合计算机技术和光场调控的交叉研究方向。这些方向既能利用你的编程与算法能力，也能结合光学和光场调控领域的知识，帮助你在现有的研究领域快速推进。"
+				}
+			]
+		},
+		{
+			"ID": "20240920222102-k9sf36a",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240920222102-k9sf36a",
+				"updated": "20240920222102"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "基于深度学习的光场调控优化"
+				}
+			]
+		},
+		{
+			"ID": "20240920222102-65niggp",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20240920222102-65niggp",
+				"updated": "20240920222102"
+			},
+			"Children": [
+				{
+					"ID": "20240920222102-h7ri0bb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240920222102-h7ri0bb",
+						"updated": "20240920222102"
+					},
+					"Children": [
+						{
+							"ID": "20240920222102-effmrga",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240920222102-effmrga",
+								"updated": "20240920222102"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "研究方向"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：利用深度学习算法优化光场调控系统的控制和调节性能。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240920222102-y9fmojr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240920222102-y9fmojr",
+						"updated": "20240920222102"
+					},
+					"Children": [
+						{
+							"ID": "20240920222102-mnbjaqm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240920222102-mnbjaqm",
+								"updated": "20240920222102"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "具体课题"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "："
+								}
+							]
+						},
+						{
+							"ID": "20240920222102-3kitf15",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20240920222102-3kitf15",
+								"updated": "20240920222102"
+							},
+							"Children": [
+								{
+									"ID": "20240920222102-209ibor",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920222102-209ibor",
+										"updated": "20240920222102"
+									},
+									"Children": [
+										{
+											"ID": "20240920222102-66mo3q2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920222102-66mo3q2",
+												"updated": "20240920222102"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "设计深度学习模型用于预测光场的空间分布，优化光学器件（如空间光调制器）的控制参数。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240920222102-krvuxgx",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920222102-krvuxgx",
+										"updated": "20240920222102"
+									},
+									"Children": [
+										{
+											"ID": "20240920222102-tdxk4pr",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920222102-tdxk4pr",
+												"updated": "20240920222102"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "利用生成对抗网络（GAN）提升光场成像的质量，增强光场调控系统的灵活性和精度。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240920222102-gpynz2v",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920222102-gpynz2v",
+										"updated": "20240920222102"
+									},
+									"Children": [
+										{
+											"ID": "20240920222102-6gdc3yl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920222102-6gdc3yl",
+												"updated": "20240920222102"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "开发自动化的光场调控系统，通过机器学习算法进行实时调节，实现复杂场景中的光场控制。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240920222102-46uz5tr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240920222102-46uz5tr",
+				"updated": "20240920222102"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "光场调控中的计算全息技术"
+				}
+			]
+		},
+		{
+			"ID": "20240920222102-fycrxt9",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20240920222102-fycrxt9",
+				"updated": "20240920222102"
+			},
+			"Children": [
+				{
+					"ID": "20240920222102-997z2nx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240920222102-997z2nx",
+						"updated": "20240920222102"
+					},
+					"Children": [
+						{
+							"ID": "20240920222102-vtgqohl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240920222102-vtgqohl",
+								"updated": "20240920222102"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "研究方向"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：结合计算全息技术与光场调控，实现高分辨率的全息图生成和光场操控。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240920222102-2kwcm68",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240920222102-2kwcm68",
+						"updated": "20240920222102"
+					},
+					"Children": [
+						{
+							"ID": "20240920222102-pr54mg6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240920222102-pr54mg6",
+								"updated": "20240920222102"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "具体课题"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "："
+								}
+							]
+						},
+						{
+							"ID": "20240920222102-knv6oj3",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20240920222102-knv6oj3",
+								"updated": "20240920222102"
+							},
+							"Children": [
+								{
+									"ID": "20240920222102-ixvqffn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920222102-ixvqffn",
+										"updated": "20240920222102"
+									},
+									"Children": [
+										{
+											"ID": "20240920222102-x4f4ibt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920222102-x4f4ibt",
+												"updated": "20240920222102"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "利用计算机仿真优化全息图的生成过程，并结合光场调控技术实现全息成像的高精度控制。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240920222102-hjncnta",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920222102-hjncnta",
+										"updated": "20240920222102"
+									},
+									"Children": [
+										{
+											"ID": "20240920222102-9d7ki9l",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920222102-9d7ki9l",
+												"updated": "20240920222102"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "开发快速的全息图重建算法，优化光场调控器件对相位和振幅的控制，实现动态全息显示。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240920222102-dlmmy1c",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920222102-dlmmy1c",
+										"updated": "20240920222102"
+									},
+									"Children": [
+										{
+											"ID": "20240920222102-2eun8u8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920222102-2eun8u8",
+												"updated": "20240920222102"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "研究通过光场调控技术对全息图像进行实时优化，提升全息成像的分辨率和视觉效果。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240920222102-pcwhb9s",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240920222102-pcwhb9s",
+				"updated": "20240920222102"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3. "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "基于机器学习的自适应光场调控系统"
+				}
+			]
+		},
+		{
+			"ID": "20240920222102-de998jn",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20240920222102-de998jn",
+				"updated": "20240920222102"
+			},
+			"Children": [
+				{
+					"ID": "20240920222102-q5eg73j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240920222102-q5eg73j",
+						"updated": "20240920222102"
+					},
+					"Children": [
+						{
+							"ID": "20240920222102-pjl3ra6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240920222102-pjl3ra6",
+								"updated": "20240920222102"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "研究方向"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：开发基于机器学习的自适应光场调控算法，用于动态环境中的光场控制。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240920222102-tin9k39",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240920222102-tin9k39",
+						"updated": "20240920222102"
+					},
+					"Children": [
+						{
+							"ID": "20240920222102-19qjg6s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240920222102-19qjg6s",
+								"updated": "20240920222102"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "具体课题"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "："
+								}
+							]
+						},
+						{
+							"ID": "20240920222102-e9q3lhz",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20240920222102-e9q3lhz",
+								"updated": "20240920222102"
+							},
+							"Children": [
+								{
+									"ID": "20240920222102-kg0qtyp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920222102-kg0qtyp",
+										"updated": "20240920222102"
+									},
+									"Children": [
+										{
+											"ID": "20240920222102-8lgfzk8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920222102-8lgfzk8",
+												"updated": "20240920222102"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "设计机器学习算法，通过实时传感数据调整光场调控系统的设置，实现光场自适应调节。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240920222102-a8qlxh5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920222102-a8qlxh5",
+										"updated": "20240920222102"
+									},
+									"Children": [
+										{
+											"ID": "20240920222102-897lp45",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920222102-897lp45",
+												"updated": "20240920222102"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "利用强化学习（Reinforcement Learning）优化光场调控器件的操作，使其在不确定环境中自动调整。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240920222102-f3inxc3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920222102-f3inxc3",
+										"updated": "20240920222102"
+									},
+									"Children": [
+										{
+											"ID": "20240920222102-r6dst31",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920222102-r6dst31",
+												"updated": "20240920222102"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "研究基于神经网络的光场调控系统，实现复杂光学场景中的自动化调整和优化。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240920222102-kgu2xzp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240920222102-kgu2xzp",
+				"updated": "20240920222102"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4. "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "光场调控中的计算成像优化"
+				}
+			]
+		},
+		{
+			"ID": "20240920222102-gf5g82g",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20240920222102-gf5g82g",
+				"updated": "20240920222102"
+			},
+			"Children": [
+				{
+					"ID": "20240920222102-rj0285d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240920222102-rj0285d",
+						"updated": "20240920222102"
+					},
+					"Children": [
+						{
+							"ID": "20240920222102-23s2bql",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240920222102-23s2bql",
+								"updated": "20240920222102"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "研究方向"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：结合计算成像技术，通过算法优化光场调控系统的成像质量和性能。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240920222102-z3e2jmf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240920222102-z3e2jmf",
+						"updated": "20240920222102"
+					},
+					"Children": [
+						{
+							"ID": "20240920222102-19z6nnx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240920222102-19z6nnx",
+								"updated": "20240920222102"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "具体课题"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "："
+								}
+							]
+						},
+						{
+							"ID": "20240920222102-k9n0lx7",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20240920222102-k9n0lx7",
+								"updated": "20240920222102"
+							},
+							"Children": [
+								{
+									"ID": "20240920222102-t5d53hq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920222102-t5d53hq",
+										"updated": "20240920222102"
+									},
+									"Children": [
+										{
+											"ID": "20240920222102-q3veuov",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920222102-q3veuov",
+												"updated": "20240920222102"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "利用图像处理算法对光场调控的成像数据进行后处理，提升图像的分辨率和信噪比。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240920222102-d3c41hm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920222102-d3c41hm",
+										"updated": "20240920222102"
+									},
+									"Children": [
+										{
+											"ID": "20240920222102-lqtyg98",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920222102-lqtyg98",
+												"updated": "20240920222102"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "开发基于光场信息的重建算法，结合计算成像技术优化调控器件在光场生成中的表现。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240920222102-6q333lc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920222102-6q333lc",
+										"updated": "20240920222102"
+									},
+									"Children": [
+										{
+											"ID": "20240920222102-oknr1s2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920222102-oknr1s2",
+												"updated": "20240920222102"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "利用深度学习模型进行计算成像的逆问题求解，提升光场调控系统在复杂环境下的成像能力。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240920222102-82k87ip",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240920222102-82k87ip",
+				"updated": "20240920222102"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5. "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "基于光场调控的高效光子计算"
+				}
+			]
+		},
+		{
+			"ID": "20240920222102-dmhk2kf",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20240920222102-dmhk2kf",
+				"updated": "20240920222102"
+			},
+			"Children": [
+				{
+					"ID": "20240920222102-9zlsfls",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240920222102-9zlsfls",
+						"updated": "20240920222102"
+					},
+					"Children": [
+						{
+							"ID": "20240920222102-jh7jjr2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240920222102-jh7jjr2",
+								"updated": "20240920222102"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "研究方向"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：利用光场调控技术构建光子计算系统，实现光计算任务的高效处理。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240920222102-voea4ik",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240920222102-voea4ik",
+						"updated": "20240920222102"
+					},
+					"Children": [
+						{
+							"ID": "20240920222102-dypvqp7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240920222102-dypvqp7",
+								"updated": "20240920222102"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "具体课题"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "："
+								}
+							]
+						},
+						{
+							"ID": "20240920222102-8c9okzv",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20240920222102-8c9okzv",
+								"updated": "20240920222102"
+							},
+							"Children": [
+								{
+									"ID": "20240920222102-gsssapj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920222102-gsssapj",
+										"updated": "20240920222102"
+									},
+									"Children": [
+										{
+											"ID": "20240920222102-eh5so0r",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920222102-eh5so0r",
+												"updated": "20240920222102"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "开发基于光场调控的光学矩阵乘法器件，用于加速深度学习模型的训练与推理。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240920222102-dqlzqyo",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920222102-dqlzqyo",
+										"updated": "20240920222102"
+									},
+									"Children": [
+										{
+											"ID": "20240920222102-qtuyojl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920222102-qtuyojl",
+												"updated": "20240920222102"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "研究通过光场调控实现多模光计算系统的设计，探索光计算在特定任务中的应用。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240920222102-ygi7tpu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920222102-ygi7tpu",
+										"updated": "20240920222102"
+									},
+									"Children": [
+										{
+											"ID": "20240920222102-j80s83y",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920222102-j80s83y",
+												"updated": "20240920222102"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "优化光场调控系统用于光学逻辑运算，探索其在大规模并行计算中的潜力。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240920222102-5jtppob",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240920222102-5jtppob",
+				"updated": "20240920222102"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6. "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "光场调控的虚拟现实和增强现实应用"
+				}
+			]
+		},
+		{
+			"ID": "20240920222102-niw049t",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20240920222102-niw049t",
+				"updated": "20240920222102"
+			},
+			"Children": [
+				{
+					"ID": "20240920222102-2hb4c6b",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240920222102-2hb4c6b",
+						"updated": "20240920222102"
+					},
+					"Children": [
+						{
+							"ID": "20240920222102-zivrak1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240920222102-zivrak1",
+								"updated": "20240920222102"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "研究方向"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：将光场调控技术与虚拟现实（VR）或增强现实（AR）结合，实现更高沉浸感和真实性的视觉体验。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240920222102-qgjiat7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240920222102-qgjiat7",
+						"updated": "20240920222102"
+					},
+					"Children": [
+						{
+							"ID": "20240920222102-7hnutyt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240920222102-7hnutyt",
+								"updated": "20240920222102"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "具体课题"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "："
+								}
+							]
+						},
+						{
+							"ID": "20240920222102-vwbldl0",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20240920222102-vwbldl0",
+								"updated": "20240920222102"
+							},
+							"Children": [
+								{
+									"ID": "20240920222102-n7k97h8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920222102-n7k97h8",
+										"updated": "20240920222102"
+									},
+									"Children": [
+										{
+											"ID": "20240920222102-uxwf2yf",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920222102-uxwf2yf",
+												"updated": "20240920222102"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "开发基于光场调控的VR/AR显示系统，优化光场的控制和显示效果，提升沉浸感。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240920222102-6k7j8pa",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920222102-6k7j8pa",
+										"updated": "20240920222102"
+									},
+									"Children": [
+										{
+											"ID": "20240920222102-7gb8q6u",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920222102-7gb8q6u",
+												"updated": "20240920222102"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "利用深度学习技术优化光场调控中的视觉处理，增强现实世界和虚拟图像的融合效果。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240920222102-2aa6ee8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920222102-2aa6ee8",
+										"updated": "20240920222102"
+									},
+									"Children": [
+										{
+											"ID": "20240920222102-9virkjb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920222102-9virkjb",
+												"updated": "20240920222102"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "研究光场调控在多视角显示中的应用，实现更高分辨率和立体感的全息成像。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240920222102-ztau0hd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240920222102-ztau0hd",
+				"updated": "20241214101823"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "7. "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "基于元宇宙的光场调控模拟平台"
+				}
+			]
+		},
+		{
+			"ID": "20240920222102-zra8xqc",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20240920222102-zra8xqc",
+				"updated": "20240920222102"
+			},
+			"Children": [
+				{
+					"ID": "20240920222102-2wvznkq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240920222102-2wvznkq",
+						"updated": "20240920222102"
+					},
+					"Children": [
+						{
+							"ID": "20240920222102-5f7jj63",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240920222102-5f7jj63",
+								"updated": "20240920222102"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "研究方向"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：开发基于计算机仿真的虚拟光场调控平台，用于实验和教学中的光场调控模拟。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240920222102-7mbxec7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20240920222102-7mbxec7",
+						"updated": "20240920222102"
+					},
+					"Children": [
+						{
+							"ID": "20240920222102-lnisrqy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240920222102-lnisrqy",
+								"updated": "20240920222102"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "具体课题"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "："
+								}
+							]
+						},
+						{
+							"ID": "20240920222102-1h5c4j6",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20240920222102-1h5c4j6",
+								"updated": "20240920222102"
+							},
+							"Children": [
+								{
+									"ID": "20240920222102-pr4gn4w",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920222102-pr4gn4w",
+										"updated": "20240920222102"
+									},
+									"Children": [
+										{
+											"ID": "20240920222102-61xljdk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920222102-61xljdk",
+												"updated": "20240920222102"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "设计基于元宇宙概念的光场调控虚拟实验平台，通过计算机模拟实现复杂光场调控场景的重现。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240920222102-m32e1dd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920222102-m32e1dd",
+										"updated": "20240920222102"
+									},
+									"Children": [
+										{
+											"ID": "20240920222102-o78d5ic",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920222102-o78d5ic",
+												"updated": "20240920222102"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "开发用于光场调控实验的实时仿真工具，结合图形处理技术和物理引擎进行光场的动态演示。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240920222102-mutk14e",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20240920222102-mutk14e",
+										"updated": "20240920222102"
+									},
+									"Children": [
+										{
+											"ID": "20240920222102-b8i34wi",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20240920222102-b8i34wi",
+												"updated": "20240920222102"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "结合虚拟现实技术，开发互动式光场调控模拟平台，用于教学和科研中的实验训练。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240920222102-qh2sonf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240920222102-qh2sonf",
+				"updated": "20240920222102"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这些课题结合了你在软件工程方面的优势，并且与光场调控的物理学基础密切相关，有助于快速展开研究并推动项目进展。"
+				}
+			]
+		},
+		{
+			"ID": "20240920222106-3c4rpsq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240920222106-3c4rpsq",
+				"updated": "20240920222106"
+			}
+		},
+		{
+			"ID": "20240920222106-61f1hcu",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20240920222106-61f1hcu",
+				"updated": "20240920222118"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20240920222118-8qy2edn",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20240920222118-8qy2edn",
+						"updated": "20240920222118"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "根据光场调控相关的技术复杂性、软件工程背景和物理光学知识的结合，我将这几个课题的进展难度进行排序，按照从较易到较难排列，并简要说明排序依据。"
+						}
+					]
+				},
+				{
+					"ID": "20240920222118-0el89rt",
+					"Type": "NodeHeading",
+					"HeadingLevel": 3,
+					"Properties": {
+						"id": "20240920222118-0el89rt",
+						"updated": "20240920222118"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "1. "
+						},
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "strong",
+							"TextMarkTextContent": "光场调控中的计算成像优化"
+						}
+					]
+				},
+				{
+					"ID": "20240920222118-7fwmdt5",
+					"Type": "NodeList",
+					"ListData": {},
+					"Properties": {
+						"id": "20240920222118-7fwmdt5",
+						"updated": "20240920222118"
+					},
+					"Children": [
+						{
+							"ID": "20240920222118-ngrvlhf",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20240920222118-ngrvlhf",
+								"updated": "20240920222118"
+							},
+							"Children": [
+								{
+									"ID": "20240920222118-3qwu88h",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920222118-3qwu88h",
+										"updated": "20240920222118"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "综合难度：较低"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20240920222118-s48te22",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20240920222118-s48te22",
+								"updated": "20240920222118"
+							},
+							"Children": [
+								{
+									"ID": "20240920222118-yiqdnxm",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920222118-yiqdnxm",
+										"updated": "20240920222118"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "原因"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "：你软件工程的背景可以很快应用于计算成像中的图像处理和算法优化。光场调控涉及成像质量的提升，而图像处理工具（如OpenCV、TensorFlow等）较为成熟，且物理光学知识要求较低，主要集中于如何优化已有成像系统的性能。"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240920222118-b6dw1st",
+					"Type": "NodeHeading",
+					"HeadingLevel": 3,
+					"Properties": {
+						"id": "20240920222118-b6dw1st",
+						"updated": "20240920222118"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "2. "
+						},
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "strong",
+							"TextMarkTextContent": "基于深度学习的光场调控优化"
+						}
+					]
+				},
+				{
+					"ID": "20240920222118-o9chm7n",
+					"Type": "NodeList",
+					"ListData": {},
+					"Properties": {
+						"id": "20240920222118-o9chm7n",
+						"updated": "20240920222118"
+					},
+					"Children": [
+						{
+							"ID": "20240920222118-v3hlgin",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20240920222118-v3hlgin",
+								"updated": "20240920222118"
+							},
+							"Children": [
+								{
+									"ID": "20240920222118-7ryydyk",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920222118-7ryydyk",
+										"updated": "20240920222118"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "综合难度：较低至中等"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20240920222118-dqnd0gm",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20240920222118-dqnd0gm",
+								"updated": "20240920222118"
+							},
+							"Children": [
+								{
+									"ID": "20240920222118-kyrm1rj",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920222118-kyrm1rj",
+										"updated": "20240920222118"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "原因"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "：深度学习模型的应用已经在许多领域广泛应用，优化光场调控系统的控制性能是一项相对清晰的任务。你可以利用已有的深度学习工具和框架实现算法训练，但要考虑如何将深度学习与物理系统结合。光学背景要求不高，主要难度在于模型的训练和优化。"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240920222118-7ecpadt",
+					"Type": "NodeHeading",
+					"HeadingLevel": 3,
+					"Properties": {
+						"id": "20240920222118-7ecpadt",
+						"updated": "20240920222118"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "3. "
+						},
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "strong",
+							"TextMarkTextContent": "光场调控中的虚拟现实和增强现实应用"
+						}
+					]
+				},
+				{
+					"ID": "20240920222118-mmah36f",
+					"Type": "NodeList",
+					"ListData": {},
+					"Properties": {
+						"id": "20240920222118-mmah36f",
+						"updated": "20240920222118"
+					},
+					"Children": [
+						{
+							"ID": "20240920222118-3kzggnp",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20240920222118-3kzggnp",
+								"updated": "20240920222118"
+							},
+							"Children": [
+								{
+									"ID": "20240920222118-ehhuu4t",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920222118-ehhuu4t",
+										"updated": "20240920222118"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "综合难度：中等"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20240920222118-f3glfde",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20240920222118-f3glfde",
+								"updated": "20240920222118"
+							},
+							"Children": [
+								{
+									"ID": "20240920222118-m7xikp0",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920222118-m7xikp0",
+										"updated": "20240920222118"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "原因"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "：将光场调控与VR/AR技术结合虽然需要一定的光学知识，但主要挑战在于如何开发和优化系统的显示效果和沉浸感。虚拟现实技术已有成熟的开发环境，你的软件背景在这里能发挥重要作用，光场调控的难度主要集中在显示优化和光场控制的视觉呈现上。"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240920222118-mycm3db",
+					"Type": "NodeHeading",
+					"HeadingLevel": 3,
+					"Properties": {
+						"id": "20240920222118-mycm3db",
+						"updated": "20240920222118"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "4. "
+						},
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "strong",
+							"TextMarkTextContent": "基于机器学习的自适应光场调控系统"
+						}
+					]
+				},
+				{
+					"ID": "20240920222118-b3uedtf",
+					"Type": "NodeList",
+					"ListData": {},
+					"Properties": {
+						"id": "20240920222118-b3uedtf",
+						"updated": "20240920222118"
+					},
+					"Children": [
+						{
+							"ID": "20240920222118-focdvep",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20240920222118-focdvep",
+								"updated": "20240920222118"
+							},
+							"Children": [
+								{
+									"ID": "20240920222118-y2rdcqr",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920222118-y2rdcqr",
+										"updated": "20240920222118"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "综合难度：中等"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20240920222118-x7zt9hh",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20240920222118-x7zt9hh",
+								"updated": "20240920222118"
+							},
+							"Children": [
+								{
+									"ID": "20240920222118-5bhd2zk",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920222118-5bhd2zk",
+										"updated": "20240920222118"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "原因"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "：这个方向要求在实时传感数据和光场调控系统之间建立复杂的反馈机制，机器学习算法（如强化学习）用于自动化调节光场。尽管机器学习部分与软件工程背景契合，但光场调控系统的物理实现和算法实时性调节涉及较多复杂的物理过程。"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240920222118-76m0uh9",
+					"Type": "NodeHeading",
+					"HeadingLevel": 3,
+					"Properties": {
+						"id": "20240920222118-76m0uh9",
+						"updated": "20240920222118"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "5. "
+						},
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "strong",
+							"TextMarkTextContent": "基于光场调控的高效光子计算"
+						}
+					]
+				},
+				{
+					"ID": "20240920222118-942jyxz",
+					"Type": "NodeList",
+					"ListData": {},
+					"Properties": {
+						"id": "20240920222118-942jyxz",
+						"updated": "20240920222118"
+					},
+					"Children": [
+						{
+							"ID": "20240920222118-4h444r5",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20240920222118-4h444r5",
+								"updated": "20240920222118"
+							},
+							"Children": [
+								{
+									"ID": "20240920222118-bvfud58",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920222118-bvfud58",
+										"updated": "20240920222118"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "综合难度：中等偏高"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20240920222118-6vy674a",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20240920222118-6vy674a",
+								"updated": "20240920222118"
+							},
+							"Children": [
+								{
+									"ID": "20240920222118-o1kk4sm",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920222118-o1kk4sm",
+										"updated": "20240920222118"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "原因"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "：光子计算需要对光学矩阵乘法等基本物理过程有深入理解，而光场调控用于实现高效光计算具有较高的技术难度。尽管你在软件工程方面有一定优势，光计算涉及的物理模型和设备设计难度较大，需要较强的物理光学背景知识。"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240920222118-2alati3",
+					"Type": "NodeHeading",
+					"HeadingLevel": 3,
+					"Properties": {
+						"id": "20240920222118-2alati3",
+						"updated": "20240920222118"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "6. "
+						},
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "strong",
+							"TextMarkTextContent": "光场调控中的计算全息技术"
+						}
+					]
+				},
+				{
+					"ID": "20240920222118-dis0mlg",
+					"Type": "NodeList",
+					"ListData": {},
+					"Properties": {
+						"id": "20240920222118-dis0mlg",
+						"updated": "20240920222118"
+					},
+					"Children": [
+						{
+							"ID": "20240920222118-sjiybaq",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20240920222118-sjiybaq",
+								"updated": "20240920222118"
+							},
+							"Children": [
+								{
+									"ID": "20240920222118-oim4ufy",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920222118-oim4ufy",
+										"updated": "20240920222118"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "综合难度：较高"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20240920222118-9bp5jf0",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20240920222118-9bp5jf0",
+								"updated": "20240920222118"
+							},
+							"Children": [
+								{
+									"ID": "20240920222118-oh43dh6",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920222118-oh43dh6",
+										"updated": "20240920222118"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "原因"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "：全息成像和光场调控的结合需要对全息技术、光场操控和复杂的相位调制有较深入的理解。虽然有一些计算工具可以帮助模拟全息图的生成和优化，但光学系统的精确调控对物理学知识有较高要求。实时全息生成也需要高效算法和硬件的支持。"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240920222118-vyw7rte",
+					"Type": "NodeHeading",
+					"HeadingLevel": 3,
+					"Properties": {
+						"id": "20240920222118-vyw7rte",
+						"updated": "20240920222118"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "7. "
+						},
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "strong",
+							"TextMarkTextContent": "基于元宇宙的光场调控模拟平台"
+						}
+					]
+				},
+				{
+					"ID": "20240920222118-gj5fyzw",
+					"Type": "NodeList",
+					"ListData": {},
+					"Properties": {
+						"id": "20240920222118-gj5fyzw",
+						"updated": "20240920222118"
+					},
+					"Children": [
+						{
+							"ID": "20240920222118-wy1q876",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20240920222118-wy1q876",
+								"updated": "20240920222118"
+							},
+							"Children": [
+								{
+									"ID": "20240920222118-zjjgjhy",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920222118-zjjgjhy",
+										"updated": "20240920222118"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "综合难度：较高"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20240920222118-x57h16n",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20240920222118-x57h16n",
+								"updated": "20240920222118"
+							},
+							"Children": [
+								{
+									"ID": "20240920222118-dx6azra",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920222118-dx6azra",
+										"updated": "20240920222118"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "原因"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "：开发这样一个综合性的平台需要高度的系统设计能力和仿真技术，不仅涉及光场调控的物理模拟，还要结合虚拟现实、图形处理等复杂技术。这个方向涉及到较多交叉领域（光学、仿真、虚拟现实等），开发难度较大，需要大量的编程、物理建模和跨领域协调。"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240920222118-s5l469c",
+					"Type": "NodeHeading",
+					"HeadingLevel": 3,
+					"Properties": {
+						"id": "20240920222118-s5l469c",
+						"updated": "20240920222118"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "综合排序总结："
+						}
+					]
+				},
+				{
+					"ID": "20240920222118-jh9ocr4",
+					"Type": "NodeList",
+					"ListData": {
+						"Typ": 1
+					},
+					"Properties": {
+						"id": "20240920222118-jh9ocr4",
+						"updated": "20240920222118"
+					},
+					"Children": [
+						{
+							"ID": "20240920222118-er043gl",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "MS4=",
+								"Num": 1
+							},
+							"Properties": {
+								"id": "20240920222118-er043gl",
+								"updated": "20240920222118"
+							},
+							"Children": [
+								{
+									"ID": "20240920222118-n5nl4be",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920222118-n5nl4be",
+										"updated": "20240920222118"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "光场调控中的计算成像优化"
+										},
+										{
+											"Type": "NodeText",
+											"Data": " — 相对直接，算法优化与图像处理结合紧密。"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20240920222118-ly6btjl",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "Mi4=",
+								"Num": 2
+							},
+							"Properties": {
+								"id": "20240920222118-ly6btjl",
+								"updated": "20240920222118"
+							},
+							"Children": [
+								{
+									"ID": "20240920222118-u5mzolv",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920222118-u5mzolv",
+										"updated": "20240920222118"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "基于深度学习的光场调控优化"
+										},
+										{
+											"Type": "NodeText",
+											"Data": " — 深度学习与光场调控结合较为清晰，工具成熟。"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20240920222118-6mkz6lh",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "My4=",
+								"Num": 3
+							},
+							"Properties": {
+								"id": "20240920222118-6mkz6lh",
+								"updated": "20240920222118"
+							},
+							"Children": [
+								{
+									"ID": "20240920222118-ib9ou4g",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920222118-ib9ou4g",
+										"updated": "20240920222118"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "光场调控中的虚拟现实和增强现实应用"
+										},
+										{
+											"Type": "NodeText",
+											"Data": " — 开发环境成熟，难点在光场调控与视觉呈现的结合。"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20240920222118-qsujrx6",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "NC4=",
+								"Num": 4
+							},
+							"Properties": {
+								"id": "20240920222118-qsujrx6",
+								"updated": "20240920222118"
+							},
+							"Children": [
+								{
+									"ID": "20240920222118-ctng313",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920222118-ctng313",
+										"updated": "20240920222118"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "基于机器学习的自适应光场调控系统"
+										},
+										{
+											"Type": "NodeText",
+											"Data": " — 实时调节涉及较复杂的反馈机制和光学物理模型。"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20240920222118-68baezd",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "NS4=",
+								"Num": 5
+							},
+							"Properties": {
+								"id": "20240920222118-68baezd",
+								"updated": "20240920222118"
+							},
+							"Children": [
+								{
+									"ID": "20240920222118-nf4posx",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920222118-nf4posx",
+										"updated": "20240920222118"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "基于光场调控的高效光子计算"
+										},
+										{
+											"Type": "NodeText",
+											"Data": " — 光子计算涉及光学知识，光场调控需要物理和算法的结合。"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20240920222118-tymfxoy",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "Ni4=",
+								"Num": 6
+							},
+							"Properties": {
+								"id": "20240920222118-tymfxoy",
+								"updated": "20240920222118"
+							},
+							"Children": [
+								{
+									"ID": "20240920222118-yuiecfg",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920222118-yuiecfg",
+										"updated": "20240920222118"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "光场调控中的计算全息技术"
+										},
+										{
+											"Type": "NodeText",
+											"Data": " — 全息技术与光场调控结合较复杂，算法和物理知识要求高。"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20240920222118-n767sp5",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "Ny4=",
+								"Num": 7
+							},
+							"Properties": {
+								"id": "20240920222118-n767sp5",
+								"updated": "20240920222118"
+							},
+							"Children": [
+								{
+									"ID": "20240920222118-jkfopzi",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240920222118-jkfopzi",
+										"updated": "20240920222118"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "基于元宇宙的光场调控模拟平台"
+										},
+										{
+											"Type": "NodeText",
+											"Data": " — 涉及大量技术交叉和系统集成，开发难度最大。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20241214101823-xwz127j",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20241214101823-xwz127j",
+				"updated": "20241214101842"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第四次课题方向分析"
+				}
+			]
+		},
+		{
+			"ID": "20241214101830-hfpbeto",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20241214101830-hfpbeto",
+				"updated": "20241214101842"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通过光来测量血压"
+				}
+			]
+		}
+	]
+}

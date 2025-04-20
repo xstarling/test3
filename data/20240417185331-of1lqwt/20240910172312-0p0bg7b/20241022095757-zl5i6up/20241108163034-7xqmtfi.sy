@@ -1,0 +1,29 @@
+{
+	"ID": "20241108163034-7xqmtfi",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241108163034-7xqmtfi",
+		"title": "案例素材",
+		"type": "doc",
+		"updated": "20241109112240"
+	},
+	"Children": [
+		{
+			"ID": "20241108163034-aut73i2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241108163034-aut73i2",
+				"updated": "20241108163034"
+			}
+		},
+		{
+			"ID": "20241109112240-tjc4ufu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241109112240-tjc4ufu",
+				"updated": "20241109112240"
+			}
+		}
+	]
+}

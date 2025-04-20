@@ -1,0 +1,21 @@
+{
+	"ID": "20240417225715-u3az350",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240417225715-u3az350",
+		"title": "4.信息系统管理",
+		"type": "doc",
+		"updated": "20240425160727"
+	},
+	"Children": [
+		{
+			"ID": "20240417225715-qhsr5fw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417225715-qhsr5fw",
+				"updated": "20240417225715"
+			}
+		}
+	]
+}

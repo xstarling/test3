@@ -1,0 +1,189 @@
+{
+	"ID": "20240427160916-qfd7n46",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240427160916-qfd7n46",
+		"title": "高项总结",
+		"type": "doc",
+		"updated": "20240518185409"
+	},
+	"Children": [
+		{
+			"ID": "20240427160927-lyw7buj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240427160927-lyw7buj",
+				"updated": "20240427160928"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://zhuanlan.zhihu.com/p/479382098",
+					"TextMarkTextContent": "PMP相关的十八种图总结及图例 - 知乎 (zhihu.com)"
+				}
+			]
+		},
+		{
+			"ID": "20240427160916-4w7llnc",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20240427160916-4w7llnc",
+				"updated": "20240518185409"
+			},
+			"Children": [
+				{
+					"ID": "20240518185348-hinv6f9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20240518185348-hinv6f9",
+						"updated": "20240518185348"
+					},
+					"Children": [
+						{
+							"ID": "20240518185348-b1p3tpq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240518185348-b1p3tpq",
+								"updated": "20240518185348"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "成本估计方法"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240518185350-aul8cd6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20240518185350-aul8cd6"
+					},
+					"Children": [
+						{
+							"ID": "20240518185350-uny4qze",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240518185350-uny4qze",
+								"updated": "20240518185359"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "各类图像"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240518185400-gmvqoyg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20240518185400-gmvqoyg"
+					},
+					"Children": [
+						{
+							"ID": "20240518185400-8xxwgkz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240518185400-8xxwgkz",
+								"updated": "20240518185404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数据分析"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240518185404-zvc19kt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20240518185404-zvc19kt"
+					},
+					"Children": [
+						{
+							"ID": "20240518185404-fhm41i6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240518185404-fhm41i6",
+								"updated": "20240518185406"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数据收集"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240518185406-9u8yoyj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20240518185406-9u8yoyj",
+						"updated": "20240518185409"
+					},
+					"Children": [
+						{
+							"ID": "20240518185406-nkofig5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240518185406-nkofig5",
+								"updated": "20240518185409"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数据表现"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

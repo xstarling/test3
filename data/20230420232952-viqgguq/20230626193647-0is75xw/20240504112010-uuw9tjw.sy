@@ -1,0 +1,304 @@
+{
+	"ID": "20240504112010-uuw9tjw",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240504112010-uuw9tjw",
+		"title": "社保",
+		"type": "doc",
+		"updated": "20240504113316"
+	},
+	"Children": [
+		{
+			"ID": "20240504112019-efggrgf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240504112019-efggrgf",
+				"updated": "20240504112047"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "工作读研社保"
+				}
+			]
+		},
+		{
+			"ID": "20240504113247-qwon9eh",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20240504113247-qwon9eh",
+				"updated": "20240504113316"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20240504113247-fc7695x",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20240504113247-fc7695x",
+						"updated": "20240504113252"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "杭州社保局："
+						}
+					]
+				},
+				{
+					"ID": "20240504113252-gv6okex",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20240504113252-gv6okex",
+						"updated": "20240504113256"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "成都社保局："
+						}
+					]
+				},
+				{
+					"ID": "20240504113258-e57nmzb",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20240504113258-e57nmzb",
+						"updated": "20240504113316"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "打电话咨询一下，如果处理，千万不能问公司\t"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240504112300-0zvejwa",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20240504112300-0zvejwa",
+				"updated": "20240504112047"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "医疗和养老保险"
+				}
+			]
+		},
+		{
+			"ID": "20240504112126-dbpb4xi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240504112126-dbpb4xi",
+				"updated": "20240504112047"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "医疗保险（15年）"
+				}
+			]
+		},
+		{
+			"ID": "20240504112218-476lixj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240504112218-476lixj",
+				"updated": "20240504112047"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "养老保险（20年）"
+				}
+			]
+		},
+		{
+			"ID": "20240504112231-abt4s4l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240504112231-abt4s4l",
+				"updated": "20240504112047"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "累计缴纳年份进行办理退休的"
+				}
+			]
+		},
+		{
+			"ID": "20240504112256-v9uldzv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240504112256-v9uldzv",
+				"updated": "20240504112047"
+			}
+		},
+		{
+			"ID": "20240504112205-tedn2f3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240504112205-tedn2f3",
+				"updated": "20240504112047"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学校按年缴纳学校医疗保险（不计入累计医疗保险）"
+				}
+			]
+		},
+		{
+			"ID": "20240504112430-wxf7ol7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240504112430-wxf7ol7",
+				"updated": "20240504112047"
+			}
+		},
+		{
+			"ID": "20240504112431-g191ppe",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20240504112431-g191ppe",
+				"updated": "20240504112047"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "异地社保办理（医疗和社保）"
+				}
+			]
+		},
+		{
+			"ID": "20240504112454-fede0s8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240504112454-fede0s8",
+				"updated": "20240504112047"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "转养老和医疗保险：咨询异地办理局"
+				}
+			]
+		},
+		{
+			"ID": "20240504112010-u0imvf9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240504112010-u0imvf9",
+				"updated": "20240504112047"
+			}
+		},
+		{
+			"ID": "20240504112611-498bdm5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20240504112611-498bdm5",
+				"updated": "20240504112047"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "应届生身份"
+				}
+			]
+		},
+		{
+			"ID": "20240504112532-qoo5u47",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240504112532-qoo5u47",
+				"updated": "20240504112047"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一定要断交社保，否则可能会导致应届生身份失效"
+				}
+			]
+		},
+		{
+			"ID": "20240504112815-6jbshxu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240504112815-6jbshxu",
+				"updated": "20240504112047"
+			}
+		},
+		{
+			"ID": "20240504112815-vc5d77f",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20240504112815-vc5d77f",
+				"updated": "20240504112047"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "社保转移"
+				}
+			]
+		},
+		{
+			"ID": "20240504112820-8jtnzuc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240504112820-8jtnzuc",
+				"updated": "20240504112047"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "社保包含：养老、医疗、失业、生育、工作"
+				}
+			]
+		},
+		{
+			"ID": "20240504112934-69751ku",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240504112934-69751ku",
+				"updated": "20240504112047"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可转移：养老、医疗、失业"
+				}
+			]
+		},
+		{
+			"ID": "20240504113015-ebgj1dz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240504113015-ebgj1dz",
+				"updated": "20240504112047"
+			}
+		},
+		{
+			"ID": "20240504113244-1o5s4ih",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240504113244-1o5s4ih",
+				"updated": "20240504112047"
+			}
+		}
+	]
+}

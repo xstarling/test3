@@ -1,0 +1,21 @@
+{
+	"ID": "20241106113625-mso5280",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241106113625-mso5280",
+		"title": "信息安全技术基础知识",
+		"type": "doc",
+		"updated": "20241106114119"
+	},
+	"Children": [
+		{
+			"ID": "20241106113625-mh8dzmr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241106113625-mh8dzmr",
+				"updated": "20241106114119"
+			}
+		}
+	]
+}

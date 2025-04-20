@@ -1,0 +1,21 @@
+{
+	"ID": "20241022100820-28wdujn",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241022100820-28wdujn",
+		"title": "计算机基础知识",
+		"type": "doc",
+		"updated": "20241022100858"
+	},
+	"Children": [
+		{
+			"ID": "20241022100820-wn1a3no",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022100820-wn1a3no",
+				"updated": "20241022100820"
+			}
+		}
+	]
+}

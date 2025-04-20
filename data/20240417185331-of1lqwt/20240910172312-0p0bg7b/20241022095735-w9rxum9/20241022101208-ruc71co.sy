@@ -1,0 +1,21 @@
+{
+	"ID": "20241022101208-ruc71co",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241022101208-ruc71co",
+		"title": "UML序列图",
+		"type": "doc",
+		"updated": "20241022101224"
+	},
+	"Children": [
+		{
+			"ID": "20241022101208-25u5n3j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022101208-25u5n3j",
+				"updated": "20241022101208"
+			}
+		}
+	]
+}

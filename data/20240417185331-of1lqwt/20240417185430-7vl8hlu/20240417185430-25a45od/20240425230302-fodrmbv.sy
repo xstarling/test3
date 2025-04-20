@@ -1,0 +1,114 @@
+{
+	"ID": "20240425230302-fodrmbv",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240425230302-fodrmbv",
+		"title": "13.项目资源管理",
+		"type": "doc",
+		"updated": "20240525234208"
+	},
+	"Children": [
+		{
+			"ID": "20240425232624-ulgdiev",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240425232624-ulgdiev",
+				"updated": "20240425232624"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20240425232624-xv5w0ug.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20240426194221-rqhaqvs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240426194221-rqhaqvs",
+				"updated": "20240426194221"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20240426194221-eq8wie5.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20240525234208-3ybm8yy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240525234208-3ybm8yy"
+			}
+		}
+	]
+}

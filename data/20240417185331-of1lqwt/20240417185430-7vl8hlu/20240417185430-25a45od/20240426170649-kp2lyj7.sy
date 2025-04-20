@@ -1,0 +1,60 @@
+{
+	"ID": "20240426170649-kp2lyj7",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240426170649-kp2lyj7",
+		"title": "14.项目沟通管理",
+		"type": "doc",
+		"updated": "20240427000512"
+	},
+	"Children": [
+		{
+			"ID": "20240427000512-5sfvars",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240427000512-5sfvars",
+				"updated": "20240427000512"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20240427000512-9r9chzl.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		}
+	]
+}

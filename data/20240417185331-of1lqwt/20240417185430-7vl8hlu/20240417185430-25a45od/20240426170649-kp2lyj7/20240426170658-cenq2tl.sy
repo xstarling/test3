@@ -1,0 +1,28 @@
+{
+	"ID": "20240426170658-cenq2tl",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240426170658-cenq2tl",
+		"title": "随堂练习题",
+		"type": "doc",
+		"updated": "20240426170706"
+	},
+	"Children": [
+		{
+			"ID": "20240426170706-2hdm857",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240426170706-2hdm857"
+			}
+		},
+		{
+			"ID": "20240426170658-6zk0rxf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240426170658-6zk0rxf",
+				"updated": "20240426170658"
+			}
+		}
+	]
+}

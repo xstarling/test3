@@ -1,0 +1,21 @@
+{
+	"ID": "20240817113119-nrtwybl",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240817113119-nrtwybl",
+		"title": "听力",
+		"type": "doc",
+		"updated": "20240817113142"
+	},
+	"Children": [
+		{
+			"ID": "20240817113119-s0sac3y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240817113119-s0sac3y",
+				"updated": "20240817113119"
+			}
+		}
+	]
+}

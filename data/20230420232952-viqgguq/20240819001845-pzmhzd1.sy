@@ -1,0 +1,21 @@
+{
+	"ID": "20240819001845-pzmhzd1",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240819001845-pzmhzd1",
+		"title": "卡片写作",
+		"type": "doc",
+		"updated": "20240819001845"
+	},
+	"Children": [
+		{
+			"ID": "20240819001845-qnrck9s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240819001845-qnrck9s",
+				"updated": "20240819001845"
+			}
+		}
+	]
+}

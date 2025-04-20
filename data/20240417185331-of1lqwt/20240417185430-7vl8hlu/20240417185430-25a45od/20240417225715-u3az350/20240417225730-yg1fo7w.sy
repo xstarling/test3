@@ -1,0 +1,21 @@
+{
+	"ID": "20240417225730-yg1fo7w",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240417225730-yg1fo7w",
+		"title": "随堂练习题",
+		"type": "doc",
+		"updated": "20240417225759"
+	},
+	"Children": [
+		{
+			"ID": "20240417225730-wpwo0gk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417225730-wpwo0gk",
+				"updated": "20240417225730"
+			}
+		}
+	]
+}

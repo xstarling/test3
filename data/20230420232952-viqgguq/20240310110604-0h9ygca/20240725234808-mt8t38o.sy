@@ -1,0 +1,146 @@
+{
+	"ID": "20240725234808-mt8t38o",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240725234808-mt8t38o",
+		"title": "离线隔空投送文件",
+		"type": "doc",
+		"updated": "20240725235919"
+	},
+	"Children": [
+		{
+			"ID": "20240725235800-mf7x66s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240725235800-mf7x66s",
+				"updated": "20240725235808"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "手机等设备作为一个服务器"
+				}
+			]
+		},
+		{
+			"ID": "20240725235811-pifncel",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240725235811-pifncel",
+				"updated": "20240725235823"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "DDHCP：动态域名解析"
+				}
+			]
+		},
+		{
+			"ID": "20240725235828-pi9lk5u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240725235828-pi9lk5u",
+				"updated": "20240725235832"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "读取文件列表"
+				}
+			]
+		},
+		{
+			"ID": "20240725235832-92c5fho",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240725235832-92c5fho",
+				"updated": "20240725235845"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "发送文件，建立连接通信"
+				}
+			]
+		},
+		{
+			"ID": "20240725235856-wis4avb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240725235856-wis4avb",
+				"updated": "20240725235919"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "电脑端访问这个手机地址和端口号"
+				}
+			]
+		},
+		{
+			"ID": "20240725234808-2vdnfxl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240725234808-2vdnfxl",
+				"updated": "20240725234855"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、可以放在U盘或APP上"
+				}
+			]
+		},
+		{
+			"ID": "20240725234856-xoatezc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240725234856-xoatezc",
+				"updated": "20240725234906"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、通过无线局域网进行投送"
+				}
+			]
+		},
+		{
+			"ID": "20240725234924-c9hs75f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240725234924-c9hs75f",
+				"updated": "20240725234953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、将软件部署安装到手机上，然后通过电脑访问网页就可以将文件传输过去"
+				}
+			]
+		},
+		{
+			"ID": "20240725235005-9ghilz5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240725235005-9ghilz5",
+				"updated": "20240725235022"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4、让软件可以随时迁移到电脑或服务器上"
+				}
+			]
+		},
+		{
+			"ID": "20240725235341-a27hyai",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240725235341-a27hyai"
+			}
+		}
+	]
+}

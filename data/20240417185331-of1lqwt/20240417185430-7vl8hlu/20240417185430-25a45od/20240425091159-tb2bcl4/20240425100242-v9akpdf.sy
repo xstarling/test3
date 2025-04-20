@@ -1,0 +1,21 @@
+{
+	"ID": "20240425100242-v9akpdf",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240425100242-v9akpdf",
+		"title": "随堂练习题",
+		"type": "doc",
+		"updated": "20240425100247"
+	},
+	"Children": [
+		{
+			"ID": "20240425100242-ukusx1e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240425100242-ukusx1e",
+				"updated": "20240425100242"
+			}
+		}
+	]
+}

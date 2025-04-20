@@ -1,0 +1,1164 @@
+{
+	"ID": "20241029151711-uwcgb52",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241029151711-uwcgb52",
+		"title": "测试",
+		"type": "doc",
+		"updated": "20241029154233"
+	},
+	"Children": [
+		{
+			"ID": "20241029151711-p4n4nh0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20241029151711-p4n4nh0",
+				"updated": "20241029151817"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "测试类型"
+				}
+			]
+		},
+		{
+			"ID": "20241029151817-6tjbtx0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241029151817-6tjbtx0",
+				"updated": "20241029151817"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241029151817-uz4a2sx.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241029151721-eka8qkl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20241029151721-eka8qkl",
+				"updated": "20241029152150"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "测试方法"
+				}
+			]
+		},
+		{
+			"ID": "20241029151723-y2tbb82",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241029151723-y2tbb82",
+				"updated": "20241029152150"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "静态分析方法"
+				}
+			]
+		},
+		{
+			"ID": "20241029152150-eho7pmw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241029152150-eho7pmw",
+				"updated": "20241029152150"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241029152150-smp2xwn.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241029152027-ee4j18z",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241029152027-ee4j18z",
+				"updated": "20241029152342"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "黑盒与白盒测试"
+				}
+			]
+		},
+		{
+			"ID": "20241029152132-onh202h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241029152132-onh202h",
+				"updated": "20241029152132"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241029152132-gbhsa1l.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241029152319-k4pmnzg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20241029152319-k4pmnzg",
+				"updated": "20241029152342"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "白盒测试-控制流测试"
+				}
+			]
+		},
+		{
+			"ID": "20241029152316-hn8djib",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241029152316-hn8djib",
+				"updated": "20241029152316"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241029152316-nvtvloc.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241029152335-jq825bu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20241029152335-jq825bu",
+				"updated": "20241029152616"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "白盒测试-数据流测试"
+				}
+			]
+		},
+		{
+			"ID": "20241029152436-r8u2i3m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241029152436-r8u2i3m",
+				"updated": "20241029152436"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241029152436-anuo94n.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241029152345-6zr5ekn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20241029152345-6zr5ekn",
+				"updated": "20241029152729"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "白盒测试-错误驱动测试"
+				}
+			]
+		},
+		{
+			"ID": "20241029152708-xmsuwo3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241029152708-xmsuwo3",
+				"updated": "20241029152708"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241029152708-u9p2vuq.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241029152616-k0kbzdp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20241029152616-k0kbzdp",
+				"updated": "20241029152815"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "黑盒测试-等价类测试"
+				}
+			]
+		},
+		{
+			"ID": "20241029152806-pl8id3t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241029152806-pl8id3t",
+				"updated": "20241029152806"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241029152806-ival1p5.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241029152740-m7j5zfj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20241029152740-m7j5zfj",
+				"updated": "20241029152951"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "黑盒测试-边界值分析"
+				}
+			]
+		},
+		{
+			"ID": "20241029152951-shy7w4s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241029152951-shy7w4s",
+				"updated": "20241029152951"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241029152951-oysfr7q.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241029152817-t5n5htf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20241029152817-t5n5htf",
+				"updated": "20241029153007"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "黑盒测试-错误推测"
+				}
+			]
+		},
+		{
+			"ID": "20241029152913-rpzgzde",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241029152913-rpzgzde",
+				"updated": "20241029152913"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241029152913-zbaj8l1.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241029152828-tr6lr0i",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20241029152828-tr6lr0i",
+				"updated": "20241029153208"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "黑盒测试-判定表"
+				}
+			]
+		},
+		{
+			"ID": "20241029153105-o8p529z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241029153105-o8p529z",
+				"updated": "20241029153105"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241029153105-6dmf5gc.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241029152717-fvdx1dd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241029152717-fvdx1dd",
+				"updated": "20241029153352"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "案例"
+				}
+			]
+		},
+		{
+			"ID": "20241029153209-7iv60do",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20241029153209-7iv60do",
+				"updated": "20241029153213"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20241029153211-0ho3jli",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20241029153211-0ho3jli",
+						"updated": "20241029153213"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "AC"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20241029153214-12u5zhv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241029153214-12u5zhv",
+				"updated": "20241029153214"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241029153214-9d8zubb.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241029153215-qy6lugd",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20241029153215-qy6lugd",
+				"updated": "20241029153352"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20241029153218-adk29oi",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20241029153218-adk29oi",
+						"updated": "20241029153352"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "B"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20241029153327-oolnfgg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241029153327-oolnfgg",
+				"updated": "20241029153327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241029153327-iitvb3g.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241029151724-7flfg5s",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20241029151724-7flfg5s",
+				"updated": "20241029153739"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "测试阶段"
+				}
+			]
+		},
+		{
+			"ID": "20241029153516-74ecrrx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241029153516-74ecrrx",
+				"updated": "20241029153516"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241029153516-2cxgojr.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241029153518-z6a6836",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241029153518-z6a6836",
+				"updated": "20241029153739"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "集成测试"
+				}
+			]
+		},
+		{
+			"ID": "20241029153739-v67wp4p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241029153739-v67wp4p",
+				"updated": "20241029153739"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241029153739-q1sxyfj.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241029153525-1hkec3s",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241029153525-1hkec3s",
+				"updated": "20241029153930"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "性能测试"
+				}
+			]
+		},
+		{
+			"ID": "20241029153755-khuxfqj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241029153755-khuxfqj",
+				"updated": "20241029153755"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241029153755-magcrak.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241029153531-h4g24mc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241029153531-h4g24mc",
+				"updated": "20241029154233"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "案例"
+				}
+			]
+		},
+		{
+			"ID": "20241029153944-9zj71ah",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20241029153944-9zj71ah",
+				"updated": "20241029153946"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20241029153945-72gmkf5",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20241029153945-72gmkf5",
+						"updated": "20241029153946"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "B"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20241029154104-w06ea70",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241029154104-w06ea70",
+				"updated": "20241029154104"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241029154104-huxb7vl.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241029154039-t6hnurf",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20241029154039-t6hnurf",
+				"updated": "20241029154233"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20241029154041-uharioc",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20241029154041-uharioc",
+						"updated": "20241029154233"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "AD"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20241029154045-57a1t4n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241029154045-57a1t4n",
+				"updated": "20241029154045"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241029154045-03quhql.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		}
+	]
+}

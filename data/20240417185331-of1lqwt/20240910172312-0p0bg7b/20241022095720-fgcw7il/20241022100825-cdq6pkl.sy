@@ -1,0 +1,21 @@
+{
+	"ID": "20241022100825-cdq6pkl",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241022100825-cdq6pkl",
+		"title": "系统工程与信息系统基础",
+		"type": "doc",
+		"updated": "20241031103642"
+	},
+	"Children": [
+		{
+			"ID": "20241022100825-ych4fkd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022100825-ych4fkd",
+				"updated": "20241022100825"
+			}
+		}
+	]
+}

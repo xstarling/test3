@@ -1,0 +1,34 @@
+{
+	"ID": "20240504123135-ve2nhu0",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240504123135-ve2nhu0",
+		"title": "22,23组织治理与管理",
+		"type": "doc",
+		"updated": "20240504125904"
+	},
+	"Children": [
+		{
+			"ID": "20240504123245-eueabhz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240504123245-eueabhz",
+				"updated": "20240504125904"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​​"
+				}
+			]
+		},
+		{
+			"ID": "20240504125902-q3ody99",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240504125902-q3ody99"
+			}
+		}
+	]
+}

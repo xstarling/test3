@@ -1,0 +1,68 @@
+{
+	"ID": "20240424104526-4vltkne",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240424104526-4vltkne",
+		"title": "10.项目进度管理",
+		"type": "doc",
+		"updated": "20240425160653"
+	},
+	"Children": [
+		{
+			"ID": "20240424135208-lvww7hu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240424135208-lvww7hu",
+				"updated": "20240424135208"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20240424135208-m15jptu.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20240424104526-97sudvy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240424104526-97sudvy",
+				"updated": "20240424104526"
+			}
+		}
+	]
+}

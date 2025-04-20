@@ -1,0 +1,435 @@
+{
+	"ID": "20240113110642-4rxd77c",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240113110642-4rxd77c",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20240113110642-4rxd77c\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20240113110729-nbxpcbs\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20240113113848-8lmathn\u0026quot;,\u0026quot;scrollTop\u0026quot;:262.3999938964844,\u0026quot;focusId\u0026quot;:\u0026quot;20240113113848-8lmathn\u0026quot;,\u0026quot;focusStart\u0026quot;:6,\u0026quot;focusEnd\u0026quot;:6\u0026#125;",
+		"title": "附件资料",
+		"updated": "20240113114151"
+	},
+	"Children": [
+		{
+			"ID": "20240113110729-nbxpcbs",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240113110729-nbxpcbs",
+				"updated": "20240113110737"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "法律条例"
+				}
+			]
+		},
+		{
+			"ID": "20240113110748-pszjyho",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20240113110748-pszjyho",
+				"updated": "20240113110809"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "浙江省劳动争议案件若干问题意见"
+				}
+			]
+		},
+		{
+			"ID": "20240113110648-7j6uid5",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20240113110648-7j6uid5",
+				"updated": "20240113110819"
+			},
+			"Children": [
+				{
+					"ID": "20240113110819-ispre73",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20240113110819-ispre73",
+						"updated": "20240113110819"
+					},
+					"Children": [
+						{
+							"ID": "20240113110819-28l7a3b",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20240113110819-28l7a3b",
+								"updated": "20240113110819"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "浙江省规定 《关于审理劳动争议案件若干问题的意见（试行）》（浙法民一（2009）3号） 第十三条 劳动者与用人单位之间因加班工资发生争议的，其申请仲裁的时效期间为"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "二年"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，从当事人知道或者应当知道其权利被侵害之日起计算；但劳动关系终止的，其申请仲裁的时效期间为一年，从劳动关系终止之日起计算。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240113110642-jbi5iui",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240113110642-jbi5iui",
+				"updated": "20240113110642"
+			}
+		},
+		{
+			"ID": "20240113113151-2kf3itc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240113113151-2kf3itc"
+			}
+		},
+		{
+			"ID": "20240113113142-i7oypoe",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240113113142-i7oypoe",
+				"updated": "20240113113146"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "截图证据"
+				}
+			]
+		},
+		{
+			"ID": "20240113113150-h042r9u",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20240113113150-h042r9u",
+				"updated": "20240113113225"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "科室考核截图"
+				}
+			]
+		},
+		{
+			"ID": "20240113113213-u0s68xf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"id": "20240113113213-u0s68xf",
+				"updated": "20240113113516"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2023年3月重点产品室考核截图"
+				}
+			]
+		},
+		{
+			"ID": "20240113113257-lcgts93",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240113113257-lcgts93",
+				"updated": "20240113113349"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "width: 50%;",
+						"style": "width: 10000px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "653c52299a0420c850c825c52b4e9cf"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/653c52299a0420c850c825c52b4e9cf-20240113113257-4199dnp.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 10000px;\" parent-style=\"width: 50%;\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20240113113312-t8ql5s8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240113113312-t8ql5s8",
+				"updated": "20240113113357"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "width: 50%;",
+						"style": "width: 10000px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "be4d33c1a7732432192892b093de045"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/be4d33c1a7732432192892b093de045-20240113113312-ubkfck5.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 10000px;\" parent-style=\"width: 50%;\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20240113113323-gmru386",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240113113323-gmru386",
+				"updated": "20240113113413"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "width: 50%;",
+						"style": "width: 10000px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "2a8644f2753e010de116f5273af53f3"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/2a8644f2753e010de116f5273af53f3-20240113113322-iaa8ghz.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 10000px;\" parent-style=\"width: 50%;\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20240113113335-t7n3us1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240113113335-t7n3us1",
+				"updated": "20240113113419"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "width: 50%;",
+						"style": "width: 10000px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "958bacdaa280e3842d94321dcdbe1a0"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/958bacdaa280e3842d94321dcdbe1a0-20240113113335-emwa3y5.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 10000px;\" parent-style=\"width: 50%;\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20240113113848-8lmathn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240113113848-8lmathn",
+				"updated": "20240113113853"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "考勤打卡截图"
+				}
+			]
+		},
+		{
+			"ID": "20240113114138-6qwe7cn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240113114138-6qwe7cn"
+			}
+		},
+		{
+			"ID": "20240113114144-b8irzpb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240113114144-b8irzpb"
+			}
+		},
+		{
+			"ID": "20240113114144-lbdowb6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240113114144-lbdowb6"
+			}
+		},
+		{
+			"ID": "20240113114144-2r8acge",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240113114144-2r8acge",
+				"updated": "20240113114151"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "被迫离职通知书"
+				}
+			]
+		}
+	]
+}

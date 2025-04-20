@@ -1,0 +1,44 @@
+{
+	"ID": "20241022101123-qkgy1ev",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241022101123-qkgy1ev",
+		"title": "其他",
+		"type": "doc",
+		"updated": "20241106214354"
+	},
+	"Children": [
+		{
+			"ID": "20241106214347-eblyi43",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20241106214347-eblyi43",
+				"updated": "20241106214354"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "英语高频词汇"
+				}
+			]
+		},
+		{
+			"ID": "20241022101123-iqn93qf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022101123-iqn93qf",
+				"updated": "20241106214343"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.bilibili.com/read/cv34716428/?spm_id_from=333.999.0.0",
+					"TextMarkTextContent": "系统架构师考试英语高频词汇快速记忆法 - 哔哩哔哩"
+				}
+			]
+		}
+	]
+}

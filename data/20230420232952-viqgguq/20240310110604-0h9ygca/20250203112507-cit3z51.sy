@@ -1,0 +1,875 @@
+{
+	"ID": "20250203112507-cit3z51",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20250203112507-cit3z51",
+		"title": "siyuan笔记Git同步工具",
+		"type": "doc",
+		"updated": "20250203112556"
+	},
+	"Children": [
+		{
+			"ID": "20250203112545-jbun8et",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20250203112545-jbun8et",
+				"updated": "20250203112556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "菜单功能实现"
+				}
+			]
+		},
+		{
+			"ID": "20250203112507-8n90bf3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20250203112507-8n90bf3",
+				"updated": "20250203112556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "文件类型"
+				}
+			]
+		},
+		{
+			"ID": "20250203112556-mhq34im",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20250203112556-mhq34im",
+				"updated": "20250203112556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "要通过 GitHub API 将文件复制到另一个目录，你可以利用 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "GitHub REST API"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 中的 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "repos/contents"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 接口来读取、创建、更新或删除文件。GitHub API 并不直接提供“复制文件”的操作，但你可以通过以下步骤来实现文件复制："
+				}
+			]
+		},
+		{
+			"ID": "20250203112556-8yn7ql7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20250203112556-8yn7ql7",
+				"updated": "20250203112556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "步骤 1：读取文件内容"
+				}
+			]
+		},
+		{
+			"ID": "20250203112556-tulmbof",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20250203112556-tulmbof",
+				"updated": "20250203112556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "首先，你需要使用 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "GET /repos/{owner}/{repo}/contents/{path}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 接口来读取源文件的内容。"
+				}
+			]
+		},
+		{
+			"ID": "20250203112556-zbcbo02",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20250203112556-zbcbo02",
+				"updated": "20250203112556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "步骤 2：将文件内容写入新目录"
+				}
+			]
+		},
+		{
+			"ID": "20250203112556-d1uyoet",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20250203112556-d1uyoet",
+				"updated": "20250203112556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "然后，你可以使用 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "PUT /repos/{owner}/{repo}/contents/{path}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 接口将文件内容写入目标目录。这样，文件就被“复制”到了另一个位置。"
+				}
+			]
+		},
+		{
+			"ID": "20250203112556-3j839re",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20250203112556-3j839re",
+				"updated": "20250203112556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "步骤 3：删除源文件（可选）"
+				}
+			]
+		},
+		{
+			"ID": "20250203112556-71eaihy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20250203112556-71eaihy",
+				"updated": "20250203112556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果你希望完成一个“移动”操作而不是复制，你可以在目标文件成功写入后，删除源文件。你可以使用 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "DELETE /repos/{owner}/{repo}/contents/{path}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 接口来删除源文件。"
+				}
+			]
+		},
+		{
+			"ID": "20250203112556-j3yyxuv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20250203112556-j3yyxuv",
+				"updated": "20250203112556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "示例：将文件从一个目录复制到另一个目录"
+				}
+			]
+		},
+		{
+			"ID": "20250203112556-00sscd9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20250203112556-00sscd9",
+				"updated": "20250203112556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "下面是一个基本的例子，展示如何使用 GitHub API 将文件从一个目录复制到另一个目录："
+				}
+			]
+		},
+		{
+			"ID": "20250203112556-ia2mwqp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20250203112556-ia2mwqp",
+				"updated": "20250203112556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. 获取文件内容"
+				}
+			]
+		},
+		{
+			"ID": "20250203112556-crhxpgp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20250203112556-crhxpgp",
+				"updated": "20250203112556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "GET /repos/{owner}/{repo}/contents/{path}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 获取源文件的内容。"
+				}
+			]
+		},
+		{
+			"ID": "20250203112556-jhq9hmo",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20250203112556-jhq9hmo",
+				"updated": "20250203112556"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YXNjcmlwdA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "const fetch = require('node-fetch');\n\nasync function getFileContent(owner, repo, filePath, accessToken) {\n  const url = `https://api.github.com/repos/${owner}/${repo}/contents/${filePath}`;\n  const response = await fetch(url, {\n    method: 'GET',\n    headers: {\n      Authorization: `Bearer ${accessToken}`,\n    },\n  });\n\n  const data = await response.json();\n  if (data.content) {\n    // 解码文件内容（GitHub API 返回的内容是 base64 编码的）\n    const decodedContent = Buffer.from(data.content, 'base64').toString('utf-8');\n    return decodedContent;\n  } else {\n    throw new Error('Failed to retrieve file content');\n  }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20250203112556-zygoolg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20250203112556-zygoolg",
+				"updated": "20250203112556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. 将文件内容写入新目录"
+				}
+			]
+		},
+		{
+			"ID": "20250203112556-i69v573",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20250203112556-i69v573",
+				"updated": "20250203112556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "PUT /repos/{owner}/{repo}/contents/{path}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 接口，将文件内容写入目标目录。"
+				}
+			]
+		},
+		{
+			"ID": "20250203112556-bcp1ahe",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20250203112556-bcp1ahe",
+				"updated": "20250203112556"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YXNjcmlwdA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "async function createFileInNewDirectory(owner, repo, newFilePath, fileContent, accessToken) {\n  const url = `https://api.github.com/repos/${owner}/${repo}/contents/${newFilePath}`;\n  const message = 'Copy file to new directory';  // 提交信息\n\n  // 使用 Base64 编码文件内容\n  const encodedContent = Buffer.from(fileContent).toString('base64');\n\n  const response = await fetch(url, {\n    method: 'PUT',\n    headers: {\n      Authorization: `Bearer ${accessToken}`,\n    },\n    body: JSON.stringify({\n      message: message,\n      content: encodedContent,\n    }),\n  });\n\n  const data = await response.json();\n  if (data.content) {\n    console.log(`File copied to ${newFilePath}`);\n  } else {\n    throw new Error('Failed to create file in new directory');\n  }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20250203112556-itdd9fb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20250203112556-itdd9fb",
+				"updated": "20250203112556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3. 删除源文件（可选）"
+				}
+			]
+		},
+		{
+			"ID": "20250203112556-tf2w4wq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20250203112556-tf2w4wq",
+				"updated": "20250203112556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果你想删除源文件，可以在复制成功后调用 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "DELETE /repos/{owner}/{repo}/contents/{path}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​。"
+				}
+			]
+		},
+		{
+			"ID": "20250203112556-due33b6",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20250203112556-due33b6",
+				"updated": "20250203112556"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YXNjcmlwdA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "async function deleteFile(owner, repo, filePath, accessToken) {\n  const url = `https://api.github.com/repos/${owner}/${repo}/contents/${filePath}`;\n  \n  const response = await fetch(url, {\n    method: 'GET',\n    headers: {\n      Authorization: `Bearer ${accessToken}`,\n    },\n  });\n\n  const data = await response.json();\n  const sha = data.sha;  // 需要提供文件的 sha 值进行删除操作\n\n  const deleteResponse = await fetch(url, {\n    method: 'DELETE',\n    headers: {\n      Authorization: `Bearer ${accessToken}`,\n    },\n    body: JSON.stringify({\n      message: 'Delete file after copying',\n      sha: sha,\n    }),\n  });\n\n  if (deleteResponse.ok) {\n    console.log(`File deleted from ${filePath}`);\n  } else {\n    throw new Error('Failed to delete source file');\n  }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20250203112556-xgis62a",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20250203112556-xgis62a",
+				"updated": "20250203112556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4. 完整流程"
+				}
+			]
+		},
+		{
+			"ID": "20250203112556-d6ux8vy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20250203112556-d6ux8vy",
+				"updated": "20250203112556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "将上述操作组合起来，完成文件从一个目录复制到另一个目录的任务："
+				}
+			]
+		},
+		{
+			"ID": "20250203112556-nm8dvag",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20250203112556-nm8dvag",
+				"updated": "20250203112556"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YXNjcmlwdA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "async function copyFileBetweenDirectories(owner, repo, sourceFilePath, destinationFilePath, accessToken) {\n  try {\n    // 获取源文件的内容\n    const fileContent = await getFileContent(owner, repo, sourceFilePath, accessToken);\n\n    // 将文件内容写入目标目录\n    await createFileInNewDirectory(owner, repo, destinationFilePath, fileContent, accessToken);\n\n    // 如果需要删除源文件\n    // await deleteFile(owner, repo, sourceFilePath, accessToken);\n  \n    console.log('File successfully copied!');\n  } catch (error) {\n    console.error('Error:', error);\n  }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20250203112556-eswxtpl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20250203112556-eswxtpl",
+				"updated": "20250203112556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用说明"
+				}
+			]
+		},
+		{
+			"ID": "20250203112556-d9guk4i",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20250203112556-d9guk4i",
+				"updated": "20250203112556"
+			},
+			"Children": [
+				{
+					"ID": "20250203112556-t8wdocv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20250203112556-t8wdocv",
+						"updated": "20250203112556"
+					},
+					"Children": [
+						{
+							"ID": "20250203112556-0ucve1p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20250203112556-0ucve1p",
+								"updated": "20250203112556"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "owner"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​: GitHub 仓库所有者（用户名或组织名）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20250203112556-fyomfww",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20250203112556-fyomfww",
+						"updated": "20250203112556"
+					},
+					"Children": [
+						{
+							"ID": "20250203112556-3dwp4lt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20250203112556-3dwp4lt",
+								"updated": "20250203112556"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "repo"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​: GitHub 仓库名"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20250203112556-b1uxjpe",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20250203112556-b1uxjpe",
+						"updated": "20250203112556"
+					},
+					"Children": [
+						{
+							"ID": "20250203112556-fvl0nqz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20250203112556-fvl0nqz",
+								"updated": "20250203112556"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "sourceFilePath"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​: 源文件的路径（相对于仓库根目录）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20250203112556-l1p2yci",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20250203112556-l1p2yci",
+						"updated": "20250203112556"
+					},
+					"Children": [
+						{
+							"ID": "20250203112556-v7i5n9j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20250203112556-v7i5n9j",
+								"updated": "20250203112556"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "destinationFilePath"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​: 目标目录的文件路径"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20250203112556-tcpiv79",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20250203112556-tcpiv79",
+						"updated": "20250203112556"
+					},
+					"Children": [
+						{
+							"ID": "20250203112556-6j3lhd7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20250203112556-6j3lhd7",
+								"updated": "20250203112556"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "accessToken"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​: GitHub 访问令牌（你需要为该令牌赋予适当的权限，如 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "repo"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 权限）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20250203112556-p5a27az",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20250203112556-p5a27az",
+				"updated": "20250203112556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "提交信息"
+				}
+			]
+		},
+		{
+			"ID": "20250203112556-m44w69h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20250203112556-m44w69h",
+				"updated": "20250203112556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "每次调用 GitHub API 创建或删除文件时，都需要提供一个提交信息 ("
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "message"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​)，这个信息会记录在 Git 提交历史中。"
+				}
+			]
+		},
+		{
+			"ID": "20250203112556-jb1nhhv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20250203112556-jb1nhhv",
+				"updated": "20250203112556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意事项"
+				}
+			]
+		},
+		{
+			"ID": "20250203112556-gt5lpvt",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20250203112556-gt5lpvt",
+				"updated": "20250203112556"
+			},
+			"Children": [
+				{
+					"ID": "20250203112556-x50cknr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20250203112556-x50cknr",
+						"updated": "20250203112556"
+					},
+					"Children": [
+						{
+							"ID": "20250203112556-2tps42b",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20250203112556-2tps42b",
+								"updated": "20250203112556"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "权限"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：确保使用的访问令牌有适当的权限。如果你需要访问私有仓库，请确保令牌有 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "repo"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 权限。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20250203112556-3npvq9y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20250203112556-3npvq9y",
+						"updated": "20250203112556"
+					},
+					"Children": [
+						{
+							"ID": "20250203112556-1jb9rzo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20250203112556-1jb9rzo",
+								"updated": "20250203112556"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "文件大小限制"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：GitHub 对每个文件的大小有限制，最大为 100MB。对于较大的文件，可能需要使用 Git LFS（Git Large File Storage）。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20250203112556-e17jik1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20250203112556-e17jik1",
+						"updated": "20250203112556"
+					},
+					"Children": [
+						{
+							"ID": "20250203112556-durzq5l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20250203112556-durzq5l",
+								"updated": "20250203112556"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "API 限制"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：GitHub 的 API 有速率限制，默认情况下每小时允许 5000 次请求。请根据需要检查和管理 API 请求频率。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20250203112556-1u4bacl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20250203112556-1u4bacl",
+				"updated": "20250203112556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通过这个方法，你可以模拟“复制文件”到 GitHub 仓库的不同目录。如果你有任何进一步的疑问，或者遇到问题，随时向我提问！"
+				}
+			]
+		}
+	]
+}

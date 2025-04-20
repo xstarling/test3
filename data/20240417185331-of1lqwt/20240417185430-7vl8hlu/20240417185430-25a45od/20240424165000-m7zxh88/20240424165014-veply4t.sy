@@ -1,0 +1,28 @@
+{
+	"ID": "20240424165014-veply4t",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240424165014-veply4t",
+		"title": "随堂练习题",
+		"type": "doc",
+		"updated": "20240424165018"
+	},
+	"Children": [
+		{
+			"ID": "20240424165018-wuhfmdm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240424165018-wuhfmdm"
+			}
+		},
+		{
+			"ID": "20240424165014-lwuscly",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240424165014-lwuscly",
+				"updated": "20240424165014"
+			}
+		}
+	]
+}

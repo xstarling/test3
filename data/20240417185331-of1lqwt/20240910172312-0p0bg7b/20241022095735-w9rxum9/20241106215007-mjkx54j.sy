@@ -1,0 +1,21 @@
+{
+	"ID": "20241106215007-mjkx54j",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241106215007-mjkx54j",
+		"title": "数据库篇",
+		"type": "doc",
+		"updated": "20241106215011"
+	},
+	"Children": [
+		{
+			"ID": "20241106215007-8tgtb9t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241106215007-8tgtb9t",
+				"updated": "20241106215007"
+			}
+		}
+	]
+}

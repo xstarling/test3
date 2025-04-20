@@ -1,0 +1,71 @@
+{
+	"ID": "20240910172342-uvq80z1",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240910172342-uvq80z1",
+		"title": "华为杯数学建模",
+		"type": "doc",
+		"updated": "20240910173502"
+	},
+	"Children": [
+		{
+			"ID": "20240910173431-ke0pajy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240910173431-ke0pajy",
+				"updated": "20240910173443"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我的任务："
+				}
+			]
+		},
+		{
+			"ID": "20240910173443-65ky9rw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240910173443-65ky9rw",
+				"updated": "20240910173501"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、如何跑模型进行数据预测？"
+				}
+			]
+		},
+		{
+			"ID": "20240910173501-7b2gv2r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240910173501-7b2gv2r",
+				"updated": "20240910173502"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、"
+				}
+			]
+		},
+		{
+			"ID": "20240910172342-pxmb56r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240910172342-pxmb56r",
+				"updated": "20240910172342"
+			}
+		},
+		{
+			"ID": "20240910173427-3cvqz9r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240910173427-3cvqz9r",
+				"updated": "20240910173427"
+			}
+		}
+	]
+}

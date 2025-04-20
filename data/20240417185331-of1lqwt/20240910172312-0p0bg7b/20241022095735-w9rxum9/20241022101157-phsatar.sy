@@ -1,0 +1,21 @@
+{
+	"ID": "20241022101157-phsatar",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241022101157-phsatar",
+		"title": "嵌入式",
+		"type": "doc",
+		"updated": "20241022101248"
+	},
+	"Children": [
+		{
+			"ID": "20241022101157-39q7py5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022101157-39q7py5",
+				"updated": "20241022101157"
+			}
+		}
+	]
+}

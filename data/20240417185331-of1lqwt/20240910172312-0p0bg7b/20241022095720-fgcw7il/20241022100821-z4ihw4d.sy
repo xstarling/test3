@@ -1,0 +1,21 @@
+{
+	"ID": "20241022100821-z4ihw4d",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241022100821-z4ihw4d",
+		"title": "项目管理",
+		"type": "doc",
+		"updated": "20241022100848"
+	},
+	"Children": [
+		{
+			"ID": "20241022100821-4mk12f3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022100821-4mk12f3",
+				"updated": "20241022100821"
+			}
+		}
+	]
+}

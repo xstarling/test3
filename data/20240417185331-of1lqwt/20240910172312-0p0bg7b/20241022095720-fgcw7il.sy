@@ -1,0 +1,21 @@
+{
+	"ID": "20241022095720-fgcw7il",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241022095720-fgcw7il",
+		"title": "综合知识",
+		"type": "doc",
+		"updated": "20241022100537"
+	},
+	"Children": [
+		{
+			"ID": "20241022100537-7imkrac",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022100537-7imkrac",
+				"updated": "20241022100537"
+			}
+		}
+	]
+}

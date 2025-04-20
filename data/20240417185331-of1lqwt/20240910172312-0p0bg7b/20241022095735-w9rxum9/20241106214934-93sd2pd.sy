@@ -1,0 +1,21 @@
+{
+	"ID": "20241106214934-93sd2pd",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241106214934-93sd2pd",
+		"title": "*软件工程篇",
+		"type": "doc",
+		"updated": "20241108170013"
+	},
+	"Children": [
+		{
+			"ID": "20241106214934-php2wr0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241106214934-php2wr0",
+				"updated": "20241106214934"
+			}
+		}
+	]
+}

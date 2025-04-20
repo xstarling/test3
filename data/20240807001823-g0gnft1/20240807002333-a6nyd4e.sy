@@ -1,0 +1,182 @@
+{
+	"ID": "20240807002333-a6nyd4e",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240807002333-a6nyd4e",
+		"title": "毕业论文",
+		"type": "doc",
+		"updated": "20250114095823"
+	},
+	"Children": [
+		{
+			"ID": "20240807002333-sb49p8i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240807002333-sb49p8i",
+				"updated": "20241122112516"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.bilibili.com/video/BV17W4y167SM/?spm_id_from=333.1007.top_right_bar_window_history.content.click\u0026amp;vd_source=9752c2c90782ff8bd76174dfbc76c933",
+					"TextMarkTextContent": "如何做好文献阅读及笔记整理_哔哩哔哩_bilibili"
+				}
+			]
+		},
+		{
+			"ID": "20241122120812-o4t3fi9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241122120812-o4t3fi9",
+				"updated": "20250114095823"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241122120812-vfs7dvm.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241122112518-rgcivq9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20241122112518-rgcivq9",
+				"updated": "20241122112645"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "阅读方法"
+				}
+			]
+		},
+		{
+			"ID": "20241122112541-b5syjmt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241122112541-b5syjmt",
+				"updated": "20241122112645"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、阅读硕博学位论文"
+				}
+			]
+		},
+		{
+			"ID": "20241122112556-lwom550",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20241122112556-lwom550",
+				"updated": "20241122112645"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "文献综述"
+				}
+			]
+		},
+		{
+			"ID": "20241122112645-ats66xd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241122112645-ats66xd",
+				"updated": "20241122112645"
+			}
+		},
+		{
+			"ID": "20241122112645-u4nole1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241122112645-u4nole1",
+				"updated": "20241122112645"
+			}
+		},
+		{
+			"ID": "20241122112556-0fpqfrk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241122112556-0fpqfrk",
+				"updated": "20241122112627"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、阅读领域文献综述"
+				}
+			]
+		},
+		{
+			"ID": "20241122112610-o36z7xz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241122112610-o36z7xz",
+				"updated": "20241122112610"
+			}
+		},
+		{
+			"ID": "20241122112610-g77ee03",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241122112610-g77ee03",
+				"updated": "20241122112611"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、"
+				}
+			]
+		},
+		{
+			"ID": "20241122112627-n9f6083",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241122112627-n9f6083",
+				"updated": "20241122112627"
+			}
+		}
+	]
+}

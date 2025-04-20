@@ -1,0 +1,143 @@
+{
+	"ID": "20240912164403-a7mge8h",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240912164403-a7mge8h",
+		"title": "预测模型",
+		"type": "doc",
+		"updated": "20240912165042"
+	},
+	"Children": [
+		{
+			"ID": "20240912164403-j8ctiae",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912164403-j8ctiae",
+				"updated": "20240912165007"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.回归分析预测"
+				}
+			]
+		},
+		{
+			"ID": "20240912165002-ykklhpc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912165002-ykklhpc",
+				"updated": "20240912165002"
+			}
+		},
+		{
+			"ID": "20240912165002-g3k4y8v",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912165002-g3k4y8v",
+				"updated": "20240912165015"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.时间序列模型"
+				}
+			]
+		},
+		{
+			"ID": "20240912165009-wq6jgcj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912165009-wq6jgcj",
+				"updated": "20240912165009"
+			}
+		},
+		{
+			"ID": "20240912165009-5y8c32q",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912165009-5y8c32q",
+				"updated": "20240912165028"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.灰度预测模型"
+				}
+			]
+		},
+		{
+			"ID": "20240912165018-w5mo056",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912165018-w5mo056",
+				"updated": "20240912165018"
+			}
+		},
+		{
+			"ID": "20240912165018-bql4nle",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912165018-bql4nle",
+				"updated": "20240912165034"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.马尔科夫预测"
+				}
+			]
+		},
+		{
+			"ID": "20240912165029-86aedqd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912165029-86aedqd",
+				"updated": "20240912165029"
+			}
+		},
+		{
+			"ID": "20240912165030-wmp540j",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912165030-wmp540j",
+				"updated": "20240912165042"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5.神经网络"
+				}
+			]
+		},
+		{
+			"ID": "20240912165036-yf3i2nj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912165036-yf3i2nj",
+				"updated": "20240912165036"
+			}
+		},
+		{
+			"ID": "20240912165036-ohn7fjm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912165036-ohn7fjm",
+				"updated": "20240912165042"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.支持向量机"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"ID": "20241106175354-j6t1wog",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241106175354-j6t1wog",
+		"title": "计算机网络技术概述",
+		"type": "doc",
+		"updated": "20241106175403"
+	},
+	"Children": [
+		{
+			"ID": "20241106175354-bgnwp3y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241106175354-bgnwp3y",
+				"updated": "20241106175354"
+			}
+		}
+	]
+}

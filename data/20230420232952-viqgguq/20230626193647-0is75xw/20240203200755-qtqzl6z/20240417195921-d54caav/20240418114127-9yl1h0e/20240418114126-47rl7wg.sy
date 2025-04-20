@@ -1,0 +1,133 @@
+{
+	"ID": "20240418114126-47rl7wg",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240418114126-47rl7wg",
+		"title": "导师筛选",
+		"updated": "20240322200548"
+	},
+	"Children": [
+		{
+			"ID": "20240418114126-xu5aghp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240418114126-xu5aghp"
+			}
+		},
+		{
+			"ID": "20240418114126-pd606re",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240418114126-pd606re",
+				"updated": "20240321214025"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "导师名单"
+				}
+			]
+		},
+		{
+			"ID": "20240418114126-uqcxyfq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20240418114126-uqcxyfq",
+				"updated": "20240321214005"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "郝宗波"
+				}
+			]
+		},
+		{
+			"ID": "20240418114126-fwl8yko",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240418114126-fwl8yko",
+				"updated": "20240321222508"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "邮箱：zbhao@uestc.edu.cn"
+				}
+			]
+		},
+		{
+			"ID": "20240418114126-ius0af5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240418114126-ius0af5",
+				"updated": "20240321222613"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "研究方向：深度学习，视频监控，行为识别，人脸识别；本团队从2008年开始从事计算机视觉的研究，目前主要从事深度学习及其在视频和图像理解方面的应用。目前团队成员包括博士后、博士生、研究生（留学生）和本科生，研究和工程并重。"
+				}
+			]
+		},
+		{
+			"ID": "20240418114126-n4gl1ok",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240418114126-n4gl1ok",
+				"updated": "20240321214034"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "论文："
+				}
+			]
+		},
+		{
+			"ID": "20240418114126-5yelaa8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240418114126-5yelaa8"
+			}
+		},
+		{
+			"ID": "20240418114126-g8p9mt4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240418114126-g8p9mt4"
+			}
+		},
+		{
+			"ID": "20240418114126-luzrzew",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240418114126-luzrzew"
+			}
+		},
+		{
+			"ID": "20240418114126-fgfh0hk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240418114126-fgfh0hk"
+			}
+		},
+		{
+			"ID": "20240418114126-axmtdf6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240418114126-axmtdf6"
+			}
+		},
+		{
+			"ID": "20240418114126-54vy6e7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240418114126-54vy6e7"
+			}
+		}
+	]
+}

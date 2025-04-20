@@ -1,0 +1,67 @@
+{
+	"ID": "20240502175809-ptap5ws",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240502175809-ptap5ws",
+		"title": "21.管理科学",
+		"type": "doc",
+		"updated": "20240503161537"
+	},
+	"Children": [
+		{
+			"ID": "20240503120516-3j8hbis",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240503120516-3j8hbis",
+				"updated": "20240503120516"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20240503120516-9xjrkax.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20240503161537-0bhi7xu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240503161537-0bhi7xu"
+			}
+		}
+	]
+}

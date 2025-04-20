@@ -1,0 +1,21 @@
+{
+	"ID": "20241022100823-0l7q90n",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241022100823-0l7q90n",
+		"title": "*软件工程",
+		"type": "doc",
+		"updated": "20241108170035"
+	},
+	"Children": [
+		{
+			"ID": "20241022100823-92i5qne",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022100823-92i5qne",
+				"updated": "20241022100823"
+			}
+		}
+	]
+}

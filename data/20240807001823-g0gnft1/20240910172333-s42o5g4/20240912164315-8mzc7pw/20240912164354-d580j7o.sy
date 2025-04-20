@@ -1,0 +1,5077 @@
+{
+	"ID": "20240912164354-d580j7o",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240912164354-d580j7o",
+		"title": "评价模型",
+		"type": "doc",
+		"updated": "20240913165820"
+	},
+	"Children": [
+		{
+			"ID": "20240912164354-twi9zcl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912164354-twi9zcl",
+				"updated": "20240912205956"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.层次分析法"
+				}
+			]
+		},
+		{
+			"ID": "20240912165325-2h0mimc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20240912165325-2h0mimc",
+				"updated": "20240912205956"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.1 一元线性回归"
+				}
+			]
+		},
+		{
+			"ID": "20240912165356-8vjz181",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240912165356-8vjz181",
+				"updated": "20240912205956"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "用途："
+				}
+			]
+		},
+		{
+			"ID": "20240912205956-zad2jzv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240912205956-zad2jzv",
+				"updated": "20240912205956"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20240912205956-q0w4nnw.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20240912165744-xt5bp0b",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240912165744-xt5bp0b",
+				"updated": "20240912205808"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "代码："
+				}
+			]
+		},
+		{
+			"ID": "20240912181101-qupvvoc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240912181101-qupvvoc",
+				"updated": "20240912181148"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "确定世界钢铁工业CO2排放量与中国、印度、日本、美国、俄罗斯钢铁工业CO2排放量间的定量关系"
+				}
+			]
+		},
+		{
+			"ID": "20240912165357-wajm5gn",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240912165357-wajm5gn",
+				"style": "line-height: 19px;",
+				"updated": "20240912205808"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "bWF0bGFi"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\n%% 各国co2排放量和世界co2排放量之间的关系\n[num] = xlsread('data.xlsx');\nn = size(num,2);\nx = num(:,3:7);\ny = num(:,2); %因变量\nx0 = ones(size(x,1),1);\nx = [x0,x];\n[xishu,bint,r,rint,stats] = regress(y,x);\ny1 = x*xishu;\nwucha = sum(abs(y1-y)./y)/length(y);\nx1 = [2000:1:2019];\nplot(x1,y1,'r',x1,y,\"*\");\nlegend(\"多元线性回归拟合数据\",\"真实数据\",\"Location\",\"northwest\");\ntitle(\"实际值与拟合值对比\");\ndisp(\"系数：\");\ndisp(xishu);\ndisp(\"置信区间bint:\");\ndisp(bint);\ndisp(\"残差r:\");\ndisp(r);\ndisp(\"离群区间:\");\ndisp(rint);\ndisp(\"误差：\");\ndisp(wucha);\nstats\n\nfigure\nrcoplot(r,rint);%残差分析图\ntitle(\"残差图\");\nxlabel(\"数据\");\nylabel(\"残差\");\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20240912165953-zzzvr6l",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240912165953-zzzvr6l",
+				"updated": "20240912205740"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "函数说明："
+				}
+			]
+		},
+		{
+			"ID": "20240912170047-1970kmd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240912170047-1970kmd",
+				"updated": "20240912205740"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "regress()函数"
+				}
+			]
+		},
+		{
+			"ID": "20240912165955-yw2f7o2",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240912165955-yw2f7o2",
+				"updated": "20240912171417"
+			},
+			"Children": [
+				{
+					"ID": "20240912170028-6vqr9kj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240912170028-6vqr9kj",
+						"updated": "20240912170028"
+					},
+					"Children": [
+						{
+							"ID": "20240912170028-nl7cpyc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240912170028-nl7cpyc",
+								"updated": "20240912170043"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "regress函数   多重线性回归"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240912170058-6hf7uu3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240912170058-6hf7uu3",
+						"updated": "20240912170058"
+					},
+					"Children": [
+						{
+							"ID": "20240912170058-z1hyikt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240912170058-z1hyikt",
+								"updated": "20240912170121"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "[b,bint,r,rint,stats] = regress(y,x)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240912170122-uolaj2w",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240912170122-uolaj2w",
+						"updated": "20240912170122"
+					},
+					"Children": [
+						{
+							"ID": "20240912170122-e0jki5z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240912170122-e0jki5z",
+								"updated": "20240912170140"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "输入参数："
+								}
+							]
+						},
+						{
+							"ID": "20240912170144-dwzt6xj",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240912170144-dwzt6xj",
+								"updated": "20240912170144"
+							},
+							"Children": [
+								{
+									"ID": "20240912170143-bcmfkyd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240912170143-bcmfkyd",
+										"updated": "20240912170143"
+									},
+									"Children": [
+										{
+											"ID": "20240912170143-c8zr9be",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240912170143-c8zr9be",
+												"updated": "20240912170143"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "y响应数据"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240912170147-ulcd8gy",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240912170147-ulcd8gy",
+										"updated": "20240912170147"
+									},
+									"Children": [
+										{
+											"ID": "20240912170147-bszqvgy",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240912170147-bszqvgy",
+												"updated": "20240912170155"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "x预测变量数据"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240912170157-52tannk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240912170157-52tannk",
+						"updated": "20240912171417"
+					},
+					"Children": [
+						{
+							"ID": "20240912170157-5lbboaz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240912170157-5lbboaz",
+								"updated": "20240912170200"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "输出参数："
+								}
+							]
+						},
+						{
+							"ID": "20240912170203-rsq7t8r",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240912170203-rsq7t8r",
+								"updated": "20240912171417"
+							},
+							"Children": [
+								{
+									"ID": "20240912170202-ryge44t",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240912170202-ryge44t",
+										"updated": "20240912170202"
+									},
+									"Children": [
+										{
+											"ID": "20240912170202-0nxbhwq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240912170202-0nxbhwq",
+												"updated": "20240912170219"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "b返回的线性回归的系数（估计值）"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240912170220-fb79k4t",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240912170220-fb79k4t",
+										"updated": "20240912170220"
+									},
+									"Children": [
+										{
+											"ID": "20240912170220-ldf02w0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240912170220-ldf02w0",
+												"updated": "20240912170254"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "bint置信区间 系数的上下限"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240912170255-v45t2te",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240912170255-v45t2te",
+										"updated": "20240912170255"
+									},
+									"Children": [
+										{
+											"ID": "20240912170255-9um93y7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240912170255-9um93y7",
+												"updated": "20240912170313"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "r残差 真实值与拟合值之间的差"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240912170314-jguskrq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240912170314-jguskrq",
+										"updated": "20240912170314"
+									},
+									"Children": [
+										{
+											"ID": "20240912170314-kizit4p",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240912170314-kizit4p",
+												"updated": "20240912170332"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "rint用于诊断离群值的区间"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240912170332-qsztub8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240912170332-qsztub8",
+										"updated": "20240912171417"
+									},
+									"Children": [
+										{
+											"ID": "20240912170332-11vxud8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240912170332-11vxud8",
+												"updated": "20240912170345"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "stats模型统计量 四个检验值"
+												}
+											]
+										},
+										{
+											"ID": "20240912170347-jfaji9g",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240912170347-jfaji9g",
+												"updated": "20240912171417"
+											},
+											"Children": [
+												{
+													"ID": "20240912170347-73sgkkx",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"fold": "1",
+														"heading-fold": "1",
+														"id": "20240912170347-73sgkkx",
+														"updated": "20240912170347"
+													},
+													"Children": [
+														{
+															"ID": "20240912171216-vhfkfqo",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"fold": "1",
+																"heading-fold": "1",
+																"id": "20240912171216-vhfkfqo",
+																"updated": "20240912171216"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeImage",
+																	"Data": "span",
+																	"Children": [
+																		{
+																			"Type": "NodeBang"
+																		},
+																		{
+																			"Type": "NodeOpenBracket"
+																		},
+																		{
+																			"Type": "NodeLinkText",
+																			"Data": "image"
+																		},
+																		{
+																			"Type": "NodeCloseBracket"
+																		},
+																		{
+																			"Type": "NodeOpenParen"
+																		},
+																		{
+																			"Type": "NodeLinkDest",
+																			"Data": "assets/image-20240912171216-rm68ax1.png"
+																		},
+																		{
+																			"Type": "NodeCloseParen"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20240912171416-d5m1r73",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"fold": "1",
+														"heading-fold": "1",
+														"id": "20240912171416-d5m1r73",
+														"updated": "20240912171417"
+													},
+													"Children": [
+														{
+															"ID": "20240912171417-rgopd3p",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"fold": "1",
+																"heading-fold": "1",
+																"id": "20240912171417-rgopd3p",
+																"updated": "20240912171417"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeImage",
+																	"Data": "span",
+																	"Children": [
+																		{
+																			"Type": "NodeBang"
+																		},
+																		{
+																			"Type": "NodeOpenBracket"
+																		},
+																		{
+																			"Type": "NodeLinkText",
+																			"Data": "image"
+																		},
+																		{
+																			"Type": "NodeCloseBracket"
+																		},
+																		{
+																			"Type": "NodeOpenParen"
+																		},
+																		{
+																			"Type": "NodeLinkDest",
+																			"Data": "assets/image-20240912171417-ackzn7f.png"
+																		},
+																		{
+																			"Type": "NodeCloseParen"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240912205740-74vkt1q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240912205740-74vkt1q",
+				"updated": "20240912205740"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20240912205740-9zmign6.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20240912205739-kbng2u4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240912205739-kbng2u4",
+				"updated": "20240912205739"
+			}
+		},
+		{
+			"ID": "20240912165357-z6ydoup",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20240912165357-z6ydoup",
+				"updated": "20240912210141"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.2 一元非线性回归"
+				}
+			]
+		},
+		{
+			"ID": "20240912165406-7izn6wz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240912165406-7izn6wz",
+				"updated": "20240912210141"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "用法："
+				}
+			]
+		},
+		{
+			"ID": "20240912210130-0adwb28",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240912210130-0adwb28",
+				"updated": "20240912210130"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20240912210130-n22g6hy.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20240912210002-qmjtbz7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240912210002-qmjtbz7",
+				"updated": "20240913151024"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "代码："
+				}
+			]
+		},
+		{
+			"ID": "20240913150741-uf2rpxj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913150741-uf2rpxj",
+				"updated": "20240913150741"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "以下是使用非线性回归拟合一个指数模型的示例。"
+				}
+			]
+		},
+		{
+			"ID": "20240913150741-7b5391v",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913150741-7b5391v",
+				"updated": "20240913151024"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "示例：拟合 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "inline-math",
+					"TextMarkInlineMathContent": "y = \\beta_1 e^{\\beta_2 x}"
+				}
+			]
+		},
+		{
+			"ID": "20240912210145-w7g0aey",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240912210145-w7g0aey",
+				"style": "line-height: 15px;",
+				"updated": "20240913151024"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "bWF0bGFi"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "% Step 1: 生成样本数据\nx = (1:10)';\ny = [2.5, 3.5, 6.7, 10.8, 20.1, 36.5, 68.9, 131.7, 253.5, 490.4]';  % 数据\n\n% Step 2: 定义非线性模型函数\nmodel = @(beta, x) beta(1) * exp(beta(2) * x);  % 模型 y = β1 * exp(β2 * x)\n\n% Step 3: 初始猜测参数\nbeta0 = [1, 0.1];  % β1 和 β2 的初始估计\n\n% Step 4: 非线性回归拟合\n[beta_est, R, J, CovB, MSE] = nlinfit(x, y, model, beta0);  % 使用 nlinfit 进行拟合\n\n% Step 5: 预测\nx_pred = linspace(min(x), max(x), 100)';\ny_pred = model(beta_est, x_pred);  % 预测值\n\n% Step 6: 可视化结果\nfigure;\nplot(x, y, 'bo', 'MarkerFaceColor', 'b');  % 绘制原始数据点\nhold on;\nplot(x_pred, y_pred, 'r-', 'LineWidth', 2);  % 绘制拟合曲线\nxlabel('X');\nylabel('Y');\ntitle('一元非线性回归 (指数模型)');\nlegend('原始数据', '拟合曲线');\ngrid on;\n\n% Step 7: 输出拟合参数\ndisp('拟合的参数:');\ndisp(beta_est);\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20240912210145-a6yvwy6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240912210145-a6yvwy6",
+				"updated": "20240913154438"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "函数说明："
+				}
+			]
+		},
+		{
+			"ID": "20240913154229-92lh8r2",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913154229-92lh8r2",
+				"updated": "20240913154438"
+			},
+			"Children": [
+				{
+					"ID": "20240913154421-hcycleh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913154421-hcycleh",
+						"updated": "20240913154438"
+					},
+					"Children": [
+						{
+							"ID": "20240913154422-5quibkd",
+							"Type": "NodeHeading",
+							"HeadingLevel": 4,
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913154422-5quibkd",
+								"updated": "20240913154422"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "参数"
+								}
+							]
+						},
+						{
+							"ID": "20240913154422-0dckt6h",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913154422-0dckt6h",
+								"updated": "20240913154422"
+							},
+							"Children": [
+								{
+									"ID": "20240913154422-ptihrgd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240913154422-ptihrgd",
+										"updated": "20240913154422"
+									},
+									"Children": [
+										{
+											"ID": "20240913154422-f5cac18",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240913154422-f5cac18",
+												"updated": "20240913154422"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "X"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​：自变量的数据，通常是一个向量或矩阵。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240913154422-0yizypt",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240913154422-0yizypt",
+										"updated": "20240913154422"
+									},
+									"Children": [
+										{
+											"ID": "20240913154422-wsbgrjv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240913154422-wsbgrjv",
+												"updated": "20240913154422"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Y"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​：因变量的数据，通常是一个向量，表示实际的观测值。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240913154422-n70ekwr",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240913154422-n70ekwr",
+										"updated": "20240913154422"
+									},
+									"Children": [
+										{
+											"ID": "20240913154422-6zlo2ho",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240913154422-6zlo2ho",
+												"updated": "20240913154422"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "modelfun"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​：函数句柄，定义了待拟合的非线性模型。格式为 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "modelfun(beta, X)"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​，其中 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "beta"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 是需要拟合的参数。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240913154422-piau0in",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240913154422-piau0in",
+										"updated": "20240913154422"
+									},
+									"Children": [
+										{
+											"ID": "20240913154422-tv3v3hj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240913154422-tv3v3hj",
+												"updated": "20240913154422"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "beta0"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​：初始参数估计值，通常是一个向量，给定非线性模型中参数的初始猜测。"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20240913154422-2n2kule",
+							"Type": "NodeHeading",
+							"HeadingLevel": 4,
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913154422-2n2kule",
+								"updated": "20240913154422"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "输出"
+								}
+							]
+						},
+						{
+							"ID": "20240913154422-cp7letg",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913154422-cp7letg",
+								"updated": "20240913154422"
+							},
+							"Children": [
+								{
+									"ID": "20240913154422-4nxbipw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240913154422-4nxbipw",
+										"updated": "20240913154422"
+									},
+									"Children": [
+										{
+											"ID": "20240913154422-b8fwqm3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240913154422-b8fwqm3",
+												"updated": "20240913154422"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "beta"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​：拟合后的参数向量，表示最小化误差平方和的参数值。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240913154422-n03ypf3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240913154422-n03ypf3",
+										"updated": "20240913154422"
+									},
+									"Children": [
+										{
+											"ID": "20240913154422-vvagxq1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240913154422-vvagxq1",
+												"updated": "20240913154422"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "R"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​：残差向量，表示拟合值与实际数据之间的差异。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240913154422-jzekyua",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240913154422-jzekyua",
+										"updated": "20240913154422"
+									},
+									"Children": [
+										{
+											"ID": "20240913154422-ef1rs9w",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240913154422-ef1rs9w",
+												"updated": "20240913154422"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "J"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​：雅可比矩阵，用于计算标准误差。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240913154422-r11xtd9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240913154422-r11xtd9",
+										"updated": "20240913154422"
+									},
+									"Children": [
+										{
+											"ID": "20240913154422-ofm1wgz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240913154422-ofm1wgz",
+												"updated": "20240913154422"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "CovB"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​：拟合参数的协方差矩阵，用于误差估计。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240913154422-c5wjlf0",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240913154422-c5wjlf0",
+										"updated": "20240913154422"
+									},
+									"Children": [
+										{
+											"ID": "20240913154422-dzoc5xg",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240913154422-dzoc5xg",
+												"updated": "20240913154422"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "MSE"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​：均方误差（Mean Squared Error），用于衡量拟合的好坏。"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20240913154422-qblxrww",
+							"Type": "NodeHeading",
+							"HeadingLevel": 4,
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913154422-qblxrww",
+								"updated": "20240913154438"
+							}
+						},
+						{
+							"ID": "20240913154438-0q5xtd3",
+							"Type": "NodeHeading",
+							"HeadingLevel": 4,
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913154438-0q5xtd3",
+								"updated": "20240913154438"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "关键点"
+								}
+							]
+						},
+						{
+							"ID": "20240913154438-mbnmgq6",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913154438-mbnmgq6",
+								"updated": "20240913154438"
+							},
+							"Children": [
+								{
+									"ID": "20240913154438-qwq47zw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240913154438-qwq47zw",
+										"updated": "20240913154438"
+									},
+									"Children": [
+										{
+											"ID": "20240913154438-mg1e1zl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240913154438-mg1e1zl",
+												"updated": "20240913154438"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "nlinfit"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 用于拟合非线性模型时，初始参数的猜测 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "beta0"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 非常重要。如果初始猜测值不合理，可能会导致收敛到局部最优解。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240913154438-pz85dmi",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240913154438-pz85dmi",
+										"updated": "20240913154438"
+									},
+									"Children": [
+										{
+											"ID": "20240913154438-vguyzwx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240913154438-vguyzwx",
+												"updated": "20240913154438"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可以通过增加输出来获取残差、协方差矩阵等信息，用于进一步分析模型的拟合质量。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240912210203-462629z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240912210203-462629z",
+				"updated": "20240912210203"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20240912210203-icuydtb.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20240912210003-lerm3tp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240912210003-lerm3tp",
+				"updated": "20240912210003"
+			}
+		},
+		{
+			"ID": "20240912165407-151od54",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20240912165407-151od54",
+				"updated": "20240913143840"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.3 多项式回归"
+				}
+			]
+		},
+		{
+			"ID": "20240912165416-ifoajye",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240912165416-ifoajye",
+				"updated": "20240913143840"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "用途："
+				}
+			]
+		},
+		{
+			"ID": "20240913143639-nuoc2bl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913143639-nuoc2bl",
+				"updated": "20240913143727"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "是一种扩展了线性回归的回归模型，它适用于变量之间存在非线性关系的情况。其基本思想是通过将自变量 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "inline-math",
+					"TextMarkInlineMathContent": "x"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 的多项式项（如 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "inline-math",
+					"TextMarkInlineMathContent": "x^2, x^3, \\dots"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "）加入回归模型，使得模型能够更好地拟合数据。"
+				}
+			]
+		},
+		{
+			"ID": "20240913143801-2ff1np5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913143801-2ff1np5",
+				"updated": "20240913143801"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "多项式回归的模型可以表示为："
+				}
+			]
+		},
+		{
+			"ID": "20240913143801-1zpv4ie",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913143801-1zpv4ie",
+				"updated": "20240913143801"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "inline-math",
+					"TextMarkInlineMathContent": "y = \\beta_0 + \\beta_1 x + \\beta_2 x^2 + \\dots + \\beta_n x^n + \\epsilon"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "其中："
+				}
+			]
+		},
+		{
+			"ID": "20240913143801-fljzsuy",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913143801-fljzsuy",
+				"updated": "20240913143801"
+			},
+			"Children": [
+				{
+					"ID": "20240913143801-9xz7c6z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913143801-9xz7c6z",
+						"updated": "20240913143801"
+					},
+					"Children": [
+						{
+							"ID": "20240913143801-lz83e5o",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913143801-lz83e5o",
+								"updated": "20240913143801"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "inline-math",
+									"TextMarkInlineMathContent": "y"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 是因变量（预测的目标值）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240913143801-apspaam",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913143801-apspaam",
+						"updated": "20240913143801"
+					},
+					"Children": [
+						{
+							"ID": "20240913143801-ym44mmq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913143801-ym44mmq",
+								"updated": "20240913143801"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "inline-math",
+									"TextMarkInlineMathContent": "x"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 是自变量"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240913143801-1ef2mtb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913143801-1ef2mtb",
+						"updated": "20240913143801"
+					},
+					"Children": [
+						{
+							"ID": "20240913143801-hv6n55t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913143801-hv6n55t",
+								"updated": "20240913143801"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "inline-math",
+									"TextMarkInlineMathContent": "\\beta_0, \\beta_1, \\dots, \\beta_n"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 是回归系数"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240913143801-1p4mc3z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913143801-1p4mc3z",
+						"updated": "20240913143801"
+					},
+					"Children": [
+						{
+							"ID": "20240913143801-oycicd8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913143801-oycicd8",
+								"updated": "20240913143801"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "inline-math",
+									"TextMarkInlineMathContent": "\\epsilon"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 是误差项"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240913143801-gts9483",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913143801-gts9483",
+						"updated": "20240913143801"
+					},
+					"Children": [
+						{
+							"ID": "20240913143801-lzyz9t3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913143801-lzyz9t3",
+								"updated": "20240913143801"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "inline-math",
+									"TextMarkInlineMathContent": "n"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 是多项式的阶数"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240913143805-ewd24yh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913143805-ewd24yh",
+				"updated": "20240913143840"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color9);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "注意："
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color9);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20240913143840-toiyh4t",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913143840-toiyh4t",
+				"updated": "20240913143840"
+			},
+			"Children": [
+				{
+					"ID": "20240913143840-jn21ch4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913143840-jn21ch4",
+						"updated": "20240913143840"
+					},
+					"Children": [
+						{
+							"ID": "20240913143840-m0uis5h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913143840-m0uis5h",
+								"updated": "20240913143840"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "高次多项式可能导致模型过拟合，特别是当数据量较小时。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240913143840-lwxjkwc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913143840-lwxjkwc",
+						"updated": "20240913143840"
+					},
+					"Children": [
+						{
+							"ID": "20240913143840-oy8w4sr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913143840-oy8w4sr",
+								"updated": "20240913143840"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "高次项过多可能使模型复杂度过高，难以解释。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240913143639-oqn6py6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913143639-oqn6py6",
+				"updated": "20240913144941"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "代码："
+				}
+			]
+		},
+		{
+			"ID": "20240913143942-qrswunh",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913143942-qrswunh",
+				"style": "line-height: 15px;",
+				"updated": "20240913144941"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "bWF0bGFi"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "% Step 1: 生成样本数据\nx = (1:10)';  % 自变量\ny = [2.1, 2.4, 3.1, 4.8, 6.1, 8.0, 9.6, 12.2, 14.8, 18.2]';  % 因变量\n\n% Step 2: 进行多项式回归\nn = 2;  % 指定多项式的阶数\np = polyfit(x, y, n);  % 返回多项式系数\n\n% Step 3: 使用多项式预测\nx_pred = linspace(min(x), max(x), 100)';  % 创建更多点用于绘图\ny_pred = polyval(p, x_pred);  % 计算拟合曲线\n\n% Step 4: 可视化结果\nfigure;\nplot(x, y, 'bo', 'MarkerFaceColor', 'b');  % 绘制原始数据点\nhold on;\nplot(x_pred, y_pred, 'r-', 'LineWidth', 2);  % 绘制拟合曲线\nxlabel('X');\nylabel('Y');\ntitle('多项式回归');\nlegend('原始数据', '拟合曲线');\ngrid on;\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20240913143646-4z5du7e",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913143646-4z5du7e",
+				"updated": "20240913145621"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "函数说明："
+				}
+			]
+		},
+		{
+			"ID": "20240913145048-b0v07vf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913145048-b0v07vf",
+				"updated": "20240913145621"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "polyfit(x, y, n)"
+				}
+			]
+		},
+		{
+			"ID": "20240913145117-n6g61gb",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913145117-n6g61gb",
+				"updated": "20240913145133"
+			},
+			"Children": [
+				{
+					"ID": "20240913145120-u8ahnlc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913145120-u8ahnlc",
+						"updated": "20240913145133"
+					},
+					"Children": [
+						{
+							"ID": "20240913145120-gx7bx5n",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913145120-gx7bx5n",
+								"style": "line-height: 15px;",
+								"updated": "20240913145133"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "bWF0bGFi"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "p = polyfit(x, y, n)\n[p, S, mu] = polyfit(x, y, n)\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240912210249-70b3naq",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240912210249-70b3naq",
+				"updated": "20240913145621"
+			},
+			"Children": [
+				{
+					"ID": "20240913145150-6sjf2r5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913145150-6sjf2r5",
+						"updated": "20240913145150"
+					},
+					"Children": [
+						{
+							"ID": "20240913145151-so4bf5v",
+							"Type": "NodeHeading",
+							"HeadingLevel": 4,
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913145151-so4bf5v",
+								"updated": "20240913145151"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "参数"
+								}
+							]
+						},
+						{
+							"ID": "20240913145151-v3h02x6",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913145151-v3h02x6",
+								"updated": "20240913145151"
+							},
+							"Children": [
+								{
+									"ID": "20240913145151-ljy3h0d",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240913145151-ljy3h0d",
+										"updated": "20240913145151"
+									},
+									"Children": [
+										{
+											"ID": "20240913145151-p305l4w",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240913145151-p305l4w",
+												"updated": "20240913145151"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "x"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​：自变量的向量，表示数据点的横坐标。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240913145151-xqgyn1u",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240913145151-xqgyn1u",
+										"updated": "20240913145151"
+									},
+									"Children": [
+										{
+											"ID": "20240913145151-b4lkswf",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240913145151-b4lkswf",
+												"updated": "20240913145151"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "y"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​：因变量的向量，表示数据点的纵坐标。"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "x"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 和 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "y"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 的长度必须相同。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240913145151-is6lik8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240913145151-is6lik8",
+										"updated": "20240913145151"
+									},
+									"Children": [
+										{
+											"ID": "20240913145151-1rsz8w7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240913145151-1rsz8w7",
+												"updated": "20240913145151"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "n"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​：指定拟合多项式的阶数。例如，"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "n=1"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 代表线性回归（即一次多项式），"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "n=2"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 代表二次多项式，依此类推。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240913145154-mam4vbh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913145154-mam4vbh",
+						"updated": "20240913145154"
+					},
+					"Children": [
+						{
+							"ID": "20240913145212-ury5lfr",
+							"Type": "NodeHeading",
+							"HeadingLevel": 4,
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913145212-ury5lfr",
+								"updated": "20240913145212"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "输出"
+								}
+							]
+						},
+						{
+							"ID": "20240913145212-2h6lc5u",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913145212-2h6lc5u",
+								"updated": "20240913145212"
+							},
+							"Children": [
+								{
+									"ID": "20240913145212-j2fj7cf",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240913145212-j2fj7cf",
+										"updated": "20240913145212"
+									},
+									"Children": [
+										{
+											"ID": "20240913145212-ix8rw05",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240913145212-ix8rw05",
+												"updated": "20240913145212"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "p"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​：包含拟合多项式系数的行向量，长度为 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "n+1"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​，表示多项式的最高次项到常数项的系数。例如，"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "p = [a_n, a_(n-1), ..., a_1, a_0]"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​，对应 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "inline-math",
+													"TextMarkInlineMathContent": "y = a_n x^n + a_{n-1} x^{n-1} + \\dots + a_1 x + a_0"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240913145212-gagey0d",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240913145212-gagey0d",
+										"updated": "20240913145212"
+									},
+									"Children": [
+										{
+											"ID": "20240913145212-p315ll5",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240913145212-p315ll5",
+												"updated": "20240913145212"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "S"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​（可选）：结构体，包含用于误差估计的参数。如果需要使用 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "polyval"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 进行误差估计，可以提供此结构体。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240913145212-q4d75du",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240913145212-q4d75du",
+										"updated": "20240913145212"
+									},
+									"Children": [
+										{
+											"ID": "20240913145212-p3yt9rz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240913145212-p3yt9rz",
+												"updated": "20240913145338"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "mu"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​（可选）：1x2 的向量，用于对数据进行"
+												},
+												{
+													"Type": "NodeTextMark",
+													"Properties": {
+														"style": "color: var(--b3-font-color9);"
+													},
+													"TextMarkType": "strong text",
+													"TextMarkTextContent": "均值和标准差的缩放"
+												},
+												{
+													"Type": "NodeKramdownSpanIAL",
+													"Data": "{: style=\"color: var(--b3-font-color9);\"}"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​，形式为 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "[mean(x), std(x)]"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​。它用于提高数值稳定性，特别是在 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "x"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 的值范围很大时。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240913145600-r7f6d2z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913145600-r7f6d2z",
+						"updated": "20240913145621"
+					},
+					"Children": [
+						{
+							"ID": "20240913145621-e75edxp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913145621-e75edxp",
+								"updated": "20240913145621"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20240913145621-gp9q92z.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240913145346-e834pc0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913145346-e834pc0",
+				"updated": "20240913150413"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "polyval(p,x)"
+				}
+			]
+		},
+		{
+			"ID": "20240913145407-u3oq9wz",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913145407-u3oq9wz",
+				"updated": "20240913145502"
+			},
+			"Children": [
+				{
+					"ID": "20240913145409-peeb45k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913145409-peeb45k",
+						"updated": "20240913145502"
+					},
+					"Children": [
+						{
+							"ID": "20240913145409-4za5681",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913145409-4za5681",
+								"style": "line-height: 15px;",
+								"updated": "20240913145502"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "bWF0bGFi"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\ny = polyval(p, x)\n[y, delta] = polyval(p, x, S)\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240912210249-qzv0njq",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240912210249-qzv0njq",
+				"updated": "20240913145824"
+			},
+			"Children": [
+				{
+					"ID": "20240913145514-2szmkf7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913145514-2szmkf7",
+						"updated": "20240913145514"
+					},
+					"Children": [
+						{
+							"ID": "20240913145527-rq2flus",
+							"Type": "NodeHeading",
+							"HeadingLevel": 4,
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913145527-rq2flus",
+								"updated": "20240913145527"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "参数"
+								}
+							]
+						},
+						{
+							"ID": "20240913145527-vimnr1v",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913145527-vimnr1v",
+								"updated": "20240913145527"
+							},
+							"Children": [
+								{
+									"ID": "20240913145527-4wwvfwl",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240913145527-4wwvfwl",
+										"updated": "20240913145527"
+									},
+									"Children": [
+										{
+											"ID": "20240913145527-s7964sb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240913145527-s7964sb",
+												"updated": "20240913145527"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "p"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​：多项式的系数向量，通常由 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "polyfit"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 函数计算得到，按从高次项到低次项的顺序排列。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240913145527-z0cj3bf",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240913145527-z0cj3bf",
+										"updated": "20240913145527"
+									},
+									"Children": [
+										{
+											"ID": "20240913145527-dc8ajtk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240913145527-dc8ajtk",
+												"updated": "20240913145527"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "x"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​：自变量的向量，表示要评估多项式的点。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240913145527-67rmskm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240913145527-67rmskm",
+										"updated": "20240913145527"
+									},
+									"Children": [
+										{
+											"ID": "20240913145527-pgssovd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240913145527-pgssovd",
+												"updated": "20240913145527"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "S"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​（可选）："
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "polyfit"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 返回的结构体，包含误差估计的相关信息。如果提供了 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "S"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​，则可以估计预测值的误差。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240913145539-o2fy6ri",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913145539-o2fy6ri",
+						"updated": "20240913145539"
+					},
+					"Children": [
+						{
+							"ID": "20240913145540-9mec2xm",
+							"Type": "NodeHeading",
+							"HeadingLevel": 4,
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913145540-9mec2xm",
+								"updated": "20240913145540"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "输出"
+								}
+							]
+						},
+						{
+							"ID": "20240913145540-6i507ej",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913145540-6i507ej",
+								"updated": "20240913145540"
+							},
+							"Children": [
+								{
+									"ID": "20240913145540-yzm3hcd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240913145540-yzm3hcd",
+										"updated": "20240913145540"
+									},
+									"Children": [
+										{
+											"ID": "20240913145540-mry9xhu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240913145540-mry9xhu",
+												"updated": "20240913145540"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "y"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​：多项式在 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "x"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 点的预测值或拟合值。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240913145540-0odzoso",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240913145540-0odzoso",
+										"updated": "20240913145540"
+									},
+									"Children": [
+										{
+											"ID": "20240913145540-ap3cbos",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240913145540-ap3cbos",
+												"updated": "20240913145540"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "delta"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​（可选）：每个 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "x"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 值对应的预测误差估计。如果给定了 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "S"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​，"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "delta"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 会返回误差估计量，用于置信区间的计算。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240913145740-lk4fv12",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913145740-lk4fv12",
+						"updated": "20240913145824"
+					},
+					"Children": [
+						{
+							"ID": "20240913145824-qi8vfqh",
+							"Type": "NodeHeading",
+							"HeadingLevel": 4,
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913145824-qi8vfqh",
+								"updated": "20240913145824"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "示例"
+								}
+							]
+						},
+						{
+							"ID": "20240913145824-gnfii23",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913145824-gnfii23",
+								"updated": "20240913145824"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "bWF0bGFi"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "% 假设我们有以下的多项式系数\np = [0.1, 1.5, 0.2];  % 对应 y = 0.1x^2 + 1.5x + 0.2\n\n% 我们想要预测 x = 2.5 时的 y 值\nx = 2.5;\ny = polyval(p, x);\ndisp(y);  % 输出：5.05\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240912210250-u3817b3",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240912210250-u3817b3",
+				"updated": "20240913150413"
+			},
+			"Children": [
+				{
+					"ID": "20240913145836-e9b98lk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913145836-e9b98lk",
+						"updated": "20240913150413"
+					},
+					"Children": [
+						{
+							"ID": "20240913145837-z1z2pu0",
+							"Type": "NodeHeading",
+							"HeadingLevel": 4,
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913145837-z1z2pu0",
+								"updated": "20240913150413"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用误差估计的示例"
+								}
+							]
+						},
+						{
+							"ID": "20240913145837-8yoiuwg",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913145837-8yoiuwg",
+								"style": "line-height: 15px;",
+								"updated": "20240913150413"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "bWF0bGFi"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "x = [1, 2, 3, 4, 5];\ny = [1.2, 1.9, 3.2, 3.9, 5.1];\n[p, S] = polyfit(x, y, 2);  % 二次多项式拟合并获取 S\n\n% 使用误差估计\n[x_pred, delta] = polyval(p, x, S);\n\n% 输出结果\ndisp(x_pred);  % 拟合值\ndisp(delta);   % 误差估计，返回的delta是预测值的标准差，可以用于\n\t\t\t\t%表示置信水平区间onf_interval = [y_pred - delta, y_pred + delta];\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240912165416-dd1ijjj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20240912165416-dd1ijjj",
+				"updated": "20240913160814"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.4 非线性回归"
+				}
+			]
+		},
+		{
+			"ID": "20240912165427-6m6q2vn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240912165427-6m6q2vn",
+				"updated": "20240913154625"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "同一元非线性回归"
+				}
+			]
+		},
+		{
+			"ID": "20240913160743-kmaznvo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913160743-kmaznvo",
+				"updated": "20240913160814"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "代码："
+				}
+			]
+		},
+		{
+			"ID": "20240913160814-ypjaswn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913160814-ypjaswn",
+				"updated": "20240913160814"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "假设我们要拟合以下模型："
+				}
+			]
+		},
+		{
+			"ID": "20240913160814-u21mayw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913160814-u21mayw",
+				"updated": "20240913160814"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "inline-math",
+					"TextMarkInlineMathContent": "y = \\beta_1 e^{\\beta_2 x_1 + \\beta_3 x_2}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "我们可以使用 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "nlinfit"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 进行拟合。"
+				}
+			]
+		},
+		{
+			"ID": "20240913160754-394t1hw",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913160754-394t1hw",
+				"style": "line-height: 15px;",
+				"updated": "20240913160759"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "bWF0bGFi"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "% 生成样本数据\nx1 = (1:10)';  % 自变量 x1\nx2 = (10:-1:1)';  % 自变量 x2\ny = [2.5, 3.5, 6.7, 10.8, 20.1, 36.5, 68.9, 131.7, 253.5, 490.4]';  % 因变量\n\n% 将自变量组合成矩阵\nX = [x1, x2];\n\n% 定义多元非线性模型：y = β1 * exp(β2 * x1 + β3 * x2)\nmodelfun = @(beta, X) beta(1) * exp(beta(2) * X(:, 1) + beta(3) * X(:, 2));\n\n% 初始参数估计\nbeta0 = [1, 0.1, 0.1];\n\n% 进行多元非线性回归拟合\nbeta = nlinfit(X, y, modelfun, beta0);\n\n% 预测值计算\nx1_pred = linspace(min(x1), max(x1), 100)';\nx2_pred = linspace(min(x2), max(x2), 100)';\nX_pred = [x1_pred, x2_pred];\ny_pred = modelfun(beta, X_pred);\n\n% 输出拟合的参数\ndisp('拟合的参数:');\ndisp(beta);\n\n% 绘制拟合曲线（使用 x1 与 y_pred）\nfigure;\nplot3(x1, x2, y, 'bo', 'MarkerFaceColor', 'b');  % 原始数据点\nhold on;\nplot3(x1_pred, x2_pred, y_pred, 'r-', 'LineWidth', 2);  % 拟合曲线\nxlabel('X1');\nylabel('X2');\nzlabel('Y');\ntitle('多元非线性回归 (指数模型)');\nlegend('原始数据', '拟合曲线');\ngrid on;\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20240913160752-z2t9n38",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913160752-z2t9n38",
+				"updated": "20240913160752"
+			}
+		},
+		{
+			"ID": "20240913154801-rm1juws",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913154801-rm1juws",
+				"updated": "20240913154922"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "函数说明："
+				}
+			]
+		},
+		{
+			"ID": "20240913154810-41k5cdz",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913154810-41k5cdz",
+				"updated": "20240913154922"
+			},
+			"Children": [
+				{
+					"ID": "20240913154810-u5nb1lo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913154810-u5nb1lo",
+						"updated": "20240913154922"
+					},
+					"Children": [
+						{
+							"ID": "20240913154810-z4k10wl",
+							"Type": "NodeHeading",
+							"HeadingLevel": 4,
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913154810-z4k10wl",
+								"updated": "20240913154922"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "nlpredci"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 函数"
+								}
+							]
+						},
+						{
+							"ID": "20240913154847-lp3flln",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913154847-lp3flln",
+								"updated": "20240913154922"
+							},
+							"Children": [
+								{
+									"ID": "20240913154846-kbilt10",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240913154846-kbilt10",
+										"updated": "20240913154846"
+									},
+									"Children": [
+										{
+											"ID": "20240913154846-9i1z0pc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240913154846-9i1z0pc",
+												"updated": "20240913154851"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "用来计算预测的置信区间"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240913154915-w2pst1o",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240913154915-w2pst1o",
+										"updated": "20240913154922"
+									},
+									"Children": [
+										{
+											"ID": "20240913154915-iscl4wp",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240913154915-iscl4wp",
+												"style": "line-height: 15px;",
+												"updated": "20240913154922"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "bWF0bGFi"
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "% 生成预测点\nx_pred = linspace(min(x), max(x), 100)';\n\n% 计算预测值和置信区间\n[y_pred, delta] = nlpredci(modelfun, x_pred, beta, R, 'Covar', CovB);\n\n% 绘制拟合曲线和置信区间\nfigure;\nplot(x, y, 'bo', 'MarkerFaceColor', 'b');  % 原始数据点\nhold on;\nplot(x_pred, y_pred, 'r-', 'LineWidth', 2);  % 拟合曲线\nplot(x_pred, y_pred + delta, 'r--');  % 上置信区间\nplot(x_pred, y_pred - delta, 'r--');  % 下置信区间\nxlabel('X');\nylabel('Y');\ntitle('非线性回归与置信区间');\nlegend('原始数据', '拟合曲线', '置信区间');\ngrid on;\n\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240912165427-1bhc3n5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20240912165427-1bhc3n5",
+				"updated": "20240913164953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.5 逐步回归"
+				}
+			]
+		},
+		{
+			"ID": "20240912164517-zaxrxpl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240912164517-zaxrxpl",
+				"updated": "20240913164953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "用法："
+				}
+			]
+		},
+		{
+			"ID": "20240913164855-q3zny31",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913164855-q3zny31",
+				"updated": "20240913164925"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "它的目标是通过逐步添加或移除自变量来构建具有较高解释力、但又简洁的模型，避免过拟合问题。逐步回归特别适合处理多个自变量的情况。"
+				}
+			]
+		},
+		{
+			"ID": "20240913164938-29t96ml",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913164938-29t96ml",
+				"updated": "20240913164939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "逐步回归可以根据特定的准则，如"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "AIC"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "（Akaike信息准则）、"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "BIC"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "（贝叶斯信息准则）或调整后的 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "inline-math",
+					"TextMarkInlineMathContent": "R^2"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，来评估模型的优劣，从而选择合适的自变量。"
+				}
+			]
+		},
+		{
+			"ID": "20240913164953-e7osp7c",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913164953-e7osp7c",
+				"updated": "20240913164953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "逐步回归的三种方法"
+				}
+			]
+		},
+		{
+			"ID": "20240913164953-xeo0w34",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913164953-xeo0w34",
+				"updated": "20240913164953"
+			},
+			"Children": [
+				{
+					"ID": "20240913164953-0dhynbe",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913164953-0dhynbe",
+						"updated": "20240913164953"
+					},
+					"Children": [
+						{
+							"ID": "20240913164953-6nbr5yv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913164953-6nbr5yv",
+								"updated": "20240913164953"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "前向选择（Forward Selection）"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "："
+								}
+							]
+						},
+						{
+							"ID": "20240913164953-6lxiat4",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913164953-6lxiat4",
+								"updated": "20240913164953"
+							},
+							"Children": [
+								{
+									"ID": "20240913164953-d73gxn8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240913164953-d73gxn8",
+										"updated": "20240913164953"
+									},
+									"Children": [
+										{
+											"ID": "20240913164953-64ikvou",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240913164953-64ikvou",
+												"updated": "20240913164953"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "从空模型开始，没有任何自变量。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240913164953-ldya2qo",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240913164953-ldya2qo",
+										"updated": "20240913164953"
+									},
+									"Children": [
+										{
+											"ID": "20240913164953-njjmldq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240913164953-njjmldq",
+												"updated": "20240913164953"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "每一步选择最能提高模型拟合度的自变量，直到没有自变量能显著提高模型的拟合效果。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240913164953-iklhsvq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913164953-iklhsvq",
+						"updated": "20240913164953"
+					},
+					"Children": [
+						{
+							"ID": "20240913164953-ifnif36",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913164953-ifnif36",
+								"updated": "20240913164953"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "后向消除（Backward Elimination）"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "："
+								}
+							]
+						},
+						{
+							"ID": "20240913164953-udd655o",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913164953-udd655o",
+								"updated": "20240913164953"
+							},
+							"Children": [
+								{
+									"ID": "20240913164953-3oa675c",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240913164953-3oa675c",
+										"updated": "20240913164953"
+									},
+									"Children": [
+										{
+											"ID": "20240913164953-gjhwuho",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240913164953-gjhwuho",
+												"updated": "20240913164953"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "从包含所有自变量的全模型开始。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240913164953-mls32tu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240913164953-mls32tu",
+										"updated": "20240913164953"
+									},
+									"Children": [
+										{
+											"ID": "20240913164953-e2fmw8x",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240913164953-e2fmw8x",
+												"updated": "20240913164953"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "每一步逐一移除对模型拟合度贡献最小的自变量，直到模型中的每一个变量都显著。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240913164953-tfsztu1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913164953-tfsztu1",
+						"updated": "20240913164953"
+					},
+					"Children": [
+						{
+							"ID": "20240913164953-w26hrt5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913164953-w26hrt5",
+								"updated": "20240913164953"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "逐步回归（Stepwise Regression）"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "："
+								}
+							]
+						},
+						{
+							"ID": "20240913164953-sgfhigf",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913164953-sgfhigf",
+								"updated": "20240913164953"
+							},
+							"Children": [
+								{
+									"ID": "20240913164953-3h3bx4n",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240913164953-3h3bx4n",
+										"updated": "20240913164953"
+									},
+									"Children": [
+										{
+											"ID": "20240913164953-uwfa6ac",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240913164953-uwfa6ac",
+												"updated": "20240913164953"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "结合前向选择和后向消除的方法。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20240913164953-ge0l72g",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"fold": "1",
+										"heading-fold": "1",
+										"id": "20240913164953-ge0l72g",
+										"updated": "20240913164953"
+									},
+									"Children": [
+										{
+											"ID": "20240913164953-ba9anap",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"fold": "1",
+												"heading-fold": "1",
+												"id": "20240913164953-ba9anap",
+												"updated": "20240913164953"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "每一步添加一个新的自变量后，检查模型中现有的变量是否仍然显著，移除不显著的变量。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240913164855-zda09ko",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913164855-zda09ko",
+				"updated": "20240913165144"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "代码："
+				}
+			]
+		},
+		{
+			"ID": "20240913165059-w7x4djp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913165059-w7x4djp",
+				"updated": "20240913165144"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "MATLAB 提供了"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code strong",
+					"TextMarkTextContent": "stepwiselm"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "函数，用于进行逐步回归分析"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code strong",
+					"TextMarkTextContent": "stepwiselm"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 可以处理线性模型，并可以根据准则自动添加或删除自变量。"
+				}
+			]
+		},
+		{
+			"ID": "20240913164859-1inxwqe",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913164859-1inxwqe",
+				"style": "line-height: 15px;",
+				"updated": "20240913165049"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "bWF0bGFi"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\nmdl = stepwiselm(X, Y)\nmdl = stepwiselm(X, Y, 'modelspec', modelType)\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20240913165118-hra5bju",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913165118-hra5bju",
+				"updated": "20240913165118"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参数说明"
+				}
+			]
+		},
+		{
+			"ID": "20240913165118-y8ns1qc",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913165118-y8ns1qc",
+				"updated": "20240913165118"
+			},
+			"Children": [
+				{
+					"ID": "20240913165118-ff3p0bj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913165118-ff3p0bj",
+						"updated": "20240913165118"
+					},
+					"Children": [
+						{
+							"ID": "20240913165118-b5hw9yt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913165118-b5hw9yt",
+								"updated": "20240913165118"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "X"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​：自变量数据，通常是一个矩阵，每列表示一个自变量。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240913165118-nkwv7ep",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913165118-nkwv7ep",
+						"updated": "20240913165118"
+					},
+					"Children": [
+						{
+							"ID": "20240913165118-cve1993",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913165118-cve1993",
+								"updated": "20240913165118"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Y"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​：因变量数据，通常是一个向量。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240913165118-lajquf3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913165118-lajquf3",
+						"updated": "20240913165118"
+					},
+					"Children": [
+						{
+							"ID": "20240913165118-ruvy8zw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913165118-ruvy8zw",
+								"updated": "20240913165118"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "'modelspec'"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​：模型类型，指定初始模型，可以是 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "'linear'"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​（线性）、"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "'constant'"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​（常数项）、"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "'interactions'"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​（包含交互项）、"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "'purequadratic'"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​（仅二次项）等。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240913165118-jvda6dv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913165118-jvda6dv",
+						"updated": "20240913165118"
+					},
+					"Children": [
+						{
+							"ID": "20240913165118-kdyk7p5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913165118-kdyk7p5",
+								"updated": "20240913165118"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "mdl"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​：返回一个 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "LinearModel"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 对象，包含拟合的回归模型。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240913164900-rbvazn2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913164900-rbvazn2",
+				"updated": "20240913165828"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "函数说明："
+				}
+			]
+		},
+		{
+			"ID": "20240913165818-ackb37v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913165818-ackb37v",
+				"updated": "20240913165818"
+			}
+		},
+		{
+			"ID": "20240913165818-p95l9vm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913165818-p95l9vm",
+				"updated": "20240913165818"
+			}
+		},
+		{
+			"ID": "20240913165818-8upzgye",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913165818-8upzgye",
+				"updated": "20240913165820"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "总结"
+				}
+			]
+		},
+		{
+			"ID": "20240913165820-4n1vle3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913165820-4n1vle3",
+				"updated": "20240913165820"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "逐步回归的准则"
+				}
+			]
+		},
+		{
+			"ID": "20240913165820-emckgnj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913165820-emckgnj",
+				"updated": "20240913165820"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "逐步回归的变量选择基于某些准则，常见的准则包括："
+				}
+			]
+		},
+		{
+			"ID": "20240913165820-ci283l9",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913165820-ci283l9",
+				"updated": "20240913165820"
+			},
+			"Children": [
+				{
+					"ID": "20240913165820-lzw5kba",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913165820-lzw5kba",
+						"updated": "20240913165820"
+					},
+					"Children": [
+						{
+							"ID": "20240913165820-hprwk2p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913165820-hprwk2p",
+								"updated": "20240913165820"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "AIC（Akaike 信息准则）"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：用于比较模型的优劣，AIC 值越低，模型越好。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240913165820-057klg2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913165820-057klg2",
+						"updated": "20240913165820"
+					},
+					"Children": [
+						{
+							"ID": "20240913165820-dopeiqc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913165820-dopeiqc",
+								"updated": "20240913165820"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "BIC（贝叶斯信息准则）"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：类似于 AIC，但对模型复杂度有更强的惩罚。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240913165820-rpokupw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913165820-rpokupw",
+						"updated": "20240913165820"
+					},
+					"Children": [
+						{
+							"ID": "20240913165820-bx4vg1i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913165820-bx4vg1i",
+								"updated": "20240913165820"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "调整后的"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong inline-math",
+									"TextMarkInlineMathContent": "R^2"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：考虑模型中变量数量的调整后的 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "inline-math",
+									"TextMarkInlineMathContent": "R^2"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，可以避免过拟合问题。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240913165820-l49q3gm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913165820-l49q3gm",
+				"updated": "20240913165820"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "逐步回归的优缺点"
+				}
+			]
+		},
+		{
+			"ID": "20240913165820-syxj2w7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913165820-syxj2w7",
+				"updated": "20240913165820"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "优点："
+				}
+			]
+		},
+		{
+			"ID": "20240913165820-aa7484t",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913165820-aa7484t",
+				"updated": "20240913165820"
+			},
+			"Children": [
+				{
+					"ID": "20240913165820-k4h59vp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913165820-k4h59vp",
+						"updated": "20240913165820"
+					},
+					"Children": [
+						{
+							"ID": "20240913165820-oqyvfzs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913165820-oqyvfzs",
+								"updated": "20240913165820"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "自动选择变量"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：通过迭代选择过程，自动找出对模型有显著贡献的自变量，避免过度拟合。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240913165820-tnr0xh4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913165820-tnr0xh4",
+						"updated": "20240913165820"
+					},
+					"Children": [
+						{
+							"ID": "20240913165820-yj31e2h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913165820-yj31e2h",
+								"updated": "20240913165820"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "计算效率高"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：与其他模型选择方法相比，逐步回归计算速度较快，适合处理大规模数据集。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240913165820-m74hsmk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913165820-m74hsmk",
+						"updated": "20240913165820"
+					},
+					"Children": [
+						{
+							"ID": "20240913165820-dkn1uzd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913165820-dkn1uzd",
+								"updated": "20240913165820"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "模型简化"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：能够生成一个简化的模型，使解释更加直观。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240913165820-8lrh2kt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913165820-8lrh2kt",
+				"updated": "20240913165820"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "缺点："
+				}
+			]
+		},
+		{
+			"ID": "20240913165820-4b48f3i",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913165820-4b48f3i",
+				"updated": "20240913165820"
+			},
+			"Children": [
+				{
+					"ID": "20240913165820-9gincq1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913165820-9gincq1",
+						"updated": "20240913165820"
+					},
+					"Children": [
+						{
+							"ID": "20240913165820-g2h1sku",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913165820-g2h1sku",
+								"updated": "20240913165820"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "可能错过全局最优"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：逐步回归是基于局部最优选择的过程，可能导致错过全局最优的变量组合。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240913165820-ldyy4d4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913165820-ldyy4d4",
+						"updated": "20240913165820"
+					},
+					"Children": [
+						{
+							"ID": "20240913165820-cfcteq0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913165820-cfcteq0",
+								"updated": "20240913165820"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "对多重共线性敏感"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：如果自变量之间存在较强的共线性，逐步回归可能难以正确选择变量。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20240913165820-8nfun0i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"fold": "1",
+						"heading-fold": "1",
+						"id": "20240913165820-8nfun0i",
+						"updated": "20240913165820"
+					},
+					"Children": [
+						{
+							"ID": "20240913165820-y9fcqo4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"fold": "1",
+								"heading-fold": "1",
+								"id": "20240913165820-y9fcqo4",
+								"updated": "20240913165820"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "模型依赖性强"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：逐步回归的结果依赖于选择的初始模型，不同的初始模型可能得到不同的结果。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240913164846-xxcbeom",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913164846-xxcbeom",
+				"updated": "20240913164846"
+			}
+		},
+		{
+			"ID": "20240913164846-8sszyvi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20240913164846-8sszyvi",
+				"updated": "20240913164846"
+			}
+		},
+		{
+			"ID": "20240912164517-vrsfbp1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912164517-vrsfbp1",
+				"updated": "20240912164549"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.灰色关联法"
+				}
+			]
+		},
+		{
+			"ID": "20240912164539-ug25lxo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912164539-ug25lxo",
+				"updated": "20240912164539"
+			}
+		},
+		{
+			"ID": "20240912164540-w8zaqha",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912164540-w8zaqha",
+				"updated": "20240912164602"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.模糊综合评价"
+				}
+			]
+		},
+		{
+			"ID": "20240912164602-2cw50mh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912164602-2cw50mh",
+				"updated": "20240912164602"
+			}
+		},
+		{
+			"ID": "20240912164551-d1anft2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912164551-d1anft2",
+				"updated": "20240912164613"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.TOPSIS法"
+				}
+			]
+		},
+		{
+			"ID": "20240912164605-g5bpk6u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912164605-g5bpk6u",
+				"updated": "20240912164605"
+			}
+		},
+		{
+			"ID": "20240912164606-brtr82p",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912164606-brtr82p",
+				"updated": "20240912164621"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5.数据包络分析"
+				}
+			]
+		},
+		{
+			"ID": "20240912164615-0nqgycd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912164615-0nqgycd",
+				"updated": "20240912164615"
+			}
+		},
+		{
+			"ID": "20240912164615-2zgydy6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912164615-2zgydy6",
+				"updated": "20240912164621"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.组合评价法"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,166 @@
+{
+	"ID": "20240912233951-uc46imf",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240912233951-uc46imf",
+		"title": "数据预处理模型",
+		"type": "doc",
+		"updated": "20240912234128"
+	},
+	"Children": [
+		{
+			"ID": "20240912233951-sa9t5hq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912233951-sa9t5hq",
+				"updated": "20240912234025"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.分类变量处理"
+				}
+			]
+		},
+		{
+			"ID": "20240912234014-p35trr7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912234014-p35trr7",
+				"updated": "20240912234014"
+			}
+		},
+		{
+			"ID": "20240912234014-5k6m0j5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912234014-5k6m0j5",
+				"updated": "20240912234039"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.连续变量离散化"
+				}
+			]
+		},
+		{
+			"ID": "20240912234027-hgfarth",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912234027-hgfarth",
+				"updated": "20240912234027"
+			}
+		},
+		{
+			"ID": "20240912234027-zfc0rh0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912234027-zfc0rh0",
+				"updated": "20240912234052"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.异常值处理"
+				}
+			]
+		},
+		{
+			"ID": "20240912234041-zcnyve4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912234041-zcnyve4",
+				"updated": "20240912234041"
+			}
+		},
+		{
+			"ID": "20240912234041-nc2t6zz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912234041-nc2t6zz",
+				"updated": "20240912234104"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.标准化处理"
+				}
+			]
+		},
+		{
+			"ID": "20240912234054-pjn1jfj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912234054-pjn1jfj",
+				"updated": "20240912234054"
+			}
+		},
+		{
+			"ID": "20240912234055-3w5qjcn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912234055-3w5qjcn",
+				"updated": "20240912234118"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5.简单函数变换"
+				}
+			]
+		},
+		{
+			"ID": "20240912234106-yrzorii",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912234106-yrzorii",
+				"updated": "20240912234106"
+			}
+		},
+		{
+			"ID": "20240912234106-u4fulyl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912234106-u4fulyl",
+				"updated": "20240912234128"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.缺失值处理"
+				}
+			]
+		},
+		{
+			"ID": "20240912234120-jxmlgea",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912234120-jxmlgea",
+				"updated": "20240912234120"
+			}
+		},
+		{
+			"ID": "20240912234120-sv4zuzr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240912234120-sv4zuzr",
+				"updated": "20240912234128"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "7.重复值处理"
+				}
+			]
+		}
+	]
+}

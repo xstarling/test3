@@ -1,0 +1,388 @@
+{
+	"ID": "20240417185358-lmw5otq",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240417185358-lmw5otq",
+		"title": "雅思",
+		"type": "doc",
+		"updated": "20240817121604"
+	},
+	"Children": [
+		{
+			"ID": "20240817121459-5aj8338",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20240817121459-5aj8338",
+				"updated": "20240817121604"
+			},
+			"Children": [
+				{
+					"ID": "20240817121604-qm6f8zp",
+					"Type": "NodeHeading",
+					"HeadingLevel": 3,
+					"Properties": {
+						"id": "20240817121604-qm6f8zp",
+						"updated": "20240817121604"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "注意："
+						}
+					]
+				},
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e",
+					"Properties": {
+						"updated": "20240817121605"
+					}
+				},
+				{
+					"ID": "20240817121552-17znjtp",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20240817121552-17znjtp",
+						"updated": "20240817121605"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "1、5、9月份雅思考题更新，12月底，4月底，8月底考试有更充足的时间"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240817113441-z1bdl3e",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20240817113441-z1bdl3e",
+				"updated": "20240817113534"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "听力"
+				}
+			]
+		},
+		{
+			"ID": "20240417185358-ip5js7d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417185358-ip5js7d",
+				"updated": "20240817113443"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "老师：王陆"
+				}
+			]
+		},
+		{
+			"ID": "20240817113352-hea6l5u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240817113352-hea6l5u",
+				"updated": "20240817113534"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "方式：精听"
+				}
+			]
+		},
+		{
+			"ID": "20240817113411-vel0gq7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240817113411-vel0gq7",
+				"updated": "20240817113411"
+			}
+		},
+		{
+			"ID": "20240817113454-uez8vx4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20240817113454-uez8vx4",
+				"updated": "20240817113612"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "阅读"
+				}
+			]
+		},
+		{
+			"ID": "20240817113457-mu4iqpu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240817113457-mu4iqpu",
+				"updated": "20240817113516"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "老师：刘洪波"
+				}
+			]
+		},
+		{
+			"ID": "20240817113516-wls96bd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240817113516-wls96bd",
+				"updated": "20240817113529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "方式：技巧+词汇量"
+				}
+			]
+		},
+		{
+			"ID": "20240817113529-sjxu0uh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240817113529-sjxu0uh",
+				"updated": "20240817113529"
+			}
+		},
+		{
+			"ID": "20240817113607-a3lq5m8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20240817113607-a3lq5m8",
+				"updated": "20240817114412"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "写作"
+				}
+			]
+		},
+		{
+			"ID": "20240817113615-6y46tfc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240817113615-6y46tfc",
+				"updated": "20240817114412"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "大作文"
+				}
+			]
+		},
+		{
+			"ID": "20240817113641-h4fat6t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240817113641-h4fat6t",
+				"updated": "20240817113713"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "老师：杜仕明"
+				}
+			]
+		},
+		{
+			"ID": "20240817114148-mo8afkz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240817114148-mo8afkz",
+				"updated": "20240817114150"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "方式："
+				}
+			]
+		},
+		{
+			"ID": "20240817114151-n9goxb9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240817114151-n9goxb9",
+				"updated": "20240817114245"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "视频："
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.bilibili.com/video/BV1wx411Z7QN/?spm_id_from=333.337.search-card.all.click\u0026amp;vd_source=9752c2c90782ff8bd76174dfbc76c933",
+					"TextMarkTextContent": "六级470到雅思首考7.5"
+				}
+			]
+		},
+		{
+			"ID": "20240817114408-sbqe5wt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240817114408-sbqe5wt",
+				"updated": "20240817114408"
+			}
+		},
+		{
+			"ID": "20240817114409-9uy6urh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240817114409-9uy6urh",
+				"updated": "20240817120923"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "小作文"
+				}
+			]
+		},
+		{
+			"ID": "20240817114413-tuq103o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240817114413-tuq103o",
+				"updated": "20240817114416"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "老师："
+				}
+			]
+		},
+		{
+			"ID": "20240817114416-rh6g9fc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240817114416-rh6g9fc",
+				"updated": "20240817114418"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "方式："
+				}
+			]
+		},
+		{
+			"ID": "20240817114419-qet6ll6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240817114419-qet6ll6",
+				"updated": "20240817114821"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "视频："
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.bilibili.com/video/BV1iC411s7FR/?spm_id_from=autoNext\u0026amp;vd_source=9752c2c90782ff8bd76174dfbc76c933",
+					"TextMarkTextContent": "【雅思小作文备考】如何在20min 中内写好雅思（涵盖小作文高级句式表达）"
+				}
+			]
+		},
+		{
+			"ID": "20240817114822-5yd3820",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240817114822-5yd3820",
+				"updated": "20240817114822"
+			}
+		},
+		{
+			"ID": "20240817120922-eq8jop0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20240817120922-eq8jop0",
+				"updated": "20240817121201"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "口语"
+				}
+			]
+		},
+		{
+			"ID": "20240817120926-f9fapra",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240817120926-f9fapra",
+				"updated": "20240817121015"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "老师："
+				}
+			]
+		},
+		{
+			"ID": "20240817121016-wp9bkpj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240817121016-wp9bkpj",
+				"updated": "20240817121018"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "方式：背素材"
+				}
+			]
+		},
+		{
+			"ID": "20240817121020-j3lmpl3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240817121020-j3lmpl3",
+				"updated": "20240817121201"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "视频："
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.bilibili.com/video/BV19E411Z7MS/?spm_id_from=333.999.0.0\u0026amp;vd_source=9752c2c90782ff8bd76174dfbc76c933",
+					"TextMarkTextContent": "「爆炸干货」什么？一个故事可以串47道雅思口语题？!"
+				}
+			]
+		},
+		{
+			"ID": "20240817121126-40avpkt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240817121126-40avpkt"
+			}
+		}
+	]
+}

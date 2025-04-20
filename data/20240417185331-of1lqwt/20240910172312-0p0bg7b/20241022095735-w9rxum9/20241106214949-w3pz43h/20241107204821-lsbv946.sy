@@ -1,0 +1,744 @@
+{
+	"ID": "20241107204821-lsbv946",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241107204821-lsbv946",
+		"title": "面向服务的软件架构风格",
+		"type": "doc",
+		"updated": "20241107212814"
+	},
+	"Children": [
+		{
+			"ID": "20241107204821-wby2yy3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20241107204821-wby2yy3",
+				"updated": "20241107212138"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color9);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "基于服务的架构（SOA）"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color9);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20241107205202-wg8x2jj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241107205202-wg8x2jj",
+				"updated": "20241107205202"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241107205202-g0nk46i.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241107205246-rg191el",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241107205246-rg191el",
+				"updated": "20241107205246"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241107205246-ljmkrow.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241107205437-a1o7arl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241107205437-a1o7arl",
+				"updated": "20241107205437"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241107205437-1zm0ghs.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241107205623-dgwxzqx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241107205623-dgwxzqx",
+				"updated": "20241107205623"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241107205623-lz75f05.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241107205739-95c7qf8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241107205739-95c7qf8",
+				"updated": "20241107205739"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241107205739-oulqv4a.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241107204909-siw4ouo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20241107204909-siw4ouo",
+				"updated": "20241107204942"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "WEB服务"
+				}
+			]
+		},
+		{
+			"ID": "20241107211707-n1cci5j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241107211707-n1cci5j",
+				"updated": "20241107211707"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241107211707-fp1ws3u.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241107204942-zlhxxs8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241107204942-zlhxxs8",
+				"updated": "20241107204942"
+			}
+		},
+		{
+			"ID": "20241107204916-29zbl1y",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20241107204916-29zbl1y",
+				"updated": "20241107204944"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "REST"
+				}
+			]
+		},
+		{
+			"ID": "20241107211858-wu7570i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241107211858-wu7570i",
+				"updated": "20241107211858"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241107211858-yq74t55.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241107204944-ahedjmy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241107204944-ahedjmy",
+				"updated": "20241107204944"
+			}
+		},
+		{
+			"ID": "20241107204920-j1rig1u",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20241107204920-j1rig1u",
+				"updated": "20241107204937"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "企业服务总线ESB"
+				}
+			]
+		},
+		{
+			"ID": "20241107212013-uid4n8a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241107212013-uid4n8a",
+				"updated": "20241107212013"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241107212013-n41y103.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241107204937-gkt89ph",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241107204937-gkt89ph",
+				"updated": "20241107204937"
+			}
+		},
+		{
+			"ID": "20241107204929-7u3ivp3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20241107204929-7u3ivp3",
+				"updated": "20241107212541"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "微服务"
+				}
+			]
+		},
+		{
+			"ID": "20241107204904-1mjiejo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241107204904-1mjiejo",
+				"updated": "20241107212541"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "微服务基本概念"
+				}
+			]
+		},
+		{
+			"ID": "20241107212541-j0guf6y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241107212541-j0guf6y",
+				"updated": "20241107212541"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241107212541-8mrbr9m.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241107212417-bmqfw6v",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241107212417-bmqfw6v",
+				"updated": "20241107212710"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "微服务优点与挑战"
+				}
+			]
+		},
+		{
+			"ID": "20241107212710-4u3wj06",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241107212710-4u3wj06",
+				"updated": "20241107212710"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241107212710-nz66dbq.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241107212426-2vdxukj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241107212426-2vdxukj",
+				"updated": "20241107212746"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "微服务架构模式方案"
+				}
+			]
+		},
+		{
+			"ID": "20241107212746-eshs2f9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241107212746-eshs2f9",
+				"updated": "20241107212746"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241107212746-367thyl.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241107212435-dsoo50o",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20241107212435-dsoo50o",
+				"updated": "20241107212814"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "微服务与SOA区别"
+				}
+			]
+		},
+		{
+			"ID": "20241107212814-ten8xv1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241107212814-ten8xv1",
+				"updated": "20241107212814"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241107212814-ekpsj1f.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"ID": "20240807112348-k3j8le6",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240807112348-k3j8le6",
+		"title": "MATLAB使用",
+		"type": "doc",
+		"updated": "20240807112417"
+	},
+	"Children": [
+		{
+			"ID": "20240807112348-q5eqgn8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240807112348-q5eqgn8",
+				"updated": "20240807112348"
+			}
+		}
+	]
+}

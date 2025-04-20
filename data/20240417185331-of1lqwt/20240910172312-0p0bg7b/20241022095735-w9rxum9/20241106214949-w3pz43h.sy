@@ -1,0 +1,37 @@
+{
+	"ID": "20241106214949-w3pz43h",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241106214949-w3pz43h",
+		"title": "*架构设计篇",
+		"type": "doc",
+		"updated": "20241108170022"
+	},
+	"Children": [
+		{
+			"ID": "20241106214949-lz5uhzl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241106214949-lz5uhzl",
+				"updated": "20241107121821"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://blog.csdn.net/weixin_47872288/article/details/133921088",
+					"TextMarkTextContent": "软件架构风格总结以及场景应用-CSDN博客"
+				}
+			]
+		},
+		{
+			"ID": "20241107121822-j70xyya",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241107121822-j70xyya",
+				"updated": "20241107121822"
+			}
+		}
+	]
+}

@@ -1,0 +1,52 @@
+{
+	"ID": "20240910172333-s42o5g4",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240910172333-s42o5g4",
+		"title": "竞赛",
+		"type": "doc",
+		"updated": "20240912215314"
+	},
+	"Children": [
+		{
+			"ID": "20240912215300-3mq83qi",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20240912215300-3mq83qi",
+				"updated": "20240912215314"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考速成手册"
+				}
+			]
+		},
+		{
+			"ID": "20240912215313-o8ob4yt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912215313-o8ob4yt",
+				"updated": "20240912215314"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.bilibili.com/video/BV14M4m1y77t/?spm_id_from=333.337.search-card.all.click\u0026amp;vd_source=9752c2c90782ff8bd76174dfbc76c933",
+					"TextMarkTextContent": "【数模国赛必看干货】三天速成数学建模国赛国奖全攻略（建模手/编程手/论文手三天学习计划）！！！！_哔哩哔哩_bilibili"
+				}
+			]
+		},
+		{
+			"ID": "20240910172333-53nn0kf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240910172333-53nn0kf",
+				"updated": "20240910172333"
+			}
+		}
+	]
+}

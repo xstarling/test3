@@ -1,0 +1,613 @@
+{
+	"ID": "20240417185430-7vl8hlu",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240417185430-7vl8hlu",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20240417185430-9kd2m1j\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20240417185430-9kvusf5\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20240417185430-sbclmii\u0026quot;,\u0026quot;scrollTop\u0026quot;:406,\u0026quot;focusId\u0026quot;:\u0026quot;20240417185430-apxgds9\u0026quot;,\u0026quot;focusStart\u0026quot;:5,\u0026quot;focusEnd\u0026quot;:5\u0026#125;",
+		"title": "高项软考",
+		"type": "doc",
+		"updated": "20241105155114"
+	},
+	"Children": [
+		{
+			"ID": "20240417185430-5pyktey",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417185430-5pyktey",
+				"updated": "20240417165909"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "考试说明："
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.bilibili.com/video/BV14g4y1y7q2",
+					"TextMarkTextContent": "考前需要查看"
+				}
+			]
+		},
+		{
+			"ID": "20240417185430-fnet0pe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417185430-fnet0pe",
+				"updated": "20240417165909"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "高项题型说明"
+				}
+			]
+		},
+		{
+			"ID": "20240417185430-pgb6jvq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417185430-pgb6jvq",
+				"updated": "20240417170603"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20240417170603-amsvmnp.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20240417185430-qstffpo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417185430-qstffpo",
+				"updated": "20240417165909"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "高项参考资料"
+				}
+			]
+		},
+		{
+			"ID": "20240417185430-5f02eq3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417185430-5f02eq3",
+				"updated": "20240417171001"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.bilibili.com/video/BV16Y4y1S7Eh/",
+					"TextMarkTextContent": "《大匠视频课》"
+				}
+			]
+		},
+		{
+			"ID": "20240417185430-rj0jk1a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417185430-rj0jk1a",
+				"updated": "20240417171022"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://pan.quark.cn/list#/docpdf/4c163dd8edc64267ad0c7f67dad70251",
+					"TextMarkTextContent": "《信息管理-参考书》"
+				}
+			]
+		},
+		{
+			"ID": "20240417185430-xief3eg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417185430-xief3eg",
+				"updated": "20240417171100"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://pan.quark.cn/list#/docpdf/f9315ecc5cdd45dfa819e407d2185709",
+					"TextMarkTextContent": "《信息管理-论文》"
+				}
+			]
+		},
+		{
+			"ID": "20240417185430-yz0uhl2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417185430-yz0uhl2",
+				"updated": "20240417171127"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://pan.quark.cn/list#/docpdf/c1c2981a9713466c9fa1aaa869832350",
+					"TextMarkTextContent": "《信息管理考试大纲》"
+				}
+			]
+		},
+		{
+			"ID": "20240417185430-1ority9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417185430-1ority9",
+				"updated": "20240417171146"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://pan.quark.cn/list#/docpdf/21cced29f0424d8a808a4042a3ff669b",
+					"TextMarkTextContent": "《机考模拟平台使用》"
+				}
+			]
+		},
+		{
+			"ID": "20240417185430-ks0fe9b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417185430-ks0fe9b",
+				"updated": "20240417171202"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://pan.quark.cn/list#/docpdf/fa96313811bb4cba95c252ca77d9101f",
+					"TextMarkTextContent": "《机考绘图指南》"
+				}
+			]
+		},
+		{
+			"ID": "20240417185430-hjvpi7r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417185430-hjvpi7r",
+				"updated": "20240417171220"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.ruantiku.com/",
+					"TextMarkTextContent": "《模拟考试题库网站》"
+				}
+			]
+		},
+		{
+			"ID": "20240417185430-0ucf2f4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417185430-0ucf2f4",
+				"updated": "20240417165909"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "高项学习计划表"
+				}
+			]
+		},
+		{
+			"ID": "20240417185430-3wlk2s9",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0,
+				0,
+				0
+			],
+			"Properties": {
+				"colgroup": "|||",
+				"id": "20240417185430-3wlk2s9",
+				"updated": "20240417165909"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "时间段"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "时长"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "内容"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "目标"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "5月1日前"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "17天"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "第一轮《大匠视频课》、《信息管理-参考书》"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对高项考试内容有基本的全盘了解"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "5月15日前"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "15天"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "①第二轮《刷软考习题》"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "②总结一轮的知识点，查漏补缺"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "刷题，将三门课的内容都刷到超过50分"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "5月25日起"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "10天"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "每天一套模拟题"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "保持考试状态"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "考试当天"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "考试结束后"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "啥也别想，考完一科是一科"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "考场上稳住心态"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "考完立刻扔掉"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不要受影响"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20241105155114-e8kcj19",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241105155114-e8kcj19",
+				"updated": "20241105155114"
+			}
+		}
+	]
+}

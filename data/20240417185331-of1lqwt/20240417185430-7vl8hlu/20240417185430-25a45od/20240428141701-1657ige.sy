@@ -1,0 +1,142 @@
+{
+	"ID": "20240428141701-1657ige",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240428141701-1657ige",
+		"title": "16.项目采购管理",
+		"type": "doc",
+		"updated": "20240428172356"
+	},
+	"Children": [
+		{
+			"ID": "20240428163107-h4q5wn8",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20240428163107-h4q5wn8",
+				"updated": "20240428163122"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20240428163109-gxu51ys",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20240428163109-gxu51ys",
+						"updated": "20240428163122"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "合同管理很重要"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20240428141718-cj69x9d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240428141718-cj69x9d",
+				"updated": "20240428141921"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20240428141920-fvrqriz.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20240428172349-qwslg1m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240428172349-qwslg1m",
+				"updated": "20240428172349"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20240428172349-6v4ucmn.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20240428172356-kaet6ca",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240428172356-kaet6ca"
+			}
+		}
+	]
+}

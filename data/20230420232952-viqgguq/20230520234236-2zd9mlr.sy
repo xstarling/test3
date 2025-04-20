@@ -1,0 +1,272 @@
+{
+	"ID": "20230520234236-2zd9mlr",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230520234236-2zd9mlr",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20230520234336-wdtpiem\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230520234336-kgi55yj\u0026quot;,\u0026quot;scrollTop\u0026quot;:0}",
+		"title": "每日任务",
+		"updated": "20240116212854"
+	},
+	"Children": [
+		{
+			"ID": "20230520234336-wdtpiem",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20230520234336-wdtpiem",
+				"updated": "20230520234354"
+			},
+			"Children": [
+				{
+					"ID": "20230520234336-jg9i1st",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20230520234336-jg9i1st",
+						"updated": "20230520234354"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "🕐 创建时间：2023-05-20 23:43 星期六"
+						}
+					]
+				},
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20230520234336-kfnlmxd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230520234336-kfnlmxd",
+				"updated": "20230520234409"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "⛵️ 每日任务清单"
+				}
+			]
+		},
+		{
+			"ID": "20230520234336-5d8k23h",
+			"Type": "NodeSuperBlock",
+			"Properties": {
+				"id": "20230520234336-5d8k23h",
+				"updated": "20240116212854"
+			},
+			"Children": [
+				{
+					"Type": "NodeSuperBlockOpenMarker"
+				},
+				{
+					"Type": "NodeSuperBlockLayoutMarker",
+					"Data": "row"
+				},
+				{
+					"ID": "20230520234336-flwidbf",
+					"Type": "NodeHeading",
+					"HeadingLevel": 3,
+					"Properties": {
+						"id": "20230520234336-flwidbf",
+						"style": "color: var(--b3-card-info-color);background-color: var(--b3-card-info-background);",
+						"updated": "20230520234336"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "⛅️ Todo"
+						}
+					]
+				},
+				{
+					"ID": "20230520234336-rc4fcj2",
+					"Type": "NodeList",
+					"ListData": {
+						"Typ": 3
+					},
+					"Properties": {
+						"id": "20230520234336-rc4fcj2",
+						"updated": "20240116212854"
+					},
+					"Children": [
+						{
+							"ID": "20230522000714-jy325nv",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 3,
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20230522000714-jy325nv",
+								"updated": "20240116212731"
+							},
+							"Children": [
+								{
+									"Type": "NodeTaskListItemMarker"
+								},
+								{
+									"ID": "20230522000714-ez85074",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20230522000714-ez85074",
+										"updated": "20240116212549"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "计算机组成第二章3节课"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20230522192858-muez5mv",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 3,
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20230522192858-muez5mv",
+								"updated": "20240116212835"
+							},
+							"Children": [
+								{
+									"Type": "NodeTaskListItemMarker"
+								},
+								{
+									"ID": "20230522192858-0iydnnb",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20230522192858-0iydnnb",
+										"updated": "20240116212835"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "英语口语+听力"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20230522192907-irz2yxl",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 3,
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20230522192907-irz2yxl",
+								"updated": "20230522192918"
+							},
+							"Children": [
+								{
+									"Type": "NodeTaskListItemMarker"
+								},
+								{
+									"ID": "20230522192907-s722au8",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20230522192907-s722au8",
+										"updated": "20240116212614"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "深度学习"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20240116212615-jrdmmll",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 3,
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20240116212615-jrdmmll",
+								"updated": "20240116212854"
+							},
+							"Children": [
+								{
+									"Type": "NodeTaskListItemMarker"
+								},
+								{
+									"ID": "20240116212615-s035ekn",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240116212615-s035ekn",
+										"updated": "20240116212854"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "论文文献查看"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20240116212751-hj7s4c0",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 3,
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20240116212751-hj7s4c0",
+								"updated": "20240116212755"
+							},
+							"Children": [
+								{
+									"Type": "NodeTaskListItemMarker"
+								},
+								{
+									"ID": "20240116212751-pbk3jha",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20240116212751-pbk3jha",
+										"updated": "20240116212755"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "11点半睡觉"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeSuperBlockCloseMarker"
+				}
+			]
+		},
+		{
+			"ID": "20240116212849-u7qatju",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240116212849-u7qatju"
+			}
+		}
+	]
+}

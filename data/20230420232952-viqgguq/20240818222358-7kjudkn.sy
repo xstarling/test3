@@ -1,0 +1,36 @@
+{
+	"ID": "20240818222358-7kjudkn",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-sy-readonly": "true",
+		"id": "20240818222358-7kjudkn",
+		"title": "HOME",
+		"type": "doc",
+		"updated": "20240818222432"
+	},
+	"Children": [
+		{
+			"ID": "20240818222432-k8ch6co",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/Daily Views/\" data-src=\"/widgets/Daily Views/\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 1255px; height: 934px;\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"custom-current-notebox": "20230420232952-viqgguq",
+				"custom-lang-value": "zh_CN",
+				"custom-notebox-list": "[\u0026#123;\u0026quot;label\u0026quot;:\u0026quot;1 - 电子科大（硕）\u0026quot;,\u0026quot;value\u0026quot;:\u0026quot;20240807001823-g0gnft1\u0026quot;\u0026#125;,\u0026#123;\u0026quot;label\u0026quot;:\u0026quot;2 - 书信\u0026quot;,\u0026quot;value\u0026quot;:\u0026quot;20230120231838-s8509bg\u0026quot;\u0026#125;,\u0026#123;\u0026quot;label\u0026quot;:\u0026quot;3 - 日常开发总结\u0026quot;,\u0026quot;value\u0026quot;:\u0026quot;20230419220814-ggomb9l\u0026quot;\u0026#125;,\u0026#123;\u0026quot;label\u0026quot;:\u0026quot;4 - 优秀博客或网站\u0026quot;,\u0026quot;value\u0026quot;:\u0026quot;20230419091243-x9ome6b\u0026quot;\u0026#125;,\u0026#123;\u0026quot;label\u0026quot;:\u0026quot;5 - 嵌入式软件开发\u0026quot;,\u0026quot;value\u0026quot;:\u0026quot;20230417214819-mia5v54\u0026quot;\u0026#125;,\u0026#123;\u0026quot;label\u0026quot;:\u0026quot;6 - java程序开发\u0026quot;,\u0026quot;value\u0026quot;:\u0026quot;20230419221348-j5vwsj7\u0026quot;\u0026#125;,\u0026#123;\u0026quot;label\u0026quot;:\u0026quot;7 - c\u0026amp;c++程序开发\u0026quot;,\u0026quot;value\u0026quot;:\u0026quot;20230526125611-aiktpu7\u0026quot;\u0026#125;,\u0026#123;\u0026quot;label\u0026quot;:\u0026quot;8 - python程序开发\u0026quot;,\u0026quot;value\u0026quot;:\u0026quot;20230419222815-0btfwto\u0026quot;\u0026#125;,\u0026#123;\u0026quot;label\u0026quot;:\u0026quot;9 - 计算机基础\u0026quot;,\u0026quot;value\u0026quot;:\u0026quot;20230419221423-ra29hzv\u0026quot;\u0026#125;,\u0026#123;\u0026quot;label\u0026quot;:\u0026quot;10 - 错题整理\u0026quot;,\u0026quot;value\u0026quot;:\u0026quot;20230419221442-3lsb4t6\u0026quot;\u0026#125;,\u0026#123;\u0026quot;label\u0026quot;:\u0026quot;11 - 个人\u0026quot;,\u0026quot;value\u0026quot;:\u0026quot;20230420232952-viqgguq\u0026quot;\u0026#125;,\u0026#123;\u0026quot;label\u0026quot;:\u0026quot;12 - 证书考试\u0026quot;,\u0026quot;value\u0026quot;:\u0026quot;20240417185331-of1lqwt\u0026quot;\u0026#125;]",
+				"custom-setting-content-switch-value": "1",
+				"custom-theme-value": "false",
+				"id": "20240818222432-k8ch6co",
+				"updated": "20240818222432"
+			}
+		},
+		{
+			"ID": "20240818222510-qx5ej66",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240818222510-qx5ej66",
+				"updated": "20240818222510"
+			}
+		}
+	]
+}

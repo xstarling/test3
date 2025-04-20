@@ -1,0 +1,173 @@
+{
+	"ID": "20240807002047-prkhiw2",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240807002047-prkhiw2",
+		"title": "文献检索",
+		"type": "doc",
+		"updated": "20240807002052"
+	},
+	"Children": [
+		{
+			"ID": "20240807002048-qry42mz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240807002048-qry42mz",
+				"updated": "20240807002048"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "文献检索工具"
+				}
+			]
+		},
+		{
+			"ID": "20240807002048-nh4xul1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240807002048-nh4xul1",
+				"updated": "20240807002049"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.bilibili.com/video/BV1h94y1L7wy/?spm_id_from=333.337.search-card.all.click\u0026amp;vd_source=9752c2c90782ff8bd76174dfbc76c933",
+					"TextMarkTextContent": "吊打基础检索的6个神级检索网站隐藏功能，少学一个都不行！_哔哩哔哩_bilibili"
+				}
+			]
+		},
+		{
+			"ID": "20240807002048-jncw9ft",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240807002048-jncw9ft",
+				"updated": "20240807002049"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.bilibili.com/video/BV1N94y1s7GK/?spm_id_from=333.337.search-card.all.click\u0026amp;vd_source=9752c2c90782ff8bd76174dfbc76c933",
+					"TextMarkTextContent": "7个必不可少的文献检索神器，拥有即可超神！！！ ——SCI/文献检索/论文/学术论文_哔哩哔哩_bilibili"
+				}
+			]
+		},
+		{
+			"ID": "20240807002048-9mw2aj2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20240807002048-9mw2aj2",
+				"updated": "20240807002049"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "网站："
+				}
+			]
+		},
+		{
+			"ID": "20240807002048-t8z8tfx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240807002048-t8z8tfx",
+				"updated": "20240807002049"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "dblp网站"
+				}
+			]
+		},
+		{
+			"ID": "20240807002048-xcbmei8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240807002048-xcbmei8",
+				"updated": "20240807002049"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Connected papers"
+				}
+			]
+		},
+		{
+			"ID": "20240807002048-um9blc1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240807002048-um9blc1",
+				"updated": "20240807002049"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "PaperswithCode"
+				}
+			]
+		},
+		{
+			"ID": "20240807002048-i3urwxa",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240807002048-i3urwxa",
+				"updated": "20240807002049"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Stateoftheart AI"
+				}
+			]
+		},
+		{
+			"ID": "20240807002048-m8mbpa1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240807002048-m8mbpa1",
+				"updated": "20240807002049"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Researchrabbitapp"
+				}
+			]
+		},
+		{
+			"ID": "20240807002048-9aw4wvu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240807002048-9aw4wvu",
+				"updated": "20240807002049"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "插件"
+				}
+			]
+		},
+		{
+			"ID": "20240807002048-d9gyi9l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240807002048-d9gyi9l",
+				"updated": "20240807002049"
+			}
+		}
+	]
+}

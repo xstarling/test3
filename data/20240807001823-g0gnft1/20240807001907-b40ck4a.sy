@@ -1,0 +1,21 @@
+{
+	"ID": "20240807001907-b40ck4a",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240807001907-b40ck4a",
+		"title": "校友资源",
+		"type": "doc",
+		"updated": "20240807001912"
+	},
+	"Children": [
+		{
+			"ID": "20240807001907-5kmyvop",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240807001907-5kmyvop",
+				"updated": "20240807001907"
+			}
+		}
+	]
+}

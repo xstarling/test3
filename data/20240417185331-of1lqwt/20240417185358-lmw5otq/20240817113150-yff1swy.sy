@@ -1,0 +1,21 @@
+{
+	"ID": "20240817113150-yff1swy",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240817113150-yff1swy",
+		"title": "写作",
+		"type": "doc",
+		"updated": "20240817113157"
+	},
+	"Children": [
+		{
+			"ID": "20240817113150-2cfqhqt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240817113150-2cfqhqt",
+				"updated": "20240817113150"
+			}
+		}
+	]
+}

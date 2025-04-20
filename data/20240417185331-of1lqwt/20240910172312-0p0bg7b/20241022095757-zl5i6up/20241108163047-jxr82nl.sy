@@ -1,0 +1,21 @@
+{
+	"ID": "20241108163047-jxr82nl",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241108163047-jxr82nl",
+		"title": "2022年真题",
+		"type": "doc",
+		"updated": "20241108163053"
+	},
+	"Children": [
+		{
+			"ID": "20241108163047-rgde1jn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241108163047-rgde1jn",
+				"updated": "20241108163047"
+			}
+		}
+	]
+}

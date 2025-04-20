@@ -1,0 +1,21 @@
+{
+	"ID": "20240429091414-sg4ckrd",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240429091414-sg4ckrd",
+		"title": "18.项目管理原则、绩效域",
+		"type": "doc",
+		"updated": "20240429091540"
+	},
+	"Children": [
+		{
+			"ID": "20240429091414-6lpm62g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240429091414-6lpm62g",
+				"updated": "20240429091414"
+			}
+		}
+	]
+}

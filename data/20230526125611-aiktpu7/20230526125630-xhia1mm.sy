@@ -1,0 +1,205 @@
+{
+	"ID": "20230526125630-xhia1mm",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230526125630-xhia1mm",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20230526125638-ghi6i74\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230526125630-tlskmav\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230526125638-ghi6i74\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"title": "C程序开发",
+		"updated": "20230723214550"
+	},
+	"Children": [
+		{
+			"ID": "20230526125638-ghi6i74",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230526125638-ghi6i74",
+				"updated": "20230723214349"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "gcc使用注意事项"
+				}
+			]
+		},
+		{
+			"ID": "20230723214347-7lfewdt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230723214347-7lfewdt",
+				"updated": "20230723214502"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. gcc -o、-i、-c等后面必须跟目标文件"
+				}
+			]
+		},
+		{
+			"ID": "20230723214507-vxc0sev",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230723214507-vxc0sev",
+				"updated": "20230723214513"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "正确："
+				}
+			]
+		},
+		{
+			"ID": "20230526125630-tlskmav",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20230526125630-tlskmav",
+				"updated": "20230723214506"
+			},
+			"Children": [
+				{
+					"ID": "20230723214506-u12107i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230723214506-u12107i",
+						"updated": "20230723214506"
+					},
+					"Children": [
+						{
+							"ID": "20230723214506-cy983yf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230723214506-cy983yf",
+								"updated": "20230723214523"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "gcc -o test test.c"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230723214524-cfny679",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230723214524-cfny679"
+					},
+					"Children": [
+						{
+							"ID": "20230723214524-x5zctdc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230723214524-x5zctdc",
+								"updated": "20230723214528"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "gcc test.c"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230723214528-f3wa2dj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230723214528-f3wa2dj"
+					},
+					"Children": [
+						{
+							"ID": "20230723214528-7f2ml32",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230723214528-7f2ml32",
+								"updated": "20230723214534"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "gcc test.c -o test"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230723214534-mw2gn8v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230723214534-mw2gn8v",
+				"updated": "20230723214542"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "错误："
+				}
+			]
+		},
+		{
+			"ID": "20230723214543-1zrbrge",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20230723214543-1zrbrge",
+				"updated": "20230723214550"
+			},
+			"Children": [
+				{
+					"ID": "20230723214544-4mixtbx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230723214544-4mixtbx",
+						"updated": "20230723214550"
+					},
+					"Children": [
+						{
+							"ID": "20230723214544-edqmbqz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230723214544-edqmbqz",
+								"updated": "20230723214550"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "gcc -o test.c test"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

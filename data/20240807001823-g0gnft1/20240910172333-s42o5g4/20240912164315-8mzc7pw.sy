@@ -1,0 +1,216 @@
+{
+	"ID": "20240912164315-8mzc7pw",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240912164315-8mzc7pw",
+		"title": "数据建模函数及模型",
+		"type": "doc",
+		"updated": "20240912214948"
+	},
+	"Children": [
+		{
+			"ID": "20240912171324-lwl486t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912171324-lwl486t",
+				"updated": "20240912171325"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://ww2.mathworks.cn/help/stats/regress_zh_CN.html",
+					"TextMarkTextContent": "regress - 多重线性回归 - MATLAB - MathWorks 中国"
+				}
+			]
+		},
+		{
+			"ID": "20240912211845-bbe39hi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912211845-bbe39hi",
+				"updated": "20240912211845"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20240912211845-4m7h4do.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20240912214918-fav8r1o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912214918-fav8r1o",
+				"updated": "20240912214918"
+			}
+		},
+		{
+			"ID": "20240912214903-gxtrmf6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20240912214903-gxtrmf6",
+				"updated": "20240912214948"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "写作手"
+				}
+			]
+		},
+		{
+			"ID": "20240912214857-tjwuzm2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912214857-tjwuzm2",
+				"updated": "20240912214857"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20240912214857-fdycs9m.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20240912214948-fct0smx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912214948-fct0smx",
+				"updated": "20240912214948"
+			}
+		},
+		{
+			"ID": "20240912214936-a54dkp4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20240912214936-a54dkp4",
+				"updated": "20240912214945"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "团队分工合作"
+				}
+			]
+		},
+		{
+			"ID": "20240912214945-j2mcefj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240912214945-j2mcefj",
+				"updated": "20240912214945"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20240912214945-kayb0w4.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		}
+	]
+}

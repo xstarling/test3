@@ -1,0 +1,21 @@
+{
+	"ID": "20241022101157-z3el99n",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241022101157-z3el99n",
+		"title": "大数据处理架构图",
+		"type": "doc",
+		"updated": "20241022101242"
+	},
+	"Children": [
+		{
+			"ID": "20241022101157-bvqmwk9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022101157-bvqmwk9",
+				"updated": "20241022101157"
+			}
+		}
+	]
+}

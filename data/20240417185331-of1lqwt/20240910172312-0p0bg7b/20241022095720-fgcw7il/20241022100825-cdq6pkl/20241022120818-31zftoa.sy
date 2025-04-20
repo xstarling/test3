@@ -1,0 +1,429 @@
+{
+	"ID": "20241022120818-31zftoa",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241022120818-31zftoa",
+		"title": "信息系统战略规划",
+		"type": "doc",
+		"updated": "20241022121603"
+	},
+	"Children": [
+		{
+			"ID": "20241022120847-nxcgnu7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"fold": "1",
+				"id": "20241022120847-nxcgnu7",
+				"updated": "20241022121315"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第一阶段：以数据处理为核心，围绕职能部门需求"
+				}
+			]
+		},
+		{
+			"ID": "20241022121046-gqwzjop",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20241022121046-gqwzjop",
+				"updated": "20241022121315"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "关键成功因素法CSF"
+				}
+			]
+		},
+		{
+			"ID": "20241022121315-mn2sajo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20241022121315-mn2sajo",
+				"updated": "20241022121315"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241022121315-f271jl0.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241022121058-rlf4hhj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20241022121058-rlf4hhj",
+				"updated": "20241022121327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "战略集合转换法SST"
+				}
+			]
+		},
+		{
+			"ID": "20241022121327-kdfv96x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20241022121327-kdfv96x",
+				"updated": "20241022121327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241022121327-9ypqwus.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241022121110-27gzzxe",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20241022121110-27gzzxe",
+				"updated": "20241022121349"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "企业系统规划法BSP"
+				}
+			]
+		},
+		{
+			"ID": "20241022121349-weh7sou",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20241022121349-weh7sou",
+				"updated": "20241022121349"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241022121349-8emo8vm.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241022121122-5y04wko",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20241022121122-5y04wko",
+				"updated": "20241022121450"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "案例"
+				}
+			]
+		},
+		{
+			"ID": "20241022121449-p2c55hr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20241022121449-p2c55hr",
+				"updated": "20241022121450"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "BC"
+				}
+			]
+		},
+		{
+			"ID": "20241022121447-d9l0mfl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20241022121447-d9l0mfl",
+				"updated": "20241022121447"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241022121447-cmc8qzb.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241022121131-f2b37po",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"fold": "1",
+				"id": "20241022121131-f2b37po",
+				"updated": "20241022121240"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第二阶段：以企业内部MIS为核心，围绕企业整体需求"
+				}
+			]
+		},
+		{
+			"ID": "20241022121213-j6ebxbl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20241022121213-j6ebxbl",
+				"updated": "20241022121213"
+			}
+		},
+		{
+			"ID": "20241022121213-su5otpe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20241022121213-su5otpe",
+				"updated": "20241022121213"
+			}
+		},
+		{
+			"ID": "20241022121214-5o6nt9m",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"fold": "1",
+				"id": "20241022121214-5o6nt9m",
+				"updated": "20241022121603"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第三阶段：综合考虑企业内外环境以集成为核心，围绕企业的战略需求"
+				}
+			]
+		},
+		{
+			"ID": "20241022121154-cxdws7z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20241022121154-cxdws7z",
+				"updated": "20241022121154"
+			}
+		},
+		{
+			"ID": "20241022121603-ujr7s8t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20241022121603-ujr7s8t",
+				"updated": "20241022121603"
+			}
+		},
+		{
+			"ID": "20241022121603-78306rm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20241022121603-78306rm",
+				"updated": "20241022121603"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241022121603-m7cnq7e.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"ID": "20240817113201-qajfmlu",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240817113201-qajfmlu",
+		"title": "口语",
+		"type": "doc",
+		"updated": "20240817113206"
+	},
+	"Children": [
+		{
+			"ID": "20240817113201-h9jr78y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240817113201-h9jr78y",
+				"updated": "20240817113201"
+			}
+		}
+	]
+}

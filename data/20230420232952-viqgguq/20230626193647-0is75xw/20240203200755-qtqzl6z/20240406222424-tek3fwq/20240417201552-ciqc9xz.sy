@@ -1,0 +1,496 @@
+{
+	"ID": "20240417201552-ciqc9xz",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240417201552-ciqc9xz",
+		"title": "邮件 (Conflicted 2024-04-17 20:15:52)",
+		"updated": "20240406223951"
+	},
+	"Children": [
+		{
+			"ID": "20240417201552-apl9wtd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20240417201552-apl9wtd",
+				"updated": "20240406194119"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "研招网备注："
+				}
+			]
+		},
+		{
+			"ID": "20240417201552-83lopc0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-83lopc0"
+			}
+		},
+		{
+			"ID": "20240417201552-irukao7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-irukao7",
+				"updated": "20240406194253"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "①申请了一个基于树莓派和微信小程序的智能遥控器系统的专利"
+				}
+			]
+		},
+		{
+			"ID": "20240417201552-5qcz0u7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-5qcz0u7",
+				"updated": "20240406194301"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "②智能花房软件著作权"
+				}
+			]
+		},
+		{
+			"ID": "20240417201552-ij9pdbz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-ij9pdbz",
+				"updated": "20240406194308"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "③两次校二等奖学金，两次国家励志奖学金，一次研究创新奖学金"
+				}
+			]
+		},
+		{
+			"ID": "20240417201552-kw5xd2z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-kw5xd2z",
+				"updated": "20240406194342"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "④浙江省高等数学竞赛三等奖，浙江省物理创新竞赛三等奖"
+				}
+			]
+		},
+		{
+			"ID": "20240417201552-1v5ucax",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-1v5ucax",
+				"updated": "20240406194410"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "⑤独立自学做过电磁智能车和基于555定时器的波形变化电路，arduino等开发的使用"
+				}
+			]
+		},
+		{
+			"ID": "20240417201552-d543li6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-d543li6",
+				"updated": "20240406194138"
+			}
+		},
+		{
+			"ID": "20240417201552-m3b4off",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20240417201552-m3b4off",
+				"updated": "20240406194212"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "邮件（调剂）"
+				}
+			]
+		},
+		{
+			"ID": "20240417201552-nnn6l4a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-nnn6l4a",
+				"updated": "20240406201101"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "主题："
+				},
+				{
+					"Type": "NodeText",
+					"Data": "肖灵星-软件工程专硕-申请调剂-硕士自荐信"
+				}
+			]
+		},
+		{
+			"ID": "20240417201552-505cdub",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-505cdub",
+				"updated": "20240406223009"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "尊敬的郭教授:"
+				}
+			]
+		},
+		{
+			"ID": "20240417201552-1dz6vyd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-1dz6vyd",
+				"updated": "20240406194212"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "您好!"
+				}
+			]
+		},
+		{
+			"ID": "20240417201552-fhov18b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-fhov18b",
+				"updated": "20240406194212"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我叫肖灵星，24岁，家乡甘肃省平凉市， 目前是公司的一个项目的项目经理，我的一志愿是电子科技大学 软件工程专业专硕，我的初试成绩：总分: 341，政治：63分，英语一：64分，数学一：101分，专业课：113分"
+				}
+			]
+		},
+		{
+			"ID": "20240417201552-3v293u5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-3v293u5",
+				"updated": "20240406194212"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我想调剂到老师您的实验室，我了解到贵校往年都是有调剂名额的，想咨询一下您，今年贵校还有调剂名额吗？"
+				}
+			]
+		},
+		{
+			"ID": "20240417201552-23dh6e6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-23dh6e6",
+				"updated": "20240406223311"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "个人奖惩情况"
+				}
+			]
+		},
+		{
+			"ID": "20240417201552-pgrtqxa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-pgrtqxa",
+				"updated": "20240406194212"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "工作期间："
+				},
+				{
+					"Type": "NodeText",
+					"Data": "参与过公司的一个A类项目，一个合作项目和一个技术攻关项目，获得过公司优秀新员工称号"
+				}
+			]
+		},
+		{
+			"ID": "20240417201552-s9xcy7p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-s9xcy7p",
+				"updated": "20240406194212"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "本科期间："
+				}
+			]
+		},
+		{
+			"ID": "20240417201552-dytdfp1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-dytdfp1",
+				"updated": "20240406223117"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "①申请了一个《基于树莓派和微信小程序的智能遥控器系统》的专利"
+				}
+			]
+		},
+		{
+			"ID": "20240417201552-657dl02",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-657dl02",
+				"updated": "20240406223129"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "②申请了一个《智能花房V1.0》的软件著作权"
+				}
+			]
+		},
+		{
+			"ID": "20240417201552-vy1uaoq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-vy1uaoq",
+				"updated": "20240406223052"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "③两次校二等奖学金，两次国家励志奖学金，一次研究创新奖学金"
+				}
+			]
+		},
+		{
+			"ID": "20240417201552-up6bsfu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-up6bsfu",
+				"updated": "20240406223150"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "④浙江省高等数学竞赛三等奖，浙江省物理创新竞赛三等奖等"
+				}
+			]
+		},
+		{
+			"ID": "20240417201552-qimouh2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-qimouh2",
+				"updated": "20240406223052"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "⑤独立自学做过电磁智能车和基于555定时器的波形变化电路，arduino等开发的使用"
+				}
+			]
+		},
+		{
+			"ID": "20240417201552-1fvowko",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-1fvowko",
+				"updated": "20240406223336"
+			}
+		},
+		{
+			"ID": "20240417201552-do5gczw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-do5gczw",
+				"updated": "20240406194212"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果我能有幸进入老师您的课题组，在研究生三年中，我一定会拼尽全力为实验室做出贡献。"
+				}
+			]
+		},
+		{
+			"ID": "20240417201552-oq1r2su",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-oq1r2su",
+				"updated": "20240406194212"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我知道我肯定不是给您发邮件的学生里面最优秀的那一个，但是能够加入您的课题组，对于我来说确实已经是最好的选择了，如果您选择了我，我一定会用我三年的时间向您证明，您的选择是正确的。"
+				}
+			]
+		},
+		{
+			"ID": "20240417201552-nm76spg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-nm76spg",
+				"updated": "20240406223341"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果您觉得我现在的情况，不适合加入加入您的课题组的话，恳请您帮我推荐一位比较适合我的老师。"
+				}
+			]
+		},
+		{
+			"ID": "20240417201552-gevxx02",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-gevxx02",
+				"updated": "20240406194212"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "深夜冒昧致信，请老师海涵！感谢老师能在百忙之中阅读邮件！祝身体健康！工作愉快!（我的简历在附件中）"
+				}
+			]
+		},
+		{
+			"ID": "20240417201552-xgx1e91",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-xgx1e91",
+				"updated": "20240406223951"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "学生：肖灵星 "
+				}
+			]
+		},
+		{
+			"ID": "20240417201552-l2v00bg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-l2v00bg",
+				"updated": "20240406194212"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "联系方式：18193388124（微信同号）"
+				}
+			]
+		},
+		{
+			"ID": "20240417201552-pmxzbcy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-pmxzbcy"
+			}
+		},
+		{
+			"ID": "20240417201552-q2uum70",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-q2uum70"
+			}
+		},
+		{
+			"ID": "20240417201552-apck6kv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-apck6kv",
+				"updated": "20240406195304"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "尊敬的陈教授"
+				}
+			]
+		},
+		{
+			"ID": "20240417201552-63irv4o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-63irv4o",
+				"updated": "20240406195312"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "您好，"
+				}
+			]
+		},
+		{
+			"ID": "20240417201552-xdgf4cc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-xdgf4cc",
+				"updated": "20240406195610"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "截止到今天，我还没能与贵院的联系到贵院的研招办的老师，了解到自己是否符合调剂要求，想问一下陈教授您方便可以给我一下研招办老师的私人联系方式吗？"
+				}
+			]
+		},
+		{
+			"ID": "20240417201552-s3m95f1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-s3m95f1",
+				"updated": "20240406195634"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "学生 肖灵星 "
+				}
+			]
+		},
+		{
+			"ID": "20240417201552-reos8i1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240417201552-reos8i1"
+			}
+		}
+	]
+}

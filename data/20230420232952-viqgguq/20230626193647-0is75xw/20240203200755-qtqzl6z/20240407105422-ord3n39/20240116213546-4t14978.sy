@@ -1,0 +1,186 @@
+{
+	"ID": "20240116213546-4t14978",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240116213546-4t14978",
+		"title": "论文文献",
+		"updated": "20240123125635"
+	},
+	"Children": [
+		{
+			"ID": "20240116213558-0mjpzcu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20240116213558-0mjpzcu",
+				"updated": "20240116213605"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "嵌入式深度学习"
+				}
+			]
+		},
+		{
+			"ID": "20240118134151-40qi953",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20240118134151-40qi953",
+				"updated": "20240118134233"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "IEEE"
+				}
+			]
+		},
+		{
+			"ID": "20240118134054-1j1rrms",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240118134054-1j1rrms",
+				"updated": "20240118134134"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "分布式嵌入式实时视频处理"
+				}
+			]
+		},
+		{
+			"ID": "20240116213556-naz7jbp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240116213556-naz7jbp",
+				"updated": "20240118131154"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "assets/Distributed_embedded_deep_learning_based_real-time_video_processing-20240116213556-ukao424.pdf",
+					"TextMarkTextContent": "Distributed_embedded_deep_learning_based_real-time_video_processing.pdf"
+				}
+			]
+		},
+		{
+			"ID": "20240116222108-eqhycx9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240116222108-eqhycx9",
+				"updated": "20240118134259"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "总结"
+				}
+			]
+		},
+		{
+			"ID": "20240118134301-pxpevq7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240118134301-pxpevq7",
+				"updated": "20240118134453"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "框架：yolo"
+				}
+			]
+		},
+		{
+			"ID": "20240118134518-jfd40hm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240118134518-jfd40hm",
+				"updated": "20240118134537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "硬件："
+				}
+			]
+		},
+		{
+			"ID": "20240118134531-7jd3xjk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240118134531-7jd3xjk",
+				"updated": "20240118134615"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "方案：功耗等"
+				}
+			]
+		},
+		{
+			"ID": "20240118134538-r0gj18u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240118134538-r0gj18u",
+				"updated": "20240118134542"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "成果："
+				}
+			]
+		},
+		{
+			"ID": "20240118134611-iwls122",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240118134611-iwls122"
+			}
+		},
+		{
+			"ID": "20240123125526-tr9ot2k",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20240123125526-tr9ot2k",
+				"updated": "20240123125538"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "基于多尺度显著区域特征学习的场景识别"
+				}
+			]
+		},
+		{
+			"ID": "20240123125547-cgaeowx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240123125547-cgaeowx"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "（李彦冬，雷 航，郝宗波，唐雪飞）"
+				}
+			]
+		},
+		{
+			"ID": "20240123125635-h8f4258",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240123125635-h8f4258"
+			}
+		}
+	]
+}

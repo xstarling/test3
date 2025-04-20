@@ -1,0 +1,21 @@
+{
+	"ID": "20241022100819-dps7x4q",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241022100819-dps7x4q",
+		"title": "数据库",
+		"type": "doc",
+		"updated": "20241022100904"
+	},
+	"Children": [
+		{
+			"ID": "20241022100819-xrrqj8o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241022100819-xrrqj8o",
+				"updated": "20241022100819"
+			}
+		}
+	]
+}

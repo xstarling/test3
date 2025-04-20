@@ -1,0 +1,21 @@
+{
+	"ID": "20240910172312-0p0bg7b",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240910172312-0p0bg7b",
+		"title": "高架软考",
+		"type": "doc",
+		"updated": "20240910172325"
+	},
+	"Children": [
+		{
+			"ID": "20240910172312-m07caam",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240910172312-m07caam",
+				"updated": "20240910172312"
+			}
+		}
+	]
+}

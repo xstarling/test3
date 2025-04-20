@@ -1,0 +1,123 @@
+{
+	"ID": "20241108113714-v3ykpap",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241108113714-v3ykpap",
+		"title": "redis",
+		"type": "doc",
+		"updated": "20241108120807"
+	},
+	"Children": [
+		{
+			"ID": "20241108120806-fmcdn1b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241108120806-fmcdn1b",
+				"updated": "20241108120807"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://blog.csdn.net/ll594317566/article/details/109215575",
+					"TextMarkTextContent": "Redis的两种持久化RDB和AOF（超详细）_rdb aof-CSDN博客"
+				}
+			]
+		},
+		{
+			"ID": "20241108113925-07g0dnv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241108113925-07g0dnv",
+				"updated": "20241108113925"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241108113925-pzllgti.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20241108114018-01d7jjx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241108114018-01d7jjx",
+				"updated": "20241108114018"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241108114018-ynnt2ez.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		}
+	]
+}

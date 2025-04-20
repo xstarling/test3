@@ -1,0 +1,154 @@
+{
+	"ID": "20240418003136-ugd2uwd",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240418003136-ugd2uwd",
+		"title": "模拟面试问题",
+		"updated": "20240325194918"
+	},
+	"Children": [
+		{
+			"ID": "20240418003136-zr9dv24",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240418003136-zr9dv24",
+				"updated": "20240320224643"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.自我介绍太长"
+				}
+			]
+		},
+		{
+			"ID": "20240418003136-r2os393",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240418003136-r2os393",
+				"updated": "20240320224747"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.确少转场语句---"
+				}
+			]
+		},
+		{
+			"ID": "20240418003136-dfvm34d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240418003136-dfvm34d",
+				"updated": "20240320224742"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.当问到你想从老师哪里学到什么，如果衔接到自己背的答案中？"
+				}
+			]
+		},
+		{
+			"ID": "20240418003136-tnz2jjn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240418003136-tnz2jjn",
+				"updated": "20240320224809"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.尽量不要 “嗯，啊”等停顿语句"
+				}
+			]
+		},
+		{
+			"ID": "20240418003136-n6t4by5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240418003136-n6t4by5",
+				"updated": "20240325194822"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5.面试不要有小动作"
+				}
+			]
+		},
+		{
+			"ID": "20240418003136-ahqowv9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240418003136-ahqowv9",
+				"updated": "20240325194829"
+			}
+		},
+		{
+			"ID": "20240418003136-3u79nol",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240418003136-3u79nol"
+			}
+		},
+		{
+			"ID": "20240418003136-bso8cho",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240418003136-bso8cho",
+				"updated": "20240325194848"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "老王帮我提问积累简历的问题："
+				}
+			]
+		},
+		{
+			"ID": "20240418003136-ls9l0kr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240418003136-ls9l0kr",
+				"updated": "20240325194853"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "深度学习："
+				}
+			]
+		},
+		{
+			"ID": "20240418003136-qljglij",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240418003136-qljglij",
+				"updated": "20240325194918"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "opencv的人脸识别库：详细的了解一下"
+				}
+			]
+		},
+		{
+			"ID": "20240418003136-mwh9y6q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240418003136-mwh9y6q"
+			}
+		},
+		{
+			"ID": "20240418003136-cb5hxoh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240418003136-cb5hxoh",
+				"updated": "20240320224347"
+			}
+		}
+	]
+}

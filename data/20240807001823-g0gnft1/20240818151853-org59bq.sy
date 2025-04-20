@@ -1,0 +1,21 @@
+{
+	"ID": "20240818151853-org59bq",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240818151853-org59bq",
+		"title": "日常学习",
+		"type": "doc",
+		"updated": "20240818151859"
+	},
+	"Children": [
+		{
+			"ID": "20240818151853-rpeo8iu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240818151853-rpeo8iu",
+				"updated": "20240818151853"
+			}
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"ID": "20240428193823-wsml1ax",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240428193823-wsml1ax",
+		"title": "随堂练习题",
+		"type": "doc",
+		"updated": "20240428193832"
+	},
+	"Children": [
+		{
+			"ID": "20240428193823-kp0vjsl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240428193823-kp0vjsl",
+				"updated": "20240428193823"
+			}
+		}
+	]
+}

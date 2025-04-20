@@ -1,0 +1,28 @@
+{
+	"ID": "20240503233047-qoafilk",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240503233047-qoafilk",
+		"title": "24.法律法规",
+		"type": "doc",
+		"updated": "20240503233055"
+	},
+	"Children": [
+		{
+			"ID": "20240503233055-iqlvcfl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240503233055-iqlvcfl"
+			}
+		},
+		{
+			"ID": "20240503233047-3zg274h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240503233047-3zg274h",
+				"updated": "20240503233047"
+			}
+		}
+	]
+}

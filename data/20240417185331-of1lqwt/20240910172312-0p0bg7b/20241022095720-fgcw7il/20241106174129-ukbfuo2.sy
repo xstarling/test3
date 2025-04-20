@@ -1,0 +1,60 @@
+{
+	"ID": "20241106174129-ukbfuo2",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20241106174129-ukbfuo2",
+		"title": "计算机网络",
+		"type": "doc",
+		"updated": "20241106174143"
+	},
+	"Children": [
+		{
+			"ID": "20241106174143-la8nbni",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20241106174143-la8nbni",
+				"updated": "20241106174143"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20241106174143-dvvvgwg.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		}
+	]
+}

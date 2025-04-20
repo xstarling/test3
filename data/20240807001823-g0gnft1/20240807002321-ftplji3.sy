@@ -1,0 +1,21 @@
+{
+	"ID": "20240807002321-ftplji3",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20240807002321-ftplji3",
+		"title": "课程",
+		"type": "doc",
+		"updated": "20240807002325"
+	},
+	"Children": [
+		{
+			"ID": "20240807002321-wnq6ypp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20240807002321-wnq6ypp",
+				"updated": "20240807002321"
+			}
+		}
+	]
+}
